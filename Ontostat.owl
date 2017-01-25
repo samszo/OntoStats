@@ -1,0 +1,1080 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#EstPartieDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#EstPartieDe">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Binomiale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Binomiale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_d&apos;échantillonnage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_Anova -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_Anova">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparaison_des_moyennes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_Khi-deux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_Khi-deux">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_des_groupes_appariés_sur_une_variable_catégorisée"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_des_groupes_indépendants_sur_une_variable_catégorisée"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Etudier_la_liaison"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_Phi-deux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_Phi-deux">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_des_groupes_appariés_sur_une_variable_catégorisée"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_des_groupes_indépendants_sur_une_variable_catégorisée"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Etudier_la_liaison"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_Rho_de_Spearman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_Rho_de_Spearman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Etudier_la_liaison"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer__les_centiles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer__les_centiles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_les_quantiles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_la_moyenne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_la_moyenne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer_la_tendance_centrale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_la_médiane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_la_médiane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer_la_tendance_centrale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_le_mode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_le_mode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer_la_tendance_centrale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_le_mode_secondaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_le_mode_secondaire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer_la_dispersion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_les_déciles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_les_déciles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_les_quantiles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_les_quantiles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_les_quantiles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer_la_dispersion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_les_quartiles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_les_quartiles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_les_quantiles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_r_de_Bravais-Pearson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_r_de_Bravais-Pearson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Etudier_la_liaison"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_t_de_Student_GA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_t_de_Student_GA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparaison_des_moyennes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_t_de_Student_GI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_t_de_Student_GI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparaison_des_moyennes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_un_indice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_un_indice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_une_note_z -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_une_note_z">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_un_individu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Centile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Centile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quantile"/>
+        <rdfs:comment xml:lang="fr">Modalités partageant une distribution en parts de 1%.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Cohorte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Cohorte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Echantillon"/>
+        <rdfs:isDefinedBy>Echantillon faisant l&apos;objet d&apos;une étude longitudinale</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparaison_des_moyennes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparaison_des_moyennes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_sur_une_variable_numérique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Procédure_d&apos;analyse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_des_groupes_appariés_sur_une_variable_catégorisée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_des_groupes_appariés_sur_une_variable_catégorisée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_sur_une_variable_catégorisée"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_des_groupes_indépendants_sur_une_variable_catégorisée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_des_groupes_indépendants_sur_une_variable_catégorisée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_sur_une_variable_catégorisée"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_sur_une_variable_catégorisée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_sur_une_variable_catégorisée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_sur_une_variable_numérique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer_sur_une_variable_numérique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Comparer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Covariance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Covariance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Moyenne"/>
+        <rdfs:comment xml:lang="fr">Pour deux séries de données, c&apos;est la moyenne des produits des écarts aux moyennes.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Discrétisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Discrétisation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Tableau"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_F_Snedecor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_F_Snedecor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Loi_normale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_T_de_Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_T_de_Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Loi_normale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_Z -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_Z">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Loi_normale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_bivariée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_bivariée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_de_Khi_deux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_de_Khi_deux">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_d&apos;échantillonnage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_multivariée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_multivariée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_univariée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_univariée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Décile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Décile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quantile"/>
+        <rdfs:comment xml:lang="fr">Modalité partageant une distribution en part de 10%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Ecart-type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Ecart-type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_dispersion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Moyenne_quadratique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Ecart-type_parent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Ecart-type_parent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Ecart-type"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Moyenne_quadratique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Ecart_interquartile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Ecart_interquartile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_répartition"/>
+        <rdfs:comment xml:lang="fr">Distance entre le quartile 1 et le quartile 3</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Echantillon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Echantillon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Groupe"/>
+        <rdfs:isDefinedBy xml:lang="fr">C&apos;est la partie de la population sur laquelle porte l&apos;étude.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Echelon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Echelon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Modalité"/>
+        <rdfs:isDefinedBy xml:lang="fr">Dénomination des modalités pour les échelles ordinales</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Etudier_la_liaison -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Etudier_la_liaison">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Procédure_d&apos;analyse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Facteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Facteur">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_indépendante"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Faire_Analyse_multidimensionnelle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Faire_Analyse_multidimensionnelle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Etudier_la_liaison"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Faire_un_grahique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Faire_un_grahique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Groupe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Groupe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Support_d&apos;information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Hypergéométrique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Hypergéométrique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_d&apos;échantillonnage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Information"/>
+        <rdfs:comment xml:lang="fr">Valeurs permettant de caractériser un protocole ou une distribution</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_dispersion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_dispersion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_tendance_centrale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_position">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice"/>
+        <rdfs:comment xml:lang="fr">Résumé  reflétant  la tendance générale dans un protocole ou une distribution</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_répartition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_répartition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice"/>
+        <rdfs:comment xml:lang="fr">Indice reflétant la répartition des observations sur une distribution</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_tendance_centrale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_tendance_centrale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Individu_statistique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Individu_statistique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Support_d&apos;information"/>
+        <rdfs:isDefinedBy>C&apos;est l&apos;objet sur lequel on recueille l&apos;information.</rdfs:isDefinedBy>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Individu_statistique"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+        <owl:annotatedTarget>C&apos;est l&apos;objet sur lequel on recueille l&apos;information.</owl:annotatedTarget>
+        <rdfs:comment>Correspond en psychologie au sujet le plus souvent.</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Objet_d&apos;analyse"/>
+        <rdfs:comment xml:lang="fr">Ensemble de valeurs manipulées dans les procédures statistiques</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Khi-deux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Khi-deux">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Statistiques_de_test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Loi_normale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Loi_normale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_d&apos;échantillonnage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Mesurer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Mesurer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Procédure_d&apos;analyse"/>
+        <rdfs:isDefinedBy>Assoocier la modalilté d&apos;une variable à un individu statistique</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Modalité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Modalité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Information"/>
+        <rdfs:isDefinedBy>Valeur que peuvent prendre les variables</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Mode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Mode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_position"/>
+        <rdfs:comment xml:lang="fr">Dans une distribution, modalité d&apos;une variable qui comporte le plus d&apos;observations.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Mode_secondaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Mode_secondaire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_position"/>
+        <rdfs:comment xml:lang="fr">Dans une distribution, modalité d&apos;une variable qui comporte le plus d&apos;observations après le mode.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Moyenne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Moyenne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_tendance_centrale"/>
+        <rdfs:comment xml:lang="fr">Somme des observations divisée par le nombre d&apos;observations.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Moyenne_quadratique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Moyenne_quadratique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Moyenne"/>
+        <rdfs:comment xml:lang="fr">La moyenne quadratique d&apos;un ensemble de nombres est la racine carrée de la moyenne arithmétique des carrés de ces nombres. (wikipédia)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Médiane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Médiane">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quartile_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quartile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Note_Z -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Note_Z">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Statistiques_de_test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Observation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Observation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Information"/>
+        <rdfs:isDefinedBy xml:lang="fr">Modalité d&apos;une variable associée à un individu particulier</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Population -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Population">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Groupe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Tableau"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_bivarié -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_bivarié">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_multivarié -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_multivarié">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_non_structuré -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_non_structuré">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_structuré_par_croisement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_structuré_par_croisement">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_à_groupes_appariés"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_structuré_à_un_facteur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_structuré_par_emboitement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_structuré_par_emboitement">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_à_groupes_indépendants"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_structuré_à_un_facteur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_structuré_à_deux_facteurs_plus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_structuré_à_deux_facteurs_plus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_structuré_à_un_facteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_structuré_à_un_facteur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_à_groupes_appariés -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_à_groupes_appariés">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_structuré_à_un_facteur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_à_groupes_indépendants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_à_groupes_indépendants">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Protocole_structuré_à_un_facteur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quantile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quantile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_répartition"/>
+        <rdfs:comment xml:lang="fr">Modalité partageant une distribution en x parts égales</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quartile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quartile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quantile"/>
+        <rdfs:comment xml:lang="fr">Modalité partageant une distribution en part de 25%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quartile_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quartile_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quartile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quartile_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quartile_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quartile"/>
+        <rdfs:comment xml:lang="fr">Indice représentatitif de la variabilité des observations</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Valeur représentative d&apos;un ensemble de valeurs observées</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quartile_3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quartile_3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Quartile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#R_de_Bravais-Pearson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#R_de_Bravais-Pearson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Statistiques_de_test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Recodage_en_classes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Recodage_en_classes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Recodage_par_proximité"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Recodage_par_proximité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Recodage_par_proximité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Recodage_sémantique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Recodage_sémantique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Recodage_sémantique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Recoder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Recoder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Recoder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Procédure_d&apos;analyse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Rho_de_Spearman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Rho_de_Spearman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Statistiques_de_test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Procédure_d&apos;analyse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer_la_dispersion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer_la_dispersion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_un_indice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer_la_tendance_centrale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer_la_tendance_centrale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_un_indice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_dans_un_décile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_dans_un_décile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_un_individu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_dans_une_distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_dans_une_distribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Procédure_d&apos;analyse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_un_individu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_un_individu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_dans_une_distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_une_statistique_de_test_dans_une_distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_une_statistique_de_test_dans_une_distribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_un_groupe_d&apos;observations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Statistiques_de_test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Statistiques_de_test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Tableau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Tableau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Objet_d&apos;analyse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Tableau_de_contingence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Tableau_de_contingence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_bivariée"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Transformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Recoder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Transformation_z -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Transformation_z">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Valeur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Valeur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Echelon"/>
+        <rdfs:isDefinedBy xml:lang="fr">Dénomination des modalités pour les variables numériques</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Objet_d&apos;analyse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_catégorisée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_catégorisée">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_nominale"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_continue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_continue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_quantitative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_indépendante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_indépendante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_nominale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_nominale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_numérique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_numérique">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_quantitative"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_ordonnée"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_numérique_discrète -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_numérique_discrète">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_quantitative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_ordinale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_ordinale">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_ordonnée"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_nominale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_ordonnée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_ordonnée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_nominale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_quantitative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_quantitative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variable_ordonnée"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Indice_de_dispersion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#t_de_Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#t_de_Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Statistiques_de_test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#variance_parente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#variance_parente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Variance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_l&apos;écart-type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Calculer_l&apos;écart-type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Résumer_la_dispersion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Carré_de_l&apos;écart_à_la_moyenne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Carré_de_l&apos;écart_à_la_moyenne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_d&apos;échantillonnage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution_d&apos;échantillonnage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Objet_d&apos;analyse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Objet_d&apos;analyse">
+        <rdfs:comment>Ensemble des objets manipulés dans une procédure d&apos;analyse statistique</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Procédure_d&apos;analyse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Procédure_d&apos;analyse"/>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_un_groupe_d&apos;observations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_un_groupe_d&apos;observations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Situer_dans_une_distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Support_d&apos;information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Support_d&apos;information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Objet_d&apos;analyse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Tableau_de_contingence_2*2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Tableau_de_contingence_2*2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2016/10/untitled-ontology-9#Tableau_de_contingence"/>
+    </owl:Class>
+    <rdf:Description>
+        <rdfs:comment xml:lang="fr">Associer une modalité d&apos;une variable à un individu statistique</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label xml:lang="fr">Statistiques</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
