@@ -31,6 +31,26 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="fr">continuite</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -87,6 +107,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#AbaqueDeLaLoiDePoisson">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Concepts"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#AbaqueDeLaLoiDePoisson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <HasSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://isi.cbs.nl/glossary/term2504.htm</HasSource>
         <rdfs:comment xml:lang="fr">abaque de la loi de Poisson</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AbaqueDeLaLoiDePoisson</rdfs:label>
