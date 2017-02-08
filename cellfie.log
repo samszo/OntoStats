@@ -1,0 +1,763 @@
+Date: 2017-02-07 16:44:21
+Ontology source: //www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-31
+Worksheet source: D:\Desktop\mes documents\Documents\GitHub\OntoStats\GlossaireISI.xlsx
+Transformation rules: D:\Desktop\mes documents\Documents\GitHub\OntoStats\TestImportation2.json
+
+# Cell range: (Feuil2!A2:C10) Comment: "Test"
+# Class: @C*(rdfs:label=(@B*))
+#    SubClassOf: Concepts
+#    Annotations: rdfs:comment @A*(xml:lang="fr")
+
+Class: à l'intérieur des blocs  # Generated from value "à l'intérieur des blocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term1692.htm"
+Class: a priori vague  # Generated from value "a priori vague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term942.htm"
+Class: à sous-ensemble proportionné  # Generated from value "à sous-ensemble proportionné" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term54.htm"
+Class: à traitement d'images  # Generated from value "à traitement d'images" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term1579.htm"
+Class: abaque de la loi de Poisson  # Generated from value "abaque de la loi de Poisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term2504.htm"
+Class: action indépendante  # Generated from value "action indépendante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term1608.htm"
+Class: action semblable  # Generated from value "action semblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term3011.htm"
+Class: adaptation  # Generated from value "adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term41.htm"
+Class: addition de variables aléatoires  # Generated from value "addition de variables aléatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term48.htm"
+Class: à l'intérieur des blocs  # Generated from value "à l'intérieur des blocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term1692.htm"
+Class: a priori vague  # Generated from value "a priori vague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term942.htm"
+Class: à sous-ensemble proportionné  # Generated from value "à sous-ensemble proportionné" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term54.htm"
+Class: à traitement d'images  # Generated from value "à traitement d'images" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term1579.htm"
+Class: abaque de la loi de Poisson  # Generated from value "abaque de la loi de Poisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term2504.htm"
+Class: action indépendante  # Generated from value "action indépendante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term1608.htm"
+Class: action semblable  # Generated from value "action semblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term3011.htm"
+Class: adaptation  # Generated from value "adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term41.htm"
+Class: addition de variables aléatoires  # Generated from value "addition de variables aléatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term48.htm"
+Class: à l'intérieur des blocs  # Generated from value "à l'intérieur des blocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term1692.htm"
+Class: a priori vague  # Generated from value "a priori vague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term942.htm"
+Class: à sous-ensemble proportionné  # Generated from value "à sous-ensemble proportionné" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term54.htm"
+Class: à traitement d'images  # Generated from value "à traitement d'images" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term1579.htm"
+Class: abaque de la loi de Poisson  # Generated from value "abaque de la loi de Poisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term2504.htm"
+Class: action indépendante  # Generated from value "action indépendante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term1608.htm"
+Class: action semblable  # Generated from value "action semblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term3011.htm"
+Class: adaptation  # Generated from value "adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term41.htm"
+Class: addition de variables aléatoires  # Generated from value "addition de variables aléatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "http://isi.cbs.nl/glossary/term48.htm"
+
+===========================================================================================================
+Date: 2017-02-07 16:49:05
+Ontology source: //www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-31
+Worksheet source: D:\Desktop\mes documents\Documents\GitHub\OntoStats\GlossaireISI.xlsx
+Transformation rules: D:\Desktop\mes documents\Documents\GitHub\OntoStats\TestImportation2.json
+
+# Cell range: (Feuil2!A2:C10) Comment: "Test"
+# Class: @C*(rdfs:label=(@C*))
+#    SubClassOf: Concepts
+#    Annotations: rdfs:comment @B*(xml:lang="fr")
+
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires"
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires"
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires"
+
+===========================================================================================================
+Date: 2017-02-07 16:49:15
+Ontology source: //www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-31
+Worksheet source: D:\Desktop\mes documents\Documents\GitHub\OntoStats\GlossaireISI.xlsx
+Transformation rules: D:\Desktop\mes documents\Documents\GitHub\OntoStats\TestImportation2.json
+
+# Cell range: (Feuil2!A2:C10) Comment: "Test"
+# Class: @C*(rdfs:label=(@C*))
+#    SubClassOf: Concepts
+#    Annotations: rdfs:comment @B*(xml:lang="fr")
+
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires"
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires"
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires"
+
+===========================================================================================================
+Date: 2017-02-07 16:57:40
+Ontology source: //www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-31
+Worksheet source: D:\Desktop\mes documents\Documents\GitHub\OntoStats\GlossaireISI.xlsx
+Transformation rules: D:\Desktop\mes documents\Documents\GitHub\OntoStats\TestImportation2.json
+
+# Cell range: (Feuil2!A2:C10) Comment: "Test"
+# Class: @C*(rdfs:label=(@C*))
+#    SubClassOf: Concepts
+#    Annotations: rdfs:comment @B*(xml:lang="fr")
+# Annotations: HasSource @A*
+
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs",
+         HasSource "http://isi.cbs.nl/glossary/term1692.htm"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague",
+         HasSource "http://isi.cbs.nl/glossary/term942.htm"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné",
+         HasSource "http://isi.cbs.nl/glossary/term54.htm"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images",
+         HasSource "http://isi.cbs.nl/glossary/term1579.htm"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson",
+         HasSource "http://isi.cbs.nl/glossary/term2504.htm"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante",
+         HasSource "http://isi.cbs.nl/glossary/term1608.htm"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable",
+         HasSource "http://isi.cbs.nl/glossary/term3011.htm"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation",
+         HasSource "http://isi.cbs.nl/glossary/term41.htm"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires",
+         HasSource "http://isi.cbs.nl/glossary/term48.htm"
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs",
+         HasSource "http://isi.cbs.nl/glossary/term1692.htm"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague",
+         HasSource "http://isi.cbs.nl/glossary/term942.htm"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné",
+         HasSource "http://isi.cbs.nl/glossary/term54.htm"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images",
+         HasSource "http://isi.cbs.nl/glossary/term1579.htm"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson",
+         HasSource "http://isi.cbs.nl/glossary/term2504.htm"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante",
+         HasSource "http://isi.cbs.nl/glossary/term1608.htm"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable",
+         HasSource "http://isi.cbs.nl/glossary/term3011.htm"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation",
+         HasSource "http://isi.cbs.nl/glossary/term41.htm"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires",
+         HasSource "http://isi.cbs.nl/glossary/term48.htm"
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs",
+         HasSource "http://isi.cbs.nl/glossary/term1692.htm"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague",
+         HasSource "http://isi.cbs.nl/glossary/term942.htm"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné",
+         HasSource "http://isi.cbs.nl/glossary/term54.htm"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images",
+         HasSource "http://isi.cbs.nl/glossary/term1579.htm"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson",
+         HasSource "http://isi.cbs.nl/glossary/term2504.htm"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante",
+         HasSource "http://isi.cbs.nl/glossary/term1608.htm"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable",
+         HasSource "http://isi.cbs.nl/glossary/term3011.htm"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation",
+         HasSource "http://isi.cbs.nl/glossary/term41.htm"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires",
+         HasSource "http://isi.cbs.nl/glossary/term48.htm"
+
+===========================================================================================================
+Date: 2017-02-07 17:12:29
+Ontology source: //www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-32
+Worksheet source: D:\Desktop\mes documents\Documents\GitHub\OntoStats\GlossaireISI.xlsx
+Transformation rules: D:\Desktop\mes documents\Documents\GitHub\OntoStats\TestImportation2.json
+
+# Cell range: (Feuil2!A2:C10) Comment: "Test"
+# Class: @C*(rdfs:label=(@C*))
+#    SubClassOf: Concepts
+#    Annotations: rdfs:comment @B*(xml:lang="fr")
+# Annotations: HasSource @A*
+
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs",
+         HasSource "http://isi.cbs.nl/glossary/term1692.htm"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague",
+         HasSource "http://isi.cbs.nl/glossary/term942.htm"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné",
+         HasSource "http://isi.cbs.nl/glossary/term54.htm"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images",
+         HasSource "http://isi.cbs.nl/glossary/term1579.htm"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson",
+         HasSource "http://isi.cbs.nl/glossary/term2504.htm"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante",
+         HasSource "http://isi.cbs.nl/glossary/term1608.htm"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable",
+         HasSource "http://isi.cbs.nl/glossary/term3011.htm"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation",
+         HasSource "http://isi.cbs.nl/glossary/term41.htm"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires",
+         HasSource "http://isi.cbs.nl/glossary/term48.htm"
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs",
+         HasSource "http://isi.cbs.nl/glossary/term1692.htm"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague",
+         HasSource "http://isi.cbs.nl/glossary/term942.htm"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné",
+         HasSource "http://isi.cbs.nl/glossary/term54.htm"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images",
+         HasSource "http://isi.cbs.nl/glossary/term1579.htm"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson",
+         HasSource "http://isi.cbs.nl/glossary/term2504.htm"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante",
+         HasSource "http://isi.cbs.nl/glossary/term1608.htm"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable",
+         HasSource "http://isi.cbs.nl/glossary/term3011.htm"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation",
+         HasSource "http://isi.cbs.nl/glossary/term41.htm"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires",
+         HasSource "http://isi.cbs.nl/glossary/term48.htm"
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs",
+         HasSource "http://isi.cbs.nl/glossary/term1692.htm"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague",
+         HasSource "http://isi.cbs.nl/glossary/term942.htm"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné",
+         HasSource "http://isi.cbs.nl/glossary/term54.htm"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images",
+         HasSource "http://isi.cbs.nl/glossary/term1579.htm"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson",
+         HasSource "http://isi.cbs.nl/glossary/term2504.htm"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante",
+         HasSource "http://isi.cbs.nl/glossary/term1608.htm"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable",
+         HasSource "http://isi.cbs.nl/glossary/term3011.htm"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation",
+         HasSource "http://isi.cbs.nl/glossary/term41.htm"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires",
+         HasSource "http://isi.cbs.nl/glossary/term48.htm"
+
+===========================================================================================================
+Date: 2017-02-07 17:29:45
+Ontology source: //www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-32
+Worksheet source: D:\Desktop\mes documents\Documents\GitHub\OntoStats\GlossaireISI.xlsx
+Transformation rules: D:\Desktop\mes documents\Documents\GitHub\OntoStats\TestImportation2.json
+
+# Cell range: (Feuil2!A2:C10) Comment: "Test"
+# Class: @C*(rdfs:label=(@C*))
+#    SubClassOf: Concepts
+#    Annotations: rdfs:comment @B*(xml:lang="fr")
+# Annotations: HasSource @A*
+
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs",
+         HasSource "http://isi.cbs.nl/glossary/term1692.htm"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague",
+         HasSource "http://isi.cbs.nl/glossary/term942.htm"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné",
+         HasSource "http://isi.cbs.nl/glossary/term54.htm"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images",
+         HasSource "http://isi.cbs.nl/glossary/term1579.htm"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson",
+         HasSource "http://isi.cbs.nl/glossary/term2504.htm"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante",
+         HasSource "http://isi.cbs.nl/glossary/term1608.htm"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable",
+         HasSource "http://isi.cbs.nl/glossary/term3011.htm"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation",
+         HasSource "http://isi.cbs.nl/glossary/term41.htm"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires",
+         HasSource "http://isi.cbs.nl/glossary/term48.htm"
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs",
+         HasSource "http://isi.cbs.nl/glossary/term1692.htm"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague",
+         HasSource "http://isi.cbs.nl/glossary/term942.htm"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné",
+         HasSource "http://isi.cbs.nl/glossary/term54.htm"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images",
+         HasSource "http://isi.cbs.nl/glossary/term1579.htm"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson",
+         HasSource "http://isi.cbs.nl/glossary/term2504.htm"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante",
+         HasSource "http://isi.cbs.nl/glossary/term1608.htm"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable",
+         HasSource "http://isi.cbs.nl/glossary/term3011.htm"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation",
+         HasSource "http://isi.cbs.nl/glossary/term41.htm"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires",
+         HasSource "http://isi.cbs.nl/glossary/term48.htm"
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs",
+         HasSource "http://isi.cbs.nl/glossary/term1692.htm"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague",
+         HasSource "http://isi.cbs.nl/glossary/term942.htm"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné",
+         HasSource "http://isi.cbs.nl/glossary/term54.htm"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images",
+         HasSource "http://isi.cbs.nl/glossary/term1579.htm"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson",
+         HasSource "http://isi.cbs.nl/glossary/term2504.htm"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante",
+         HasSource "http://isi.cbs.nl/glossary/term1608.htm"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable",
+         HasSource "http://isi.cbs.nl/glossary/term3011.htm"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation",
+         HasSource "http://isi.cbs.nl/glossary/term41.htm"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires",
+         HasSource "http://isi.cbs.nl/glossary/term48.htm"
+
+===========================================================================================================
+Date: 2017-02-07 17:41:26
+Ontology source: //www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33
+Worksheet source: D:\Desktop\mes documents\Documents\GitHub\OntoStats\GlossaireISI.xlsx
+Transformation rules: D:\Desktop\mes documents\Documents\GitHub\OntoStats\TestImportation2.json
+
+# Cell range: (Feuil2!A2:C10) Comment: "Test"
+# Class: @C*(rdfs:label=(@C*))
+#    SubClassOf: Concepts
+#    Annotations: rdfs:comment @B*(xml:lang="fr")
+# Annotations: HasSource @A*
+
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs",
+         HasSource "http://isi.cbs.nl/glossary/term1692.htm"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague",
+         HasSource "http://isi.cbs.nl/glossary/term942.htm"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné",
+         HasSource "http://isi.cbs.nl/glossary/term54.htm"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images",
+         HasSource "http://isi.cbs.nl/glossary/term1579.htm"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson",
+         HasSource "http://isi.cbs.nl/glossary/term2504.htm"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante",
+         HasSource "http://isi.cbs.nl/glossary/term1608.htm"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable",
+         HasSource "http://isi.cbs.nl/glossary/term3011.htm"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation",
+         HasSource "http://isi.cbs.nl/glossary/term41.htm"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires",
+         HasSource "http://isi.cbs.nl/glossary/term48.htm"
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs",
+         HasSource "http://isi.cbs.nl/glossary/term1692.htm"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague",
+         HasSource "http://isi.cbs.nl/glossary/term942.htm"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné",
+         HasSource "http://isi.cbs.nl/glossary/term54.htm"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images",
+         HasSource "http://isi.cbs.nl/glossary/term1579.htm"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson",
+         HasSource "http://isi.cbs.nl/glossary/term2504.htm"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante",
+         HasSource "http://isi.cbs.nl/glossary/term1608.htm"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable",
+         HasSource "http://isi.cbs.nl/glossary/term3011.htm"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation",
+         HasSource "http://isi.cbs.nl/glossary/term41.htm"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires",
+         HasSource "http://isi.cbs.nl/glossary/term48.htm"
+Class: ALinterieurDesBlocs  # Generated from value "ALinterieurDesBlocs" located at cell 'Feuil2'!C2.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à l'intérieur des blocs",
+         HasSource "http://isi.cbs.nl/glossary/term1692.htm"
+Class: APrioriVague  # Generated from value "APrioriVague" located at cell 'Feuil2'!C3.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "a priori vague",
+         HasSource "http://isi.cbs.nl/glossary/term942.htm"
+Class: ASousEnsembleProportionne  # Generated from value "ASousEnsembleProportionne" located at cell 'Feuil2'!C4.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à sous-ensemble proportionné",
+         HasSource "http://isi.cbs.nl/glossary/term54.htm"
+Class: ATraitementDimages  # Generated from value "ATraitementDimages" located at cell 'Feuil2'!C5.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "à traitement d'images",
+         HasSource "http://isi.cbs.nl/glossary/term1579.htm"
+Class: AbaqueDeLaLoiDePoisson  # Generated from value "AbaqueDeLaLoiDePoisson" located at cell 'Feuil2'!C6.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "abaque de la loi de Poisson",
+         HasSource "http://isi.cbs.nl/glossary/term2504.htm"
+Class: ActionIndependante  # Generated from value "ActionIndependante" located at cell 'Feuil2'!C7.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action indépendante",
+         HasSource "http://isi.cbs.nl/glossary/term1608.htm"
+Class: ActionSemblable  # Generated from value "ActionSemblable" located at cell 'Feuil2'!C8.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "action semblable",
+         HasSource "http://isi.cbs.nl/glossary/term3011.htm"
+Class: Adaptation  # Generated from value "Adaptation" located at cell 'Feuil2'!C9.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "adaptation",
+         HasSource "http://isi.cbs.nl/glossary/term41.htm"
+Class: AdditionDeVariablesAleatoires  # Generated from value "AdditionDeVariablesAleatoires" located at cell 'Feuil2'!C10.
+   SubClassOf: Concepts
+   Annotations: rdfs:comment "addition de variables aléatoires",
+         HasSource "http://isi.cbs.nl/glossary/term48.htm"
+
+===========================================================================================================

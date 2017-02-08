@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#"
+     xml:base="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:untitled-ontology-33="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#HasSource -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#HasSource"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#ALinterieurDesBlocs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#ALinterieurDesBlocs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Concepts"/>
+        <HasSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://isi.cbs.nl/glossary/term1692.htm</HasSource>
+        <rdfs:comment xml:lang="fr">à l&apos;intérieur des blocs</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALinterieurDesBlocs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#APrioriVague -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#APrioriVague">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Concepts"/>
+        <HasSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://isi.cbs.nl/glossary/term942.htm</HasSource>
+        <rdfs:comment xml:lang="fr">a priori vague</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APrioriVague</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#ASousEnsembleProportionne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#ASousEnsembleProportionne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Concepts"/>
+        <HasSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://isi.cbs.nl/glossary/term54.htm</HasSource>
+        <rdfs:comment xml:lang="fr">à sous-ensemble proportionné</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASousEnsembleProportionne</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#ATraitementDimages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#ATraitementDimages">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Concepts"/>
+        <HasSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://isi.cbs.nl/glossary/term1579.htm</HasSource>
+        <rdfs:comment xml:lang="fr">à traitement d&apos;images</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATraitementDimages</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#AbaqueDeLaLoiDePoisson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#AbaqueDeLaLoiDePoisson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Concepts"/>
+        <HasSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://isi.cbs.nl/glossary/term2504.htm</HasSource>
+        <rdfs:comment xml:lang="fr">abaque de la loi de Poisson</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AbaqueDeLaLoiDePoisson</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#ActionIndependante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#ActionIndependante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Concepts"/>
+        <HasSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://isi.cbs.nl/glossary/term1608.htm</HasSource>
+        <rdfs:comment xml:lang="fr">action indépendante</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActionIndependante</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#ActionSemblable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#ActionSemblable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Concepts"/>
+        <HasSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://isi.cbs.nl/glossary/term3011.htm</HasSource>
+        <rdfs:comment xml:lang="fr">action semblable</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ActionSemblable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Adaptation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Adaptation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Concepts"/>
+        <HasSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://isi.cbs.nl/glossary/term41.htm</HasSource>
+        <rdfs:comment xml:lang="fr">adaptation</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adaptation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#AdditionDeVariablesAleatoires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#AdditionDeVariablesAleatoires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Concepts"/>
+        <HasSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://isi.cbs.nl/glossary/term48.htm</HasSource>
+        <rdfs:comment xml:lang="fr">addition de variables aléatoires</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AdditionDeVariablesAleatoires</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Concepts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/univ/ontologies/2017/1/untitled-ontology-33#Concepts">
+        <rdfs:comment></rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+

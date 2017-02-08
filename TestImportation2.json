@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Feuil2","startColumn":"A","endColumn":"C","startRow":"2","endRow":"10","comment":"Test","rule":"Class: @C*(rdfs:label\u003d(@C*))\n   SubClassOf: Concepts\n   Annotations: rdfs:comment @B*(xml:lang\u003d\"fr\")\nAnnotations: HasSource @A*","active":true}]}
