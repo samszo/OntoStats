@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:prop-fr="http://fr.dbpedia.org/property/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:ns6="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Appareil_de_mesure_d&#39;épaisseur_de_revêtement">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Biais_rétrospectif">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Loi_binomiale_négative">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/CaRScript">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Analyse_objective">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Famille_exponentielle">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyen">
+    <dbpedia-owl:wikiPageDisambiguates rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Valeur_moyenne">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Vitesse_moyenne_quadratique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Adolphe_Quetelet">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Dispersion_statistique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Droite_de_Henry">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Erreur_(métrologie)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Garches">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Loi_normale">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Mouvement_brownien">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyenne_pondérée">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Médiane">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Polarisation_(optique)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Sondage_d&#39;opinion">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Statistiques_élémentaires_continues">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Statistiques_élémentaires_discrètes">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Série_statistique_à_deux_variables">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Tendance_centrale">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Variance_(statistiques_et_probabilités)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Étude_randomisée_en_double_aveugle">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Mode_(statistiques)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/État_quantique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Acuité_visuelle">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Covariance">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Grenouille.com">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Loi_de_Bernoulli">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Pression_cinétique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Rapport_anharmonique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Rawdon">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Théorie_cinétique_des_gaz">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/David_Wechsler">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Densité_mélange">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Liste_des_communes_de_Mayotte">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Liste_des_communes_de_la_Nouvelle-Calédonie">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Loi_normale_multidimensionnelle">
+    <prop-fr:parameters rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyenne_géométrique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Norme_de_qualité_de_l&#39;air">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Revenu_par_tête">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyenne_glissante">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Test_de_Jarque_Bera">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Module_(hydrologie)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyenne_quadratique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Potentiel_évoqué">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Uzerche">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Variable_centrée_réduite">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Espérance_de_vie">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Formation_des_structures">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Luník_IX">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Quartet_d&#39;Anscombe">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Effet_de_la_Lune_sur_les_naissances">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Théorème_de_Masreliez">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Iterative_Closest_Point">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Courbe_épidémique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Régression_polynomiale">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Aire_(géométrie)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Commune_(France)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Dilemme_du_prisonnier">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Exploration_de_données">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Intégration_(mathématiques)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Liste_des_communes_de_la_Loire-Atlantique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Liste_des_communes_des_Hauts-de-Seine">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Liste_des_communes_du_Val-de-Marne">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Mons">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyenne_arithmétique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Nombre_premier">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Norme">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Noyau_de_Dirichlet">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Nébuleuse_obscure">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Quotient_intellectuel">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Recherche_opérationnelle">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Réseau_de_neurones_artificiels">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Série_de_Fourier">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Vent_solaire">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Voltmètre">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Amplitude">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Archétype_(philosophie)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Calcul_(mathématiques)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Corrélation_(statistiques)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Cycle_menstruel">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Fonction_périodique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Liste_d&#39;abréviations_en_mathématiques">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Liste_des_communes_de_la_Polynésie_française">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/MU">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Diagramme_horaire">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Maîtrise_statistique_des_procédés">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Modèle_de_mélanges_gaussiens">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Problème_principal-agent">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Wechsler_Intelligence_Scale_for_Children">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Coefficient_de_variation">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Distribution_(mathématiques)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Degré_de_liberté_(physique_et_chimie)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Glossaire_des_statistiques">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyenne">
+    <owl:sameAs rdf:resource="http://tr.dbpedia.org/resource/Ortalama" />
+    <owl:sameAs rdf:resource="http://cs.dbpedia.org/resource/Míra_polohy" />
+    <owl:sameAs rdf:resource="http://el.dbpedia.org/resource/Μέσος_όρος" />
+    <owl:sameAs rdf:resource="http://sv.dbpedia.org/resource/Lägesmått" />
+    <owl:sameAs rdf:resource="http://es.dbpedia.org/resource/Media_(matemáticas)" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0gcpt" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Rata-rata" />
+    <owl:sameAs rdf:resource="http://nl.dbpedia.org/resource/Gemiddelde" />
+    <owl:sameAs rdf:resource="http://eo.dbpedia.org/resource/Centra_dispozicio" />
+    <owl:sameAs rdf:resource="http://ga.dbpedia.org/resource/Mód_meán,_airmheán" />
+    <owl:sameAs rdf:resource="http://pt.dbpedia.org/resource/Média" />
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Average" />
+    <owl:sameAs rdf:resource="http://sl.dbpedia.org/resource/Srednja_vrednost" />
+    <owl:sameAs rdf:resource="http://ru.dbpedia.org/resource/Показатели_центра_распределения" />
+    <owl:sameAs rdf:resource="http://ko.dbpedia.org/resource/평균" />
+    <owl:sameAs rdf:resource="http://pl.dbpedia.org/resource/Średnia" />
+    <owl:sameAs rdf:resource="http://ar.dbpedia.org/resource/متوسط_رياضي" />
+    <owl:sameAs rdf:resource="http://ca.dbpedia.org/resource/Mitjana_(matemàtiques)" />
+    <owl:sameAs rdf:resource="http://de.dbpedia.org/resource/Mittelwert" />
+    <owl:sameAs rdf:resource="http://sk.dbpedia.org/resource/Priemer_(štatistika)" />
+    <owl:sameAs rdf:resource="http://ur.dbpedia.org/resource/اوسط" />
+    <owl:sameAs rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+    <owl:sameAs rdf:resource="http://it.dbpedia.org/resource/Media_(statistica)" />
+    <owl:sameAs rdf:resource="http://bn.dbpedia.org/resource/গড়" />
+    <owl:sameAs rdf:resource="http://eu.dbpedia.org/resource/Batezbesteko" />
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/平均" />
+    <dcterms:subject rdf:resource="http://fr.dbpedia.org/resource/Catégorie:Moyenne" />
+    <prop-fr:wikiPageUsesTemplate rdf:resource="http://fr.dbpedia.org/resource/Modèle:Math" />
+    <prop-fr:wikiPageUsesTemplate rdf:resource="http://fr.dbpedia.org/resource/Modèle:Références" />
+    <prop-fr:wikiPageUsesTemplate rdf:resource="http://fr.dbpedia.org/resource/Modèle:S-" />
+    <prop-fr:wikiPageUsesTemplate rdf:resource="http://fr.dbpedia.org/resource/Modèle:Numéro" />
+    <prop-fr:wikiPageUsesTemplate rdf:resource="http://fr.dbpedia.org/resource/Modèle:Palette" />
+    <prop-fr:wikiPageUsesTemplate rdf:resource="http://fr.dbpedia.org/resource/Modèle:Portail" />
+    <prop-fr:wikiPageUsesTemplate rdf:resource="http://fr.dbpedia.org/resource/Modèle:Démonstration" />
+    <prop-fr:wikiPageUsesTemplate rdf:resource="http://fr.dbpedia.org/resource/Modèle:Autres_projets" />
+    <prop-fr:wikiPageUsesTemplate rdf:resource="http://fr.dbpedia.org/resource/Modèle:Voir_homonymes" />
+    <prop-fr:wikiPageUsesTemplate rdf:resource="http://fr.dbpedia.org/resource/Modèle:Article_détaillé" />
+    <prop-fr:wikiPageUsesTemplate rdf:resource="http://fr.dbpedia.org/resource/Modèle:Page_h&#39;" />
+    <prop-fr:wikiPageUsesTemplate rdf:resource="http://fr.dbpedia.org/resource/Modèle:Formule" />
+    <rdfs:label xml:lang="it">Media (statistica)</rdfs:label>
+    <rdfs:label xml:lang="nl">Gemiddelde</rdfs:label>
+    <rdfs:label xml:lang="cs">Míra polohy</rdfs:label>
+    <rdfs:label xml:lang="id">Rata-rata</rdfs:label>
+    <rdfs:label xml:lang="es">Media (matemáticas)</rdfs:label>
+    <rdfs:label xml:lang="pt">Média</rdfs:label>
+    <rdfs:label xml:lang="en">Average</rdfs:label>
+    <rdfs:label xml:lang="ko">평균 (통계학)</rdfs:label>
+    <rdfs:label xml:lang="ca">Mitjana (matemàtiques)</rdfs:label>
+    <rdfs:label xml:lang="de">Mittelwert</rdfs:label>
+    <rdfs:label xml:lang="tr">Ortalama</rdfs:label>
+    <rdfs:label xml:lang="ru">Показатели центра распределения</rdfs:label>
+    <rdfs:label xml:lang="pl">Średnia</rdfs:label>
+    <rdfs:label xml:lang="ja">平均</rdfs:label>
+    <rdfs:label xml:lang="eu">Batezbesteko</rdfs:label>
+    <rdfs:label xml:lang="fr">Moyenne</rdfs:label>
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://msh.revues.org/document2816.html" />
+    <prop-fr:contenu xml:lang="fr">De l&#39;identité de Legendre
+
+on déduit
+
+et on conclut en appliquant la fonction racine carrée .</prop-fr:contenu>
+    <prop-fr:titre xml:lang="fr">Une démonstration de</prop-fr:titre>
+    <prop-fr:wiktionary xml:lang="fr">moyenne</prop-fr:wiktionary>
+    <prop-fr:wiktionaryTitre xml:lang="fr">moyenne</prop-fr:wiktionaryTitre>
+    <rdfs:comment xml:lang="id">Dalam statistika, rata-rata, rerata, atau rataan (Bahasa Inggris: mean) memiliki tiga arti yang berkaitan: rerata aritmetik, pengertian yang paling umum dikenal awam, nilai harapan dari suatu peubah acak, dan ukuran pemusatan dari suatu sebaran probabilitas.Rerata merupakan salah satu konsep sentral dalam statistika matematis dan, bersama dengan varians, menjadi bagian penting dalam berbagai penurunan berbagai metode statistika.Dipandang dari sisi matematis, rerata adalah momen pertama dari suatu peubah acak. </rdfs:comment>
+    <rdfs:comment xml:lang="ko">평균(平均)은 통계학에서 두 가지 서로 연관된 뜻이 있다. 일상에서 평균이라고 부르는 것으로 산술 평균이라고도 한다. (기하 평균이나 조화 평균과는 구별된다.) 이 평균은 표본 평균이라고도 한다. 확률변수의 기댓값. 모평균이라고도 한다.평균은 통계학뿐만 아니라 기하학이나 해석학에서도 쓰인다. 이러한 목적으로 통계학에서는 그다지 많이 쓰이지 않는 다양한 평균이 고안되었다. 이러한 평균에 관해서는 다른 평균 항목을 참고하라.표본 평균은 모평균 같은 중심성향에 대한 추정량으로 자주 쓰인다. 그러나 다른 추정량이 쓰이기도 한다.실수값을 갖는 확률 변수 X에 대해서, 평균은 X의 기댓값이 된다. 기댓값이 존재하지 않는다면 그 확률 변수에는 평균이 없다.자료 집합에 대한 평균은 단순히 모든 관측값을 더해서 관측값 개수로 나눈 것이다. 일단 자료 집합의 공통성을 이렇게 설명하기로 하면, 관측값이 어떻게 다른지 설명하는 데는 보통 표준편차를 쓴다.</rdfs:comment>
+    <rdfs:comment xml:lang="en">In colloquial language average usually refers to the sum of a list of numbers divided by the size of the list, in other words the arithmetic mean. However, the word &quot;average&quot; can be used to refer to the median, the mode, or some other central or typical value. In statistics, these are all known as measures of central tendency.</rdfs:comment>
+    <rdfs:comment xml:lang="de">Mittelwerte (kurz auch nur Mittel, in der Statistik oft auch Durchschnitt statt arithmetisches Mittel) treten in der Mathematik und insbesondere in der Statistik in inhaltlich unterschiedlichen Kontexten auf.</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Em estatística a média é o valor que aponta para onde mais se concentram os dados de uma distribuição. Pode ser considerada o ponto de equilíbrio das frequências, num histograma. Média é um valor significativo de uma lista de valores. Se todos os números da lista são os mesmos, então este número será a média dos valores. Caso contrário, um modo simples de representar os números da lista é escolher de forma aleatória algum número da lista.</rdfs:comment>
+    <rdfs:comment xml:lang="tr">Ortalama veya merkezsel konum ölçüleri matematik ana biliminde , özellikle istatistik bilim dalında, bir anakütle veya örneklem veri dizisi değerlerini temsil eden tek bir orta değeri veya beklenen değeri, yani tüm veri dizisinin orta konumunu, tek bir sayı ile ifade eden betimsel istatistik ölçüsüdür.</rdfs:comment>
+    <rdfs:comment xml:lang="ja">平均値（へいきん、独: Mittelwert, 仏: moyenne, 英: mean）とは、観測されるデータから、算術的に計算して”得られる、統計的な指標値である。英語圏ではmeanとaverageは厳密に区別され、average (平均)は、averageの三種(平均三種)、つまりmean (平均値)、 median (中央値)、mode (最頻値)をさす。例えば A, B, C という3人の体重がそれぞれ 55 kg, 60 kg, 80 kg であったとすると、3人の体重の平均値は(55 kg + 60 kg + 80 kg)/3 = 65 kgである。これは厳密に言えば相加平均（後述）であるが、特に断らずに平均という場合の多くは相加平均を指している。統計学では、平均には「母平均」と「標本平均」がある。母平均は、母集団の全ての要素に関する相加平均である。標本平均は、母集団から抽出した標本（母集団の部分集合）の要素に関する相加平均である。母平均はμと書き、標本平均はmなどと書いて区別する。</rdfs:comment>
+    <rdfs:comment xml:lang="es">En matemáticas y estadística una media o promedio es una medida de tendencia central que según la Real Academia Española (2001) «[…] resulta al efectuar una serie determinada de operaciones con un conjunto de números y que, en determinadas condiciones, puede representar por sí solo a todo el conjunto». Existen distintos tipos de medias, tales como la media geométrica, la media ponderada y la media armónica aunque en el lenguaje común, el término se refiere generalmente a la media aritmética.</rdfs:comment>
+    <rdfs:comment xml:lang="nl">In de statistiek komt het begrip gemiddelde veelvuldig voor. We moeten hierbij onderscheiden of het om de gehele populatie gaat of om een steekproef daaruit. In de volksmond wordt gemiddelde gebruikt als synoniem voor rekenkundig gemiddelde.</rdfs:comment>
+    <rdfs:comment xml:lang="ca">En matemàtiques, la mitjana és una mesura de tendència central representa el valor &quot;mitjà&quot; o &quot;típic&quot; d&#39;un conjunt de dades. Existeixen diferents tipus de mitjanes, com ara la mitjana geomètrica, la mitjana ponderada i la mitjana harmònica, encara que en el llenguatge comú el terme es refereix generalment a la mitjana aritmètica .</rdfs:comment>
+    <rdfs:comment xml:lang="fr">La moyenne est une mesure statistique caractérisant les éléments d&#39;un ensemble de quantités : elle exprime la grandeur qu&#39;aurait chacun des membres de l&#39;ensemble s&#39;ils étaient tous identiques sans changer la dimension globale de l&#39;ensemble. Il y a plusieurs façons de calculer la moyenne d&#39;un ensemble de valeurs, choisies en fonction de la grandeur physique que représentent ces nombres. Dans le langage courant, le terme « moyenne » réfère généralement à la moyenne arithmétique.</rdfs:comment>
+    <rdfs:comment xml:lang="it">In statistica la media è un singolo valore numerico che descrive sinteticamente un insieme di dati. Esistono varie tipologie di media che possono essere scelte per descrivere un fenomeno, quelle più comunemente impiegate sono le tre cosiddette medie pitagoriche (aritmetica, geometrica e armonica).Nel linguaggio ordinario con il termine media si intende comunemente la media aritmetica.</rdfs:comment>
+    <rdfs:comment xml:lang="eu">Estatistikan, batezbestekoa datu multzo baten balio adierazgarri, zentral edo gutxi gorabeherakoa da, datu guztiak bateratu edo datu multzo osoa balio bakar batez ordezkatzen duena. Horrela, batezbestekoa datu multzo baten zentro neurri bat dela esaten da. Adibidez, 6-7-8-9-10 datuen batezbestekoa 8 dela esan daiteke, datu guztiak 8 balioaren inguruan biltzen baitira; beraz, 8 zentrotzat hartzen da.</rdfs:comment>
+    <rdfs:comment xml:lang="ru">Для определения средних или наиболее типичных значений совокупности используются показатели центра распределения.</rdfs:comment>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110607639</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:abstract xml:lang="nl">In de statistiek komt het begrip gemiddelde veelvuldig voor. We moeten hierbij onderscheiden of het om de gehele populatie gaat of om een steekproef daaruit. In de volksmond wordt gemiddelde gebruikt als synoniem voor rekenkundig gemiddelde.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="ja">平均値（へいきん、独: Mittelwert, 仏: moyenne, 英: mean）とは、観測されるデータから、算術的に計算して”得られる、統計的な指標値である。英語圏ではmeanとaverageは厳密に区別され、average (平均)は、averageの三種(平均三種)、つまりmean (平均値)、 median (中央値)、mode (最頻値)をさす。例えば A, B, C という3人の体重がそれぞれ 55 kg, 60 kg, 80 kg であったとすると、3人の体重の平均値は(55 kg + 60 kg + 80 kg)/3 = 65 kgである。これは厳密に言えば相加平均（後述）であるが、特に断らずに平均という場合の多くは相加平均を指している。統計学では、平均には「母平均」と「標本平均」がある。母平均は、母集団の全ての要素に関する相加平均である。標本平均は、母集団から抽出した標本（母集団の部分集合）の要素に関する相加平均である。母平均はμと書き、標本平均はmなどと書いて区別する。</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="ru">Для определения средних или наиболее типичных значений совокупности используются показатели центра распределения. Основные из них — математическое ожидание, среднее арифметическое, среднее геометрическое, среднее гармоническое, степенные средние, взвешенные средние, центр сгиба, медиана, мода.Расчёт средних величин производится разными способами, и, соответственно, применение их тоже зависит от исследуемой совокупности.У симметричного одномерного унимодального распределения математическое ожидание, медиана и мода одинаковы.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="ko">평균(平均)은 통계학에서 두 가지 서로 연관된 뜻이 있다. 일상에서 평균이라고 부르는 것으로 산술 평균이라고도 한다. (기하 평균이나 조화 평균과는 구별된다.) 이 평균은 표본 평균이라고도 한다. 확률변수의 기댓값. 모평균이라고도 한다.평균은 통계학뿐만 아니라 기하학이나 해석학에서도 쓰인다. 이러한 목적으로 통계학에서는 그다지 많이 쓰이지 않는 다양한 평균이 고안되었다. 이러한 평균에 관해서는 다른 평균 항목을 참고하라.표본 평균은 모평균 같은 중심성향에 대한 추정량으로 자주 쓰인다. 그러나 다른 추정량이 쓰이기도 한다.실수값을 갖는 확률 변수 X에 대해서, 평균은 X의 기댓값이 된다. 기댓값이 존재하지 않는다면 그 확률 변수에는 평균이 없다.자료 집합에 대한 평균은 단순히 모든 관측값을 더해서 관측값 개수로 나눈 것이다. 일단 자료 집합의 공통성을 이렇게 설명하기로 하면, 관측값이 어떻게 다른지 설명하는 데는 보통 표준편차를 쓴다. 표준편차는 (평균에 대한) 편차 제곱을 평균한 값의 제곱근이다.평균은 편차 제곱의 합이 최소가 되는 유일한 값이다. 중심성향을 평균이 아닌 다른 방식으로 측정하는 경우, 편차 제곱의 합을 구해 보면, 평균을 썼을 때 구한 값보다 크다. 이는 왜 통계 보고서에서 보통 평균과 표준편차를 인용하는지를 설명해 준다. 퍼진 정도에 대한 다른 측도로는 평균 편차가 있다. 이것은 (평균에 대한) 절대 편차를 평균한 것과 같다. 평균 편차는 바깥값에 덜 민감하지만, 자료 집합을 합칠 때 다루기 어렵다.모든 확률 분포가 평균이나 분산으로만 정의되지는 않는다는 점을 주의하라. — 예를 들면 코시 분포 같은 것이 있다. 숫자 n개짜리 집합에 대한 평균을 구하는 다양한 방법 가운데 몇 가지를 요약해 놓았다. 여기서 사용한 기호는 수학기호표를 참고하라.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="fr">La moyenne est une mesure statistique caractérisant les éléments d&#39;un ensemble de quantités : elle exprime la grandeur qu&#39;aurait chacun des membres de l&#39;ensemble s&#39;ils étaient tous identiques sans changer la dimension globale de l&#39;ensemble. Il y a plusieurs façons de calculer la moyenne d&#39;un ensemble de valeurs, choisies en fonction de la grandeur physique que représentent ces nombres. Dans le langage courant, le terme « moyenne » réfère généralement à la moyenne arithmétique.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="tr">Ortalama veya merkezsel konum ölçüleri matematik ana biliminde , özellikle istatistik bilim dalında, bir anakütle veya örneklem veri dizisi değerlerini temsil eden tek bir orta değeri veya beklenen değeri, yani tüm veri dizisinin orta konumunu, tek bir sayı ile ifade eden betimsel istatistik ölçüsüdür. Genel olarak günlük pratik hayatta çok popüler olarak kullanılan ortalama aritmetik ortalama olmakla beraber, bu ölçünün çok belirli dezavantajları olduğu göz önüne alınarak, birçok değişik merkezsel konum ölçüleri geliştirilmiş ve pratikte kullanılmaktadır. İstatistikde bilimsel olarak ortalamalar kavramına bir aksiyomatik yaklaşım J.Bibby (1974) tarafından verilmiştir.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="de">Mittelwerte (kurz auch nur Mittel, in der Statistik oft auch Durchschnitt statt arithmetisches Mittel) treten in der Mathematik und insbesondere in der Statistik in inhaltlich unterschiedlichen Kontexten auf. Allgemein gilt, dass jedem Mittelwert eine Vorschrift zugrunde liegt, mit der man aus zwei oder mehr Zahlen eine weitere berechnet, die zwischen den gegebenen Zahlen liegt.In der Statistik wird außerdem oft als Mittelwert der Erwartungswert angedeutet, ein so genannter Lageparameter einer Häufigkeits- oder Wahrscheinlichkeitsverteilung, der die Lage der Elemente einer Stichprobe oder Grundgesamtheit in Bezug auf die Messskala beschreibt.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="eu">Estatistikan, batezbestekoa datu multzo baten balio adierazgarri, zentral edo gutxi gorabeherakoa da, datu guztiak bateratu edo datu multzo osoa balio bakar batez ordezkatzen duena. Horrela, batezbestekoa datu multzo baten zentro neurri bat dela esaten da. Adibidez, 6-7-8-9-10 datuen batezbestekoa 8 dela esan daiteke, datu guztiak 8 balioaren inguruan biltzen baitira; beraz, 8 zentrotzat hartzen da. Batez besteko terminoa, bi hitzetan bereizia alegia, izenlagun moduan erabiltzen da, batez besteko adina, batez besteko nota, batez besteko hazkundea eta horrelako lokuzioak osatzeko.Beste zentro neurriak diren mediana eta moda ez bezala, batezbestekoek datu guztiak hartzen dituzte bere kalkuluan. Onartzen da, ordea, muturreko datuak edo adierazgarriak ez diren bestelako datuak alde batera uztea. Datu guztiak biltzean, datuetan biltzen den informazio guztia biltzen dutela esan daiteke abantaila gisa, horrela adierazgarriak ez diren datuak barneratzeko arriskua badago ere, esanguratsua ez den emaitza bat sortuz. Adibide moduan, (12,34,36,38) datuetarako batezbesteko aritmetiko sinplea kalkukatzean datu guztiak hartzen dira kontuan, beste datuetatik asko aldentzen den 12 balioa hartzen duen muturreko datua barne; horrela (12+34+36+38)/4=30 suertatzen da batezbesteko aritmetiko sinplea, baina zentro-joera gutxietsi egiten duen balioa da. Irtenbide gisa, muturrekoa den 12 datua baztertuta, batezbesteko berri moduan (34+36+38)/40=36 hartuz, modu egokiago batez islatzen zentro-joera.Hainbat datu bateratu beharra dagoen guztietan ere erabil daiteke batez bestekoa. Adibidez, ekonomian prezio indizeak kalkulatzeko erabiltzen dira, produktu ezberdinen prezioak bateratu behar direnean; klimatologian, aldaketa klimatikoen joera neurtzeko erabiltzen dira, tenperaturak eta bestelako aldagaiak bateratuz.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="en">In colloquial language average usually refers to the sum of a list of numbers divided by the size of the list, in other words the arithmetic mean. However, the word &quot;average&quot; can be used to refer to the median, the mode, or some other central or typical value. In statistics, these are all known as measures of central tendency. Thus the concept of an average can be extended in various ways in mathematics, but in those contexts it is usually referred to as a mean (for example the mean of a function).</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="es">En matemáticas y estadística una media o promedio es una medida de tendencia central que según la Real Academia Española (2001) «[…] resulta al efectuar una serie determinada de operaciones con un conjunto de números y que, en determinadas condiciones, puede representar por sí solo a todo el conjunto». Existen distintos tipos de medias, tales como la media geométrica, la media ponderada y la media armónica aunque en el lenguaje común, el término se refiere generalmente a la media aritmética.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="ca">En matemàtiques, la mitjana és una mesura de tendència central representa el valor &quot;mitjà&quot; o &quot;típic&quot; d&#39;un conjunt de dades. Existeixen diferents tipus de mitjanes, com ara la mitjana geomètrica, la mitjana ponderada i la mitjana harmònica, encara que en el llenguatge comú el terme es refereix generalment a la mitjana aritmètica .</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="it">In statistica la media è un singolo valore numerico che descrive sinteticamente un insieme di dati. Esistono varie tipologie di media che possono essere scelte per descrivere un fenomeno, quelle più comunemente impiegate sono le tre cosiddette medie pitagoriche (aritmetica, geometrica e armonica).Nel linguaggio ordinario con il termine media si intende comunemente la media aritmetica.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="pt">Em estatística a média é o valor que aponta para onde mais se concentram os dados de uma distribuição. Pode ser considerada o ponto de equilíbrio das frequências, num histograma. Média é um valor significativo de uma lista de valores. Se todos os números da lista são os mesmos, então este número será a média dos valores. Caso contrário, um modo simples de representar os números da lista é escolher de forma aleatória algum número da lista. Contudo, a palavra &#39;média&#39; é usualmente reservada para métodos mais sofisticados. Em último caso, a média é calculada através da combinação de valores de um conjunto de um modo específico e gerando um valor, a média do conjunto.Média aritmética é a forma mais simples de calcular uma média, mas existem outros métodos, como a mediana (usada quando a distribuição de valores é mal organizada, com grandes e pequenos valores, como valores de rendimento).</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="id">Dalam statistika, rata-rata, rerata, atau rataan (Bahasa Inggris: mean) memiliki tiga arti yang berkaitan: rerata aritmetik, pengertian yang paling umum dikenal awam, nilai harapan dari suatu peubah acak, dan ukuran pemusatan dari suatu sebaran probabilitas.Rerata merupakan salah satu konsep sentral dalam statistika matematis dan, bersama dengan varians, menjadi bagian penting dalam berbagai penurunan berbagai metode statistika.Dipandang dari sisi matematis, rerata adalah momen pertama dari suatu peubah acak. Momen pertama mengenai rerata dari suatu peubah acak disebut simpangan (deviasi).</dbpedia-owl:abstract>
+    <ns6:wasDerivedFrom rdf:resource="http://fr.wikipedia.org/wiki/Moyenne?oldid=110607639" />
+    <dbpedia-owl:wikiPageOutDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">59</dbpedia-owl:wikiPageOutDegree>
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012966</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Individu" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Condensateur_(électricité)" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne_géométrique" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Échantillon_(statistiques)" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Baccalauréat_en_France" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Informatique" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Fonction_périodique" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Médiane_(centre)" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne_pondérée" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Statistique" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Centre_de_gravité" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne_arithmétique" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Poids" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Centre_de_masse" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Barycentre_(géométrie_euclidienne)" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Catégorie:Moyenne" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Variable_qualitative" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Capacité_électrique" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Statistique_(indicateur)" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Tendance_centrale" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Barycentre_(géométrie_élémentaire)" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Identité_remarquable" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Hasard" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Isobarycentre" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Polynôme_de_Tchebychev" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Variable_quantitative" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Relation_de_récurrence" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Somme_(arithmétique)" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Orthogonalité" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne_harmonique_pondérée" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Série_de_Fourier" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne_géométrique_pondérée" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne_harmonique" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Valeur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Espérance_mathématique" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Robustesse_(statistiques)" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Critères_de_position" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Variable_ordinale" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/PUF" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Probabilité" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Évaluation_sommative" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Id_est" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Géométrie" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Médiane_(statistiques)" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Docimologie" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Population" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Fonction_convexe" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Lissage" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Racine_carrée" />
+    <dbpedia-owl:wikiPageLength rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">22075</dbpedia-owl:wikiPageLength>
+    <foaf:isPrimaryTopicOf rdf:resource="http://fr.wikipedia.org/wiki/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Bulletin_scolaire">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Fonction_de_répartition_empirique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/International_Society_for_Philosophical_Enquiry">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Logiciel_de_questionnaire_à_choix_multiples">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Groupe_localement_compact">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Processus_de_Cox">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Résonance_magnétique_nucléaire">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Huest">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Mont_Kenya">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Photomosaïque">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Structural_Similarity">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Autocorrélation">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Leopold_Kohr">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Libre_parcours_moyen">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Loi_de_Malus">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Signal_(économie)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Estimateur_(statistique)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Inégalité_(mathématiques)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyenne_de_Riesz">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Théorème_de_König-Huygens">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Ernesto_Cesàro">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Histogramme_(imagerie_numérique)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Otto_Hölder">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Valeur_absolue_des_écarts">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Audience_(média)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Principe_d&#39;entropie_maximale">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Test_de_Chauvenet">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Zone_d&#39;ombre_(télécommunications)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Âge_moyen">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Détection_automatique_des_publicités_télévisées">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Nordicité">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Cote_Z_(statistiques)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Cénogramme">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Inégalité_de_Berry-Esseen">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Loi_log-Cauchy">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Nancy_Kopell">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Théorie_des_représentations">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Heuristique_de_jugement">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Règle_68-95-99.7">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Liste_des_lois_de_probabilité">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Loi_gamma-normale">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Centre">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Valeur_quadratique_moyenne">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Filtre_particulaire">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Puissance_active">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Classement_international_de_Scrabble_francophone">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Glossaire_de_la_météorologie">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Leptokurticité">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Variable_ordinale">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Variable_quantitative">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Filtre_numérique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyenne_géométrique_pondérée">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyenne_harmonique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyenne_harmonique_pondérée">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/SPSS">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Théorème_de_Maschke">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Sélection_de_groupe">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Volatilité_stochastique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Note_scolaire">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Test_de_Student">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Extraction_de_caractéristique_en_vision_par_ordinateur">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Test_t_de_Welch">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Trait_suscrit">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Différences_de_genre_en_psychologie_humaine">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Âge_médian">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Coefficient_de_clustering">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Inégalité_de_Maclaurin">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyenne_généralisée">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Quadratique">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyenne_(mathématiques_élémentaires)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Moyenne_générale">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.wikipedia.org/wiki/Moyenne">
+    <foaf:primaryTopic rdf:resource="http://fr.dbpedia.org/resource/Moyenne" />
+  </rdf:Description>
+</rdf:RDF>
