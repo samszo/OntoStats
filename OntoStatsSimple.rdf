@@ -158,7 +158,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/AxiomesDeKolmogorov -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/AxiomesDeKolmogorov">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RèglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
         <rdfs:comment xml:lang="fr">AxiomesDeKolmogorov</rdfs:comment>
         <rdfs:label xml:lang="fr">AxiomesDeKolmogorov</rdfs:label>
     </Class>
@@ -189,7 +189,7 @@
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/BiaisStatistique">
         <equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/Erreur"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RèglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
         <rdfs:comment xml:lang="fr">BiaisStatistique</rdfs:comment>
         <rdfs:label xml:lang="fr">BiaisStatistique</rdfs:label>
     </Class>
@@ -1603,7 +1603,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Erreur -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Erreur">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RèglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
         <rdfs:comment xml:lang="fr">Erreur</rdfs:comment>
         <rdfs:label xml:lang="fr">Erreur</rdfs:label>
     </Class>
@@ -2530,7 +2530,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Induction -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Induction">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RèglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
         <rdfs:comment xml:lang="fr">Induction</rdfs:comment>
         <rdfs:label xml:lang="fr">Induction</rdfs:label>
     </Class>
@@ -3062,7 +3062,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/MesureDePosition -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/MesureDePosition">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/StatistiqueDescriptive"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Indice"/>
         <rdfs:comment xml:lang="fr">MesureDePosition</rdfs:comment>
         <rdfs:label xml:lang="fr">MesureDePosition</rdfs:label>
     </Class>
@@ -3630,7 +3630,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/PostulatDeBayes">
         <equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/TheoremeDeBayes"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RèglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
         <rdfs:comment xml:lang="fr">PostulatDeBayes</rdfs:comment>
         <rdfs:label xml:lang="fr">PostulatDeBayes</rdfs:label>
     </Class>
@@ -3991,7 +3991,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/RegleDeDecision -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/RegleDeDecision">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RèglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
         <rdfs:comment xml:lang="fr">RegleDeDecision</rdfs:comment>
         <rdfs:label xml:lang="fr">RegleDeDecision</rdfs:label>
     </Class>
@@ -5224,7 +5224,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/TheoremeCentralLimite">
         <equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/TheoremeLimiteCentrale"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RèglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
         <rdfs:comment xml:lang="fr">TheoremeCentralLimite</rdfs:comment>
         <rdfs:label xml:lang="fr">TheoremeCentralLimite</rdfs:label>
     </Class>
@@ -5234,7 +5234,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TheoremeDeBayes -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/TheoremeDeBayes">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RèglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
         <rdfs:comment xml:lang="fr">TheoremeDeBayes</rdfs:comment>
         <rdfs:label xml:lang="fr">TheoremeDeBayes</rdfs:label>
     </Class>
@@ -5244,7 +5244,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TheoremeDeBernoulli -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/TheoremeDeBernoulli">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RèglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
         <rdfs:comment xml:lang="fr">TheoremeDeBernoulli</rdfs:comment>
         <rdfs:label xml:lang="fr">TheoremeDeBernoulli</rdfs:label>
     </Class>
@@ -5254,7 +5254,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TheoremeDeDeFinetti -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/TheoremeDeDeFinetti">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RèglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
         <rdfs:comment xml:lang="fr">TheoremeDeDeFinetti</rdfs:comment>
         <rdfs:label xml:lang="fr">TheoremeDeDeFinetti</rdfs:label>
     </Class>
@@ -5264,7 +5264,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TheoremeLimiteCentrale -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/TheoremeLimiteCentrale">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RèglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
         <rdfs:comment xml:lang="fr">TheoremeLimiteCentrale</rdfs:comment>
         <rdfs:label xml:lang="fr">TheoremeLimiteCentrale</rdfs:label>
     </Class>
@@ -6128,7 +6128,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://www.co-ode.org/ontologies/ont.owl#Paradoxe -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Paradoxe">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RèglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
     </Class>
     
 
@@ -6221,9 +6221,9 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#RèglesDInference -->
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ReglesDInference -->
 
-    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#RèglesDInference">
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference">
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ConceptStatistique"/>
     </Class>
     
