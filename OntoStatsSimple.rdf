@@ -25,7 +25,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/Aleatoire -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Aleatoire">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable"/>
         <rdfs:comment xml:lang="fr">Aleatoire</rdfs:comment>
         <rdfs:label xml:lang="fr">Aleatoire</rdfs:label>
     </Class>
@@ -128,7 +128,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/Appariement -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Appariement">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteProtocole"/>
         <rdfs:comment xml:lang="fr">Appariement</rdfs:comment>
         <rdfs:label xml:lang="fr">Appariement</rdfs:label>
     </Class>
@@ -148,7 +148,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/Asymetrie -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Asymetrie">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Forme"/>
         <rdfs:comment xml:lang="fr">Asymetrie</rdfs:comment>
         <rdfs:label xml:lang="fr">Asymetrie</rdfs:label>
     </Class>
@@ -447,7 +447,8 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestDHomogeneite"/>
+        <equivalentClass rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestDHomogeneite"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Comparer"/>
         <rdfs:comment xml:lang="fr">ComparaisonEntreGroupes</rdfs:comment>
         <rdfs:label xml:lang="fr">ComparaisonEntreGroupes</rdfs:label>
     </Class>
@@ -457,7 +458,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/ComparaisonsAppariees -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/ComparaisonsAppariees">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestDHomogeneite"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
         <rdfs:comment xml:lang="fr">ComparaisonsAppariees</rdfs:comment>
         <rdfs:label xml:lang="fr">ComparaisonsAppariees</rdfs:label>
     </Class>
@@ -546,7 +547,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Continuite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Continuite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable"/>
         <rdfs:comment xml:lang="fr">Continuite</rdfs:comment>
         <rdfs:label xml:lang="fr">Continuite</rdfs:label>
     </Class>
@@ -748,7 +749,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Dependance -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Dependance">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
         <rdfs:comment xml:lang="fr">Dependance</rdfs:comment>
         <rdfs:label xml:lang="fr">Dependance</rdfs:label>
     </Class>
@@ -940,7 +941,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Dissymetrie -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Dissymetrie">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Forme"/>
         <rdfs:comment xml:lang="fr">Dissymetrie</rdfs:comment>
         <rdfs:label xml:lang="fr">Dissymetrie</rdfs:label>
     </Class>
@@ -1316,7 +1317,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/DivisibiliteInfinie -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/DivisibiliteInfinie">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable"/>
         <rdfs:comment xml:lang="fr">DivisibiliteInfinie</rdfs:comment>
         <rdfs:label xml:lang="fr">DivisibiliteInfinie</rdfs:label>
     </Class>
@@ -1472,7 +1473,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Echangeabilite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Echangeabilite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteObservations"/>
         <rdfs:comment xml:lang="fr">Echangeabilite</rdfs:comment>
         <rdfs:label xml:lang="fr">Echangeabilite</rdfs:label>
     </Class>
@@ -1482,7 +1483,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Echangeable -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Echangeable">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteObservations"/>
         <rdfs:comment xml:lang="fr">Echangeable</rdfs:comment>
         <rdfs:label xml:lang="fr">Echangeable</rdfs:label>
     </Class>
@@ -1542,19 +1543,9 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Efficacite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Efficacite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Efficacite</rdfs:comment>
         <rdfs:label xml:lang="fr">Efficacite</rdfs:label>
-    </Class>
-    
-
-
-    <!-- http://ontostats.univ-paris8.fr/terms/Elimination -->
-
-    <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Elimination">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
-        <rdfs:comment xml:lang="fr">Elimination</rdfs:comment>
-        <rdfs:label xml:lang="fr">Elimination</rdfs:label>
     </Class>
     
 
@@ -1876,7 +1867,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Exactitude -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Exactitude">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Exactitude</rdfs:comment>
         <rdfs:label xml:lang="fr">Exactitude</rdfs:label>
     </Class>
@@ -1886,7 +1877,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Exces -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Exces">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Estimation"/>
         <rdfs:comment xml:lang="fr">Exces</rdfs:comment>
         <rdfs:label xml:lang="fr">Exces</rdfs:label>
     </Class>
@@ -1896,7 +1887,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Exhaustivite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Exhaustivite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable"/>
         <rdfs:comment xml:lang="fr">Exhaustivite</rdfs:comment>
         <rdfs:label xml:lang="fr">Exhaustivite</rdfs:label>
     </Class>
@@ -2016,7 +2007,8 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Fiabilite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Fiabilite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/FiabiliteStatistique"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Fiabilite</rdfs:comment>
         <rdfs:label xml:lang="fr">Fiabilite</rdfs:label>
     </Class>
@@ -2026,7 +2018,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/FiabiliteStatistique -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/FiabiliteStatistique">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
         <rdfs:comment xml:lang="fr">FiabiliteStatistique</rdfs:comment>
         <rdfs:label xml:lang="fr">FiabiliteStatistique</rdfs:label>
     </Class>
@@ -2046,7 +2038,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/ForceDunTest -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/ForceDunTest">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
         <rdfs:comment xml:lang="fr">ForceDunTest</rdfs:comment>
         <rdfs:label xml:lang="fr">ForceDunTest</rdfs:label>
     </Class>
@@ -2056,7 +2048,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Forme -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Forme">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteDistribution"/>
         <rdfs:comment xml:lang="fr">Forme</rdfs:comment>
         <rdfs:label xml:lang="fr">Forme</rdfs:label>
     </Class>
@@ -2136,7 +2128,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Frequenciste -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Frequenciste">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteEchantillonnage"/>
         <rdfs:comment xml:lang="fr">Frequenciste</rdfs:comment>
         <rdfs:label xml:lang="fr">Frequenciste</rdfs:label>
     </Class>
@@ -2247,7 +2239,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Heterogeneite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Heterogeneite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprietePopulation"/>
         <rdfs:comment xml:lang="fr">Heterogeneite</rdfs:comment>
         <rdfs:label xml:lang="fr">Heterogeneite</rdfs:label>
     </Class>
@@ -2297,8 +2289,13 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Homoclitique -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Homoclitique">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Forme"/>
         <rdfs:comment xml:lang="fr">Homoclitique</rdfs:comment>
+        <rdfs:comment>Voir applatissement. Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_F.pdf
+
+Caractéristique de forme permettant d’attribuer une valeur numérique « résumant » le degré d’ « écrasement » ou « d’étalement » d’une fonction : fonction étale, ou aplatie.
+
+Source : http://jeanalain.monfort.free.fr/Dicostat2005/A/Aplatissement.pdf</rdfs:comment>
         <rdfs:label xml:lang="fr">Homoclitique</rdfs:label>
     </Class>
     
@@ -2307,8 +2304,11 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Homocurtique -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Homocurtique">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Forme"/>
         <rdfs:comment xml:lang="fr">Homocurtique</rdfs:comment>
+        <rdfs:comment>cf curtosis. Relatif à l&apos;applatissement d&apos;une distribution. 
+
+Source : http://jeanalain.monfort.free.fr/Dicostat2005/C/Curtosis.pdf</rdfs:comment>
         <rdfs:label xml:lang="fr">Homocurtique</rdfs:label>
     </Class>
     
@@ -2317,7 +2317,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Homogeneite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Homogeneite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprietePopulation"/>
         <rdfs:comment xml:lang="fr">Homogeneite</rdfs:comment>
         <rdfs:label xml:lang="fr">Homogeneite</rdfs:label>
     </Class>
@@ -2327,7 +2327,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Homoscedastique -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Homoscedastique">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprietePopulation"/>
         <rdfs:comment xml:lang="fr">Homoscedastique</rdfs:comment>
         <rdfs:label xml:lang="fr">Homoscedastique</rdfs:label>
     </Class>
@@ -2418,7 +2418,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Independance -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Independance">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
         <rdfs:comment xml:lang="fr">Independance</rdfs:comment>
         <rdfs:label xml:lang="fr">Independance</rdfs:label>
     </Class>
@@ -2520,7 +2520,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Indifference -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Indifference">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
         <rdfs:comment xml:lang="fr">Indifference</rdfs:comment>
         <rdfs:label xml:lang="fr">Indifference</rdfs:label>
     </Class>
@@ -2600,7 +2600,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Intensite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Intensite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
         <rdfs:comment xml:lang="fr">Intensite</rdfs:comment>
         <rdfs:label xml:lang="fr">Intensite</rdfs:label>
     </Class>
@@ -2720,7 +2720,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Isocurtique -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Isocurtique">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Forme"/>
         <rdfs:comment xml:lang="fr">Isocurtique</rdfs:comment>
         <rdfs:label xml:lang="fr">Isocurtique</rdfs:label>
     </Class>
@@ -2730,8 +2730,12 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Isomorphisme -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Isomorphisme">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
         <rdfs:comment xml:lang="fr">Isomorphisme</rdfs:comment>
+        <rdfs:comment xml:lang="fr">voir homomorphisme, application linéraire 
+Sources : 
+http://jeanalain.monfort.free.fr/Dicostat2005/index_I.pdf
+http://jeanalain.monfort.free.fr/Dicostat2005/A/Application_lineaire.pdf</rdfs:comment>
         <rdfs:label xml:lang="fr">Isomorphisme</rdfs:label>
     </Class>
     
@@ -2742,6 +2746,8 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Isotropie">
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
         <rdfs:comment xml:lang="fr">Isotropie</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Propriété selon laquelle une grandeur est équidistribuée (même « probabilité ») dans toutes les directions (cf loi directionnelle).
+Source : http://jeanalain.monfort.free.fr/Dicostat2005/I/Isotropie.pdf</rdfs:comment>
         <rdfs:label xml:lang="fr">Isotropie</rdfs:label>
     </Class>
     
@@ -3042,7 +3048,9 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Mesocurtique -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Mesocurtique">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Forme"/>
+        <rdfs:comment xml:lang="fr">(ni applati, ni pointu) (cf curtosis)
+Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment>
         <rdfs:comment xml:lang="fr">Mesocurtique</rdfs:comment>
         <rdfs:label xml:lang="fr">Mesocurtique</rdfs:label>
     </Class>
@@ -3305,20 +3313,10 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     
 
 
-    <!-- http://ontostats.univ-paris8.fr/terms/Ordination -->
-
-    <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Ordination">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
-        <rdfs:comment xml:lang="fr">Ordination</rdfs:comment>
-        <rdfs:label xml:lang="fr">Ordination</rdfs:label>
-    </Class>
-    
-
-
     <!-- http://ontostats.univ-paris8.fr/terms/Ordre -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Ordre">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable"/>
         <rdfs:comment xml:lang="fr">Ordre</rdfs:comment>
         <rdfs:label xml:lang="fr">Ordre</rdfs:label>
     </Class>
@@ -3358,7 +3356,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/OrthogonaliteDeParametre -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/OrthogonaliteDeParametre">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Orthogonal"/>
         <rdfs:comment xml:lang="fr">OrthogonaliteDeParametre</rdfs:comment>
         <rdfs:label xml:lang="fr">OrthogonaliteDeParametre</rdfs:label>
     </Class>
@@ -3650,7 +3648,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Precision -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Precision">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Significativite"/>
         <rdfs:comment xml:lang="fr">Precision</rdfs:comment>
         <rdfs:label xml:lang="fr">Precision</rdfs:label>
     </Class>
@@ -3766,16 +3764,6 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     
 
 
-    <!-- http://ontostats.univ-paris8.fr/terms/ProprieteAdditiveDKhiDeux -->
-
-    <Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProprieteAdditiveDKhiDeux">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
-        <rdfs:comment xml:lang="fr">ProprieteAdditiveDKhiDeux</rdfs:comment>
-        <rdfs:label xml:lang="fr">ProprieteAdditiveDKhiDeux</rdfs:label>
-    </Class>
-    
-
-
     <!-- http://ontostats.univ-paris8.fr/terms/Protocole -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Protocole">
@@ -3809,7 +3797,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/PuissanceDunTest -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/PuissanceDunTest">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
         <rdfs:comment xml:lang="fr">PuissanceDunTest</rdfs:comment>
         <rdfs:label xml:lang="fr">PuissanceDunTest</rdfs:label>
     </Class>
@@ -4042,7 +4030,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Reproducibilite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Reproducibilite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteExperience"/>
         <rdfs:comment xml:lang="fr">Reproducibilite</rdfs:comment>
         <rdfs:label xml:lang="fr">Reproducibilite</rdfs:label>
     </Class>
@@ -4122,7 +4110,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Robustesse -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Robustesse">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Robustesse</rdfs:comment>
         <rdfs:label xml:lang="fr">Robustesse</rdfs:label>
     </Class>
@@ -4182,7 +4170,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Scedasticite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Scedasticite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprietePopulation"/>
         <rdfs:comment xml:lang="fr">Scedasticite</rdfs:comment>
         <rdfs:label xml:lang="fr">Scedasticite</rdfs:label>
     </Class>
@@ -4245,16 +4233,6 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/EcartInterdecile"/>
         <rdfs:comment xml:lang="fr">SemiInterquartile</rdfs:comment>
         <rdfs:label xml:lang="fr">SemiInterquartile</rdfs:label>
-    </Class>
-    
-
-
-    <!-- http://ontostats.univ-paris8.fr/terms/SensibiliteEtLaSpecificite -->
-
-    <Class rdf:about="http://ontostats.univ-paris8.fr/terms/SensibiliteEtLaSpecificite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
-        <rdfs:comment xml:lang="fr">SensibiliteEtLaSpecificite</rdfs:comment>
-        <rdfs:label xml:lang="fr">SensibiliteEtLaSpecificite</rdfs:label>
     </Class>
     
 
@@ -4351,16 +4329,6 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     
 
 
-    <!-- http://ontostats.univ-paris8.fr/terms/Serre -->
-
-    <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Serre">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
-        <rdfs:comment xml:lang="fr">Serre</rdfs:comment>
-        <rdfs:label xml:lang="fr">Serre</rdfs:label>
-    </Class>
-    
-
-
     <!-- http://ontostats.univ-paris8.fr/terms/SeuilDacceptation -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/SeuilDacceptation">
@@ -4405,7 +4373,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Significativite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Significativite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Significativite</rdfs:comment>
         <rdfs:label xml:lang="fr">Significativite</rdfs:label>
     </Class>
@@ -4415,7 +4383,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Similarite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Similarite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
         <rdfs:comment xml:lang="fr">Similarite</rdfs:comment>
         <rdfs:label xml:lang="fr">Similarite</rdfs:label>
     </Class>
@@ -4425,7 +4393,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Similtude -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Similtude">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
         <rdfs:comment xml:lang="fr">Similtude</rdfs:comment>
         <rdfs:label xml:lang="fr">Similtude</rdfs:label>
     </Class>
@@ -4505,7 +4473,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Specificite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Specificite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Specificite</rdfs:comment>
         <rdfs:label xml:lang="fr">Specificite</rdfs:label>
     </Class>
@@ -4608,7 +4576,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Stochastique -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Stochastique">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariation"/>
         <rdfs:comment xml:lang="fr">Stochastique</rdfs:comment>
         <rdfs:label xml:lang="fr">Stochastique</rdfs:label>
     </Class>
@@ -4638,7 +4606,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Symetrie -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Symetrie">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Forme"/>
         <rdfs:comment xml:lang="fr">Symetrie</rdfs:comment>
         <rdfs:label xml:lang="fr">Symetrie</rdfs:label>
     </Class>
@@ -4648,7 +4616,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Systematique -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Systematique">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariation"/>
         <rdfs:comment xml:lang="fr">Systematique</rdfs:comment>
         <rdfs:label xml:lang="fr">Systematique</rdfs:label>
     </Class>
@@ -4781,7 +4749,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/TailleDeLechantillon -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/TailleDeLechantillon">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Taille"/>
         <rdfs:comment xml:lang="fr">TailleDeLechantillon</rdfs:comment>
         <rdfs:label xml:lang="fr">TailleDeLechantillon</rdfs:label>
     </Class>
@@ -5102,7 +5070,8 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-scheffe.h
     <!-- http://ontostats.univ-paris8.fr/terms/TestDhomogeneiteDesMoyennesDechantillons -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDhomogeneiteDesMoyennesDechantillons">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Comparer"/>
+        <equivalentClass rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
         <rdfs:comment xml:lang="fr">TestDhomogeneiteDesMoyennesDechantillons</rdfs:comment>
         <rdfs:label xml:lang="fr">TestDhomogeneiteDesMoyennesDechantillons</rdfs:label>
     </Class>
@@ -5385,7 +5354,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/Unimodal -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Unimodal">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteDistribution"/>
         <rdfs:comment xml:lang="fr">Unimodal</rdfs:comment>
         <rdfs:label xml:lang="fr">Unimodal</rdfs:label>
     </Class>
@@ -5496,7 +5465,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/ValiditeExterne -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/ValiditeExterne">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteExperience"/>
         <rdfs:comment xml:lang="fr">ValiditeExterne</rdfs:comment>
         <rdfs:label xml:lang="fr">ValiditeExterne</rdfs:label>
     </Class>
@@ -5506,7 +5475,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/ValiditeInterne -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/ValiditeInterne">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteExperience"/>
         <rdfs:comment xml:lang="fr">ValiditeInterne</rdfs:comment>
         <rdfs:label xml:lang="fr">ValiditeInterne</rdfs:label>
     </Class>
@@ -5516,7 +5485,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/Variabilite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Variabilite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable"/>
         <rdfs:comment xml:lang="fr">Variabilite</rdfs:comment>
         <rdfs:label xml:lang="fr">Variabilite</rdfs:label>
     </Class>
@@ -5960,7 +5929,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/Volatilite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Volatilite">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Volatilite</rdfs:comment>
         <rdfs:label xml:lang="fr">Volatilite</rdfs:label>
     </Class>
@@ -5971,6 +5940,10 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/Vraisemblance">
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:comment xml:lang="fr">Par définition, une (fonction de) vraisemblance est la dérivée de NIKODYM-RADONde la loi de probabilité d’une statistique (eg échantillon aléatoire) pr à une mesure,
+généralement positive, dominant cette loi (cf famille dominée de lois, fonction de vraisemblance).
+
+Source : http://jeanalain.monfort.free.fr/Dicostat2005/V/Vraisemblance.pdf</rdfs:comment>
         <rdfs:comment xml:lang="fr">Vraisemblance</rdfs:comment>
         <rdfs:label xml:lang="fr">Vraisemblance</rdfs:label>
     </Class>
@@ -5997,6 +5970,14 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ComparaisonGroupesIndependants -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ComparaisonGroupesIndependants">
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
+    </Class>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#Comparer -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Comparer">
@@ -6008,7 +5989,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://www.co-ode.org/ontologies/ont.owl#ComparerDesFrequences -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ComparerDesFrequences">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestDHomogeneite"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
     </Class>
     
 
@@ -6016,7 +5997,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestDhomogeneiteDesMoyennesDechantillons"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
     </Class>
     
 
@@ -6024,7 +6005,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://www.co-ode.org/ontologies/ont.owl#ComparerDesMédianes -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMédianes">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestDHomogeneite"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
     </Class>
     
 
@@ -6032,7 +6013,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://www.co-ode.org/ontologies/ont.owl#ComparerDesRangs -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ComparerDesRangs">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestDHomogeneite"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
     </Class>
     
 
@@ -6133,6 +6114,86 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteDistribution -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteDistribution">
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteEchantillonnage -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteEchantillonnage">
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteExperience -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteExperience">
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteObservations -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteObservations">
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprietePopulation -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprietePopulation">
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteProtocole -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteProtocole">
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable">
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteTest -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest">
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable">
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteVariation -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariation">
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+    </Class>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#ProtocoleBivarie -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProtocoleBivarie">
@@ -6153,6 +6214,22 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructure">
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Protocole"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructureParCroisement -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructureParCroisement">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructure"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructureParEmboitement -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructureParEmboitement">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructure"/>
     </Class>
     
 
