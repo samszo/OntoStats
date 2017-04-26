@@ -1171,6 +1171,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/DistributionDeProbabilite -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/DistributionDeProbabilite">
+        <equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/DistributionDechantillonnage"/>
         <equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/LoiDeProbabilite"/>
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Distribution"/>
         <rdfs:comment xml:lang="fr">DistributionDeProbabilite</rdfs:comment>
@@ -3334,7 +3335,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/OrdreAleatoire -->
 
     <Class rdf:about="http://ontostats.univ-paris8.fr/terms/OrdreAleatoire">
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
         <rdfs:comment xml:lang="fr">OrdreAleatoire</rdfs:comment>
         <rdfs:label xml:lang="fr">OrdreAleatoire</rdfs:label>
     </Class>
