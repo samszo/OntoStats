@@ -55,7 +55,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/Aleatoire -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Aleatoire">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteVariable"/>
         <rdfs:comment xml:lang="fr">Aleatoire</rdfs:comment>
         <rdfs:label xml:lang="fr">Aleatoire</rdfs:label>
         <rdfs:label xml:lang="fr">Aléatoire</rdfs:label>
@@ -299,7 +299,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/AnalyseDeLaCovariance -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/AnalyseDeLaCovariance">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#EtudeLiaison"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/EtudeLiaison"/>
         <dbpedia-owl:abstract xml:lang="en">Covariance is a measure of how much two variables change together and how strong the relationship is between them. Analysis of covariance (ANCOVA) is a general linear model which blends ANOVA and regression. ANCOVA evaluates </dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="de">Die Kovarianzanalyse (englisch analysis of covariance, ANCOVA) ist ein statistisches Verfahren, das Varianzanalyse und lineare Regressionsanalyse verbindet. Ziel ist es, die Auswirkung von in einem konkreten Experiment nicht </dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="es">El análisis de la covarianza o ANCOVA, acrónimo del inglés analysis of covariance, es un modelo lineal general con una variable cuantitativa y uno o más factores. El ANCOVA es una fusión del ANOVA y de la regresión lineal múl</dbpedia-owl:abstract>
@@ -428,7 +428,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/AnalyseDeLaVariance -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/AnalyseDeLaVariance">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesMoyennes"/>
         <dbpedia-owl:abstract xml:lang="hu">A varianciaanalízis számos, egyező szórású, normál eloszlású csoport átlagának összevetésére alkalmas statisztikai módszer, melyet angol megnevezésének kezdőbetűiből generálva: ANalysis Of VAriance = ANOVA-ként is ismernek.</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="de">Als Varianzanalyse (ANOVA von englisch analysis of variance) bezeichnet man eine große Gruppe datenanalytischer und strukturprüfender statistischer Verfahren, die zahlreiche unterschiedliche Anwendungen zulassen. Ihnen gemein</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="id">Analisis varians (analysis of variance, ANOVA) adalah suatu metode analisis statistika yang termasuk ke dalam cabang statistika inferensi. Dalam literatur Indonesia metode ini dikenal dengan berbagai nama lain, seperti analis</dbpedia-owl:abstract>
@@ -570,7 +570,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/AnalyseMultivariee -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/AnalyseMultivariee">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#EtudeLiaison"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/EtudeLiaison"/>
         <dbpedia-owl:abstract xml:lang="it">Con statistica multivariata s&apos;intende quella parte della statisticain cui l&apos;oggetto dell&apos;analisi è per sua natura formato da almeno due componenti,il che è spesso il caso nell&apos;ambito di scienze quali la medicina, psicologia, </dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="fr">En statistique, les analyses multivariées ont pour caractéristique de s&apos;intéresser à la distribution conjointe de plusieurs variables. Les analyses bivariées sont des cas particuliers à deux variables.Les analyses multivariée</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="eu">Estatistikan, aldagai anitzeko analisiak bereziki datu-multzo batean aldagai anitz jasotzen diren egoeretan erabiltzen diren teknika estatistikoen multzoa da. Teknika hauek metodo eta prozedura ezberdinak erabiltzen dituzten </dbpedia-owl:abstract>
@@ -686,7 +686,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/Appariement -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Appariement">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteProtocole"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteProtocole"/>
         <rdfs:comment xml:lang="fr">Appariement</rdfs:comment>
         <rdfs:label xml:lang="fr">Appariement</rdfs:label>
         <skos:altLabel xml:lang="fr"> appareillage</skos:altLabel>
@@ -739,7 +739,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/Arrondi -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Arrondi">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OperationsMathematiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/OperationsMathematiques"/>
         <rdfs:comment xml:lang="fr">Arrondi</rdfs:comment>
         <rdfs:label xml:lang="fr">Arrondi</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term2879.htm"/>
@@ -874,7 +874,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/AxiomesDeKolmogorov -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/AxiomesDeKolmogorov">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ReglesDInference"/>
         <dbpedia-owl:abstract xml:lang="pl">Aksjomaty Kołmogorowa to zbiór aksjomatów leżących u podstaw teorii prawdopodobieństwa. Ich twórcą jest rosyjski matematyk Andriej Kołmogorow.Prawdopodobieństwo zdarzenia E (oznaczane jako P(E)) jest określone na pewnym σ-cie</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="nl">De axioma&apos;s van de kansrekening zijn enkele door de Russische wiskundige Kolmogorov geformuleerde axioma&apos;s om een strenge onderbouwing te geven aan de kansrekening. Gedurende lange tijd werd kansrekening bedreven op grond van</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="en">In Kolmogorov&apos;s probability theory, the probability P of some event E, denoted , is usually defined in such a way that P satisfies the Kolmogorov axioms, named after the famous Russian mathematician Andrey Kolmogorov, which a</dbpedia-owl:abstract>
@@ -1060,7 +1060,7 @@
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/BiaisStatistique">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/Erreur"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ReglesDInference"/>
         <dbpedia-owl:abstract xml:lang="de">Erwartungstreue (selten Unverzerrtheit, englisch unbiasedness) bezeichnet in der mathematischen Statistik eine Eigenschaft einer Schätzfunktion (kurz: eines Schätzers). Ein Schätzer heißt erwartungstreu, wenn sein Erwartungsw</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="en">In statistics, the bias (or bias function) of an estimator is the difference between this estimator&apos;s expected value and the true value of the parameter being estimated. An estimator or decision rule with zero bias is called </dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="ru">Несмещённая оце́нка в математической статистике — это точечная оценка, математическое ожидание которой равно оцениваемому параметру.</dbpedia-owl:abstract>
@@ -1679,7 +1679,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/Coefficient -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Coefficient">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OperationsMathematiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/OperationsMathematiques"/>
         <dbpedia-owl:abstract xml:lang="hu">Az együttható egy olyan szám, esetenként paraméter, ami szorzótényező egy kifejezésben vagy egy sorban, sorozatban. A természettudományokban koefficiens néven is emlegetik a latin coefficere &apos;együtt hatni&apos; szóból.</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="nl">De term coëfficiënt wordt voornamelijk gebruikt in exacte wetenschappen, waaronder de wiskunde, de natuurkunde en de scheikunde, om een als constant beschouwde grootheid, zoals een parameter, een factor of een kengetal, aan t</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="de">Ein Koeffizient (von lat. coefficere „mitwirken“) ist eine zu einem anderen rechnerischen Ausdruck beigefügte Zahl bzw. Variable. Der Koeffizient ist ein Parameter bzw. eine Kennzahl (Physik, Ökonomie) oder ein Faktor (Chemie</dbpedia-owl:abstract>
@@ -2013,7 +2013,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/CoefficientDeFidelite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/CoefficientDeFidelite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestDAdequation"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestDAdequation"/>
         <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/TestDeNormalite"/>
         <rdfs:comment xml:lang="fr">CoefficientDeFidelite</rdfs:comment>
         <rdfs:label xml:lang="fr">CoefficientDeFidelite</rdfs:label>
@@ -2080,7 +2080,7 @@
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/CoefficientDeKuiper">
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestDeNormalite"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestNonParmetrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestNonParmetrique"/>
         <dbpedia-owl:abstract xml:lang="en">Kuiper&apos;s test is used in statistics to test that whether a given distribution, or family of distributions, is contradicted by evidence from a sample of data. It is named after Dutch mathematician Nicolaas Kuiper. Kuiper&apos;s tes</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="pt">O Teste de Kuiper é usado na estatística para testar se uma determinada distribuição, ou uma família de distribuições, é contrariada por evidências de uma amostra de dados. Recebe este nome em homenagem ao matemático holandês</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="it">Usato nell&apos;ambito della statistica non parametrica, il test di Kuiper (1962)è strettamente legato al più noto test di Kolmogorov-Smirnov.Come questo, vengono calcolate le quantità D+ and D-che rappresentano la deviazione mass</dbpedia-owl:abstract>
@@ -2155,7 +2155,7 @@
     <!-- http://ontostats.univ-paris8.fr/terms/CoefficientDeRegression -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/CoefficientDeRegression">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#EtudeLiaison"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/EtudeLiaison"/>
         <dbpedia-owl:abstract xml:lang="hu">A statisztikában a regressziószámítás, vagy regresszióanalízis során két vagy több véletlen változó között fennálló kapcsolatot modellezzük. A regressziós modell tulajdonságai alapján megkülönböztethetünk lineáris és nemlineá</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="id">Analisis regresi dalam statistika adalah salah satu metode untuk menentukan hubungan sebab-akibat antara satu variabel dengan variabel(-variabel) yang lain. Variabel &quot;penyebab&quot; disebut dengan bermacam-macam istilah: variabel </dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="eu">Artikulu hau estatistika prozedurari buruzkoa da; beste esanahietarako, ikus Erregresio (argipena).Estatistikan, erregresio Y aldagai batek X beste aldagai batekiko duen mendekotasuna adierazten duen ekuazioa zehazteko erabil</dbpedia-owl:abstract>
@@ -2237,7 +2237,7 @@
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/CoefficientDeTukey">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/TestQDeTukey"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Test_post_hoc"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Test_post_hoc"/>
         <rdfs:comment>Ce test post-hoc (ou test de comparaisons multiples) peut être utilisé pour déterminer les différences significatives entre les moyennes de groupes dans une analyse de variance
 
 http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:comment>
@@ -2482,9 +2482,9 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes">
-        <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestDHomogeneite"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Comparer"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestDAdequation"/>
+        <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/TestDHomogeneite"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Comparer"/>
+        <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/TestDAdequation"/>
         <rdfs:comment xml:lang="fr">ComparaisonEntreGroupes</rdfs:comment>
         <rdfs:label xml:lang="fr">ComparaisonEntreGroupes</rdfs:label>
         <skos:altLabel xml:lang="lt"> grupinis palyginimas</skos:altLabel>
@@ -2523,7 +2523,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ComparaisonsAppariees">
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparaisonGroupesIndependants"/>
+        <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonGroupesIndependants"/>
         <rdfs:comment xml:lang="fr">ComparaisonsAppariees</rdfs:comment>
         <rdfs:label xml:lang="fr">ComparaisonsAppariees</rdfs:label>
         <skos:altLabel xml:lang="es"> comparaciones pareadas</skos:altLabel>
@@ -2569,7 +2569,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Concentration -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Concentration">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Concentration</rdfs:comment>
         <rdfs:label xml:lang="fr">Concentration</rdfs:label>
         <skos:altLabel xml:lang="de"> Konzentration</skos:altLabel>
@@ -2695,7 +2695,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Condition -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Condition">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Condition</rdfs:comment>
         <rdfs:label xml:lang="fr">Condition</rdfs:label>
         <skos:altLabel xml:lang="no"> betingelse</skos:altLabel>
@@ -2745,7 +2745,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Conformite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Conformite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Conformite</rdfs:comment>
         <rdfs:label xml:lang="fr">Conformite</rdfs:label>
         <skos:altLabel xml:lang="lt"> atitikimas</skos:altLabel>
@@ -2880,7 +2880,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Continuite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Continuite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteVariable"/>
         <rdfs:comment xml:lang="fr">Continuite</rdfs:comment>
         <rdfs:label xml:lang="fr">Continuite</rdfs:label>
         <skos:altLabel xml:lang="eu"> etengabetasun</skos:altLabel>
@@ -2920,7 +2920,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Contraste -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Contraste">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Contraste</rdfs:comment>
         <rdfs:label xml:lang="fr">Contraste</rdfs:label>
         <skos:altLabel xml:lang="uk"> зіставляти</skos:altLabel>
@@ -2953,7 +2953,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/CorrectionDeBartlett -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/CorrectionDeBartlett">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Correction"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Correction"/>
         <rdfs:comment xml:lang="fr">CorrectionDeBartlett</rdfs:comment>
         <rdfs:label xml:lang="fr">CorrectionDeBartlett</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term252.htm"/>
@@ -3000,7 +3000,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/CorrectionDeContinuite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/CorrectionDeContinuite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Correction"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Correction"/>
         <rdfs:comment xml:lang="fr">CorrectionDeContinuite</rdfs:comment>
         <rdfs:label xml:lang="fr">CorrectionDeContinuite</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term745.htm"/>
@@ -3131,7 +3131,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/CorrectionDeSheppard -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/CorrectionDeSheppard">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Correction"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Correction"/>
         <rdfs:comment xml:lang="fr">CorrectionDeSheppard</rdfs:comment>
         <rdfs:label xml:lang="fr">CorrectionDeSheppard</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term2993.htm"/>
@@ -3176,7 +3176,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Correlation">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/IndiceDeCorrelation"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#EtudeLiaison"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/EtudeLiaison"/>
         <dbpedia-owl:abstract xml:lang="id">Dalam teori probabilitas dan statistika, korelasi, juga disebut koefisien korelasi, adalah nilai yang menunjukkan kekuatan dan arah hubungan linier antara dua peubah acak (random variable). Salah satu jenis korelasi yang pali</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="de">Eine Korrelation (vom mittellateinischen correlatio für „(die) Wechselbeziehung“) beschreibt eine Beziehung zwischen zwei oder mehreren Merkmalen, Ereignissen, Zuständen oder Funktionen. Zwischen Merkmalen, Ereignissen oder Z</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="es">En probabilidad y estadística, la correlación indica la fuerza y la dirección de una relación lineal y proporcionalidad entre dos variables estadísticas. Se considera que dos variables cuantitativas están correlacionadas cuan</dbpedia-owl:abstract>
@@ -3324,7 +3324,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/CorrelationLineaire -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/CorrelationLineaire">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CorrelationVariableNumerique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/CorrelationVariableNumerique"/>
         <rdfs:comment xml:lang="fr">CorrelationLineaire</rdfs:comment>
         <rdfs:label xml:lang="fr">CorrelationLineaire</rdfs:label>
         <skos:altLabel xml:lang="tr"> doğrusal ilişki</skos:altLabel>
@@ -3635,7 +3635,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Decomposition -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Decomposition">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Decomposition</rdfs:comment>
         <rdfs:label xml:lang="fr">Decomposition</rdfs:label>
         <skos:altLabel xml:lang="fi"> dekomponointi</skos:altLabel>
@@ -3680,7 +3680,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/DegresDeLiberte -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/DegresDeLiberte">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <dbpedia-owl:abstract xml:lang="tr">Diğer bilimler için serbestlik derecesi üzerindeki bilgiler için, bakın serbestlik derecesi: Serbestlik derecesi istatistik&apos;te bir istatistiğin kesin hesaplanmasında kullanılan değerlerin sayısının ne kadar değişme serbestisi</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="it">I gradi di libertà di una variabile aleatoria o di una statistica in genere, esprimono il numero minimo di dati sufficienti a valutare la quantità d&apos;informazione contenuta nella statistica. Infatti, quando un dato non è indip</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="en">In statistics, the number of degrees of freedom is the number of values in the final calculation of a statistic that are free to vary.The number of independent ways by which a dynamic system can move without violating any con</dbpedia-owl:abstract>
@@ -3873,7 +3873,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Dependance -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Dependance">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteRelationEntreVariable"/>
         <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/Independance"/>
         <rdfs:comment xml:lang="fr">Dependance</rdfs:comment>
         <rdfs:label xml:lang="fr">Dependance</rdfs:label>
@@ -4641,7 +4641,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Dichotomie -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Dichotomie">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Dichotomie</rdfs:comment>
         <rdfs:label xml:lang="fr">Dichotomie</rdfs:label>
         <skos:altLabel xml:lang="de"> Zweiteilung</skos:altLabel>
@@ -5099,7 +5099,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Distribution -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Distribution">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Tableau"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Tableau"/>
         <rdfs:comment xml:lang="fr">Distribution</rdfs:comment>
         <rdfs:label xml:lang="fr">Distribution</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term995.htm"/>
@@ -5340,7 +5340,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/DistributionAsymetrique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/DistributionAsymetrique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DistributionFormeRemarquable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/DistributionFormeRemarquable"/>
         <rdfs:comment xml:lang="fr">DistributionAsymetrique</rdfs:comment>
         <rdfs:label xml:lang="fr">DistributionAsymetrique</rdfs:label>
         <skos:altLabel xml:lang="fr"> distribution dissymétrique</skos:altLabel>
@@ -5384,7 +5384,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/DistributionAsymptotique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/DistributionAsymptotique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DistributionFormeRemarquable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/DistributionFormeRemarquable"/>
         <rdfs:comment xml:lang="fr">DistributionAsymptotique</rdfs:comment>
         <rdfs:label xml:lang="fr">DistributionAsymptotique</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://dbpedia.org/page/Asymptotic_distribution"/>
@@ -5429,7 +5429,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/DistributionBimodale -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/DistributionBimodale">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DistributionFormeRemarquable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/DistributionFormeRemarquable"/>
         <rdfs:comment xml:lang="fr">DistributionBimodale</rdfs:comment>
         <rdfs:label xml:lang="fr">DistributionBimodale</rdfs:label>
         <skos:altLabel xml:lang="nl"> bi-modale verdeling</skos:altLabel>
@@ -6669,7 +6669,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/DistributionDissymetrique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/DistributionDissymetrique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DistributionFormeRemarquable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/DistributionFormeRemarquable"/>
         <rdfs:comment xml:lang="fr">DistributionDissymetrique</rdfs:comment>
         <rdfs:label xml:lang="fr">DistributionDissymetrique</rdfs:label>
         <skos:altLabel xml:lang="fr"> distribution dissymétrique</skos:altLabel>
@@ -6842,7 +6842,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/DistributionMultimodale -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/DistributionMultimodale">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DistributionFormeRemarquable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/DistributionFormeRemarquable"/>
         <dbpedia-owl:abstract xml:lang="nl">Een kansverdeling heet bimodaal als er twee modi zijn, twee verschillende pieken. Dit betekent meestal dat er twee verschillende waarden zijn waar de metingen rond verdeeld zijn. Een goed voorbeeld van een bimodale kansverdel</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="de">Eine bimodale Verteilung ist in der Mathematik eine Wahrscheinlichkeitsverteilung oder Häufigkeitsverteilung, bei der die Dichte bzw. deren Schätzung zwei Modi aufweist. Sie ist eine multimodale Verteilung (auch mehrgipflig),</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="pt">Em estatística, uma distribuição bimodal é uma distribuição de probabilidade contínua com duas modas diferentes. Estas aparecem como picos distintos (máximo local) na função de densidade de probabilidade, como mostrada na Fig</dbpedia-owl:abstract>
@@ -7070,7 +7070,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/DistributionSymetrique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/DistributionSymetrique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DistributionFormeRemarquable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/DistributionFormeRemarquable"/>
         <rdfs:comment xml:lang="fr">DistributionSymetrique</rdfs:comment>
         <rdfs:label xml:lang="fr">DistributionSymetrique</rdfs:label>
         <skos:altLabel xml:lang="ru"> Симметричное распределение</skos:altLabel>
@@ -7191,7 +7191,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/DistributionUniforme -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/DistributionUniforme">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DistributionFormeRemarquable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/DistributionFormeRemarquable"/>
         <rdfs:comment xml:lang="fr">DistributionUniforme</rdfs:comment>
         <rdfs:label xml:lang="fr">DistributionUniforme</rdfs:label>
         <skos:altLabel xml:lang="de"> Gleichverteilung</skos:altLabel>
@@ -7255,7 +7255,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Diviseur -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Diviseur">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <dbpedia-owl:abstract xml:lang="eu">Artikuku hau zenbaki oso baten zatitzaileei buruzkoa da, zatiketa bateko zatitzaileari buruz jakiteko, ikus zatiketa eta zatiki baten izendatzaileari buruz jakiteko, ikus zatiki.Matematikan, zatitzailea zenbaki oso bat da, ze</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="hu">Az oszthatóság egy matematikai reláció, melynek tulajdonságait a számelmélet vizsgálja. Hagyományos értelemben akkor mondjuk, hogy az a és b természetes számok között (ebben a sorrendben) fennáll az oszthatósági reláció; rövi</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="nl">Een geheel getal a is een deler of factor van een geheel getal b, als er een geheel getal k bestaat waarvoor geldt dat ak = b. De bewering a is een deler van b wordt in de wiskunde meestal genoteerd als a | b.Een paar voorbee</dbpedia-owl:abstract>
@@ -7319,7 +7319,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/DivisibiliteInfinie -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/DivisibiliteInfinie">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteVariable"/>
         <rdfs:comment xml:lang="fr">DivisibiliteInfinie</rdfs:comment>
         <rdfs:label xml:lang="fr">DivisibiliteInfinie</rdfs:label>
         <skos:prefLabel xml:lang="ro">-</skos:prefLabel>
@@ -7355,7 +7355,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/DomaineDeVariation -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/DomaineDeVariation">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">DomaineDeVariation</rdfs:comment>
         <rdfs:label xml:lang="fr">DomaineDeVariation</rdfs:label>
         <skos:altLabel xml:lang="de"> Schwankungsbreite</skos:altLabel>
@@ -8276,7 +8276,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Echangeabilite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Echangeabilite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteObservations"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteObservations"/>
         <rdfs:comment xml:lang="fr">Echangeabilite</rdfs:comment>
         <rdfs:label xml:lang="fr">Echangeabilite</rdfs:label>
         <skos:altLabel xml:lang="de"> Austauschbarkeit</skos:altLabel>
@@ -8317,7 +8317,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Echangeable -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Echangeable">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteObservations"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteObservations"/>
         <rdfs:comment xml:lang="fr">Echangeable</rdfs:comment>
         <rdfs:label xml:lang="fr">Echangeable</rdfs:label>
         <skos:altLabel xml:lang="ca"> intercanviable (variables) </skos:altLabel>
@@ -8376,7 +8376,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Echantillon -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Echantillon">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SupportD&apos;information"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/SupportInformation"/>
         <rdfs:comment xml:lang="fr">Echantillon</rdfs:comment>
         <rdfs:label xml:lang="fr">Echantillon</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term2892.htm"/>
@@ -8482,7 +8482,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Echelle -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Echelle">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Echelle</rdfs:comment>
         <rdfs:label xml:lang="fr">Echelle</rdfs:label>
         <skos:altLabel xml:lang="lt"> didumas </skos:altLabel>
@@ -8535,7 +8535,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/EffetPrincipal -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/EffetPrincipal">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">EffetPrincipal</rdfs:comment>
         <rdfs:label xml:lang="fr">EffetPrincipal</rdfs:label>
         <skos:altLabel xml:lang="is"> aðalrif</skos:altLabel>
@@ -8578,7 +8578,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/EffetResiduelDuTraitement -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/EffetResiduelDuTraitement">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">EffetResiduelDuTraitement</rdfs:comment>
         <rdfs:label xml:lang="fr">EffetResiduelDuTraitement</rdfs:label>
         <skos:altLabel xml:lang="de"> Carry-Over-Effekt </skos:altLabel>
@@ -8649,7 +8649,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Efficacite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Efficacite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Efficacite</rdfs:comment>
         <rdfs:label xml:lang="fr">Efficacite</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term1075.htm"/>
@@ -8698,7 +8698,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/EliminationDeGauss -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/EliminationDeGauss">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RecoderMatrice"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/RecoderMatrice"/>
         <rdfs:comment xml:lang="fr">EliminationDeGauss</rdfs:comment>
         <rdfs:label xml:lang="fr">EliminationDeGauss</rdfs:label>
         <skos:altLabel xml:lang="lt"> Gauso eliminavimas </skos:altLabel>
@@ -8765,7 +8765,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Enquete">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/Liste"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RecueilDeDonnees"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/RecueilDeDonnees"/>
         <rdfs:comment xml:lang="fr">Enquete</rdfs:comment>
         <rdfs:label xml:lang="fr">Enquete</rdfs:label>
         <skos:altLabel xml:lang="de"> Untersuchung</skos:altLabel>
@@ -8832,7 +8832,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Ensemble -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Ensemble">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Ensemble</rdfs:comment>
         <rdfs:label xml:lang="fr">Ensemble</rdfs:label>
         <skos:altLabel xml:lang="ru">   статистическая совокупность </skos:altLabel>
@@ -8922,7 +8922,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Erreur -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Erreur">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ReglesDInference"/>
         <rdfs:comment xml:lang="fr">Erreur</rdfs:comment>
         <rdfs:label xml:lang="fr">Erreur</rdfs:label>
         <skos:altLabel xml:lang="eu"> akats</skos:altLabel>
@@ -10204,7 +10204,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Essai -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Essai">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Essai</rdfs:comment>
         <rdfs:label xml:lang="fr">Essai</rdfs:label>
         <skos:altLabel xml:lang="fi"> (kontrolloitavissa oleva) koe</skos:altLabel>
@@ -10308,7 +10308,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Estimateur -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Estimateur">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Estimateur</rdfs:comment>
         <rdfs:label xml:lang="fr">Estimateur</rdfs:label>
         <skos:altLabel xml:lang="de"> Schätzfunktion</skos:altLabel>
@@ -10647,7 +10647,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Exactitude -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Exactitude">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Exactitude</rdfs:comment>
         <rdfs:label xml:lang="fr">Exactitude</rdfs:label>
         <skos:altLabel xml:lang="de"> Exaktheit</skos:altLabel>
@@ -10761,7 +10761,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Exhaustivite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Exhaustivite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteVariable"/>
         <rdfs:comment xml:lang="fr">Exhaustivite</rdfs:comment>
         <rdfs:label xml:lang="fr">Exhaustivite</rdfs:label>
         <skos:altLabel xml:lang="is"> tæmanleiki</skos:altLabel>
@@ -10799,7 +10799,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Experience -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Experience">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RecueilDeDonnees"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/RecueilDeDonnees"/>
         <rdfs:comment xml:lang="fr">Experience</rdfs:comment>
         <rdfs:label xml:lang="fr">Experience</rdfs:label>
         <skos:altLabel xml:lang="fi"> (kontrolloitavissa oleva) koe</skos:altLabel>
@@ -11143,7 +11143,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/FeuilleDanalyse -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/FeuilleDanalyse">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Outils"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Outils"/>
         <rdfs:comment xml:lang="fr">FeuilleDanalyse</rdfs:comment>
         <rdfs:label xml:lang="fr">FeuilleDanalyse</rdfs:label>
         <skos:altLabel xml:lang="fr"> feuille de calcul </skos:altLabel>
@@ -11180,7 +11180,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/FeuilleDeCalcul -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/FeuilleDeCalcul">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Outils"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Outils"/>
         <rdfs:comment xml:lang="fr">FeuilleDeCalcul</rdfs:comment>
         <rdfs:label xml:lang="fr">FeuilleDeCalcul</rdfs:label>
         <skos:altLabel xml:lang="fr"> feuille de calcul </skos:altLabel>
@@ -11217,7 +11217,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/FeuilleDeTravail -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/FeuilleDeTravail">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Outils"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Outils"/>
         <rdfs:comment xml:lang="fr">FeuilleDeTravail</rdfs:comment>
         <rdfs:label xml:lang="fr">FeuilleDeTravail</rdfs:label>
         <skos:altLabel xml:lang="fr"> feuille de calcul </skos:altLabel>
@@ -11255,7 +11255,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Fiabilite">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/FiabiliteStatistique"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Fiabilite</rdfs:comment>
         <rdfs:label xml:lang="fr">Fiabilite</rdfs:label>
         <skos:altLabel xml:lang="it"> attendibilità</skos:altLabel>
@@ -11308,7 +11308,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/FiabiliteStatistique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/FiabiliteStatistique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteTest"/>
         <rdfs:comment xml:lang="fr">FiabiliteStatistique</rdfs:comment>
         <rdfs:label xml:lang="fr">FiabiliteStatistique</rdfs:label>
         <skos:altLabel xml:lang="it"> attendibilità</skos:altLabel>
@@ -11410,7 +11410,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/ForceDunTest -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ForceDunTest">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteTest"/>
         <rdfs:comment xml:lang="fr">ForceDunTest</rdfs:comment>
         <rdfs:label xml:lang="fr">ForceDunTest</rdfs:label>
         <skos:altLabel xml:lang="de"> Güte eines Tests</skos:altLabel>
@@ -11479,7 +11479,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Forme -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Forme">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteDistribution"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteDistribution"/>
         <rdfs:comment xml:lang="fr">Forme</rdfs:comment>
         <rdfs:label xml:lang="fr">Forme</rdfs:label>
         <skos:altLabel xml:lang="lt"> formos</skos:altLabel>
@@ -11917,7 +11917,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Frequenciste -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Frequenciste">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteEchantillonnage"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteEchantillonnage"/>
         <rdfs:comment xml:lang="fr">Frequenciste</rdfs:comment>
         <rdfs:label xml:lang="fr">Frequenciste</rdfs:label>
         <skos:prefLabel xml:lang="it">-</skos:prefLabel>
@@ -11945,7 +11945,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/GrandeursMesurables -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/GrandeursMesurables">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">GrandeursMesurables</rdfs:comment>
         <rdfs:label xml:lang="fr">GrandeursMesurables</rdfs:label>
         <skos:altLabel xml:lang="lt"> ekstensyvieji matmenys </skos:altLabel>
@@ -12241,7 +12241,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Grappe -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Grappe">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment>Cluster</rdfs:comment>
         <rdfs:comment xml:lang="fr">Grappe</rdfs:comment>
         <rdfs:label xml:lang="fr">Grappe</rdfs:label>
@@ -12302,7 +12302,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Grille -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Grille">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Outils"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Outils"/>
         <rdfs:comment xml:lang="fr">Grille</rdfs:comment>
         <rdfs:label xml:lang="fr">Grille</rdfs:label>
         <skos:altLabel xml:lang="de"> Gitter</skos:altLabel>
@@ -12347,7 +12347,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Groupe -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Groupe">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SupportD&apos;information"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/SupportInformation"/>
         <rdfs:comment xml:lang="fr">Groupe</rdfs:comment>
         <rdfs:label xml:lang="fr">Groupe</rdfs:label>
         <skos:altLabel xml:lang="de"> Klasse</skos:altLabel>
@@ -12390,7 +12390,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Hasard -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Hasard">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Hasard</rdfs:comment>
         <rdfs:label xml:lang="fr">Hasard</rdfs:label>
         <skos:altLabel xml:lang="es"> aleatorio</skos:altLabel>
@@ -12451,7 +12451,7 @@ http://www.statsoft.fr/concepts-statistiques/glossaire/t/tukey-hsd.html</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/Heterogeneite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Heterogeneite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprietePopulation"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprietePopulation"/>
         <rdfs:comment xml:lang="fr">Heterogeneite</rdfs:comment>
         <rdfs:label xml:lang="fr">Heterogeneite</rdfs:label>
         <skos:altLabel xml:lang="fi"> aineistosta johtuva mallien ja parametrien erilaisuus</skos:altLabel>
@@ -12723,7 +12723,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/C/Curtosis.pdf</rdfs:comm
     <!-- http://ontostats.univ-paris8.fr/terms/Homogeneite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Homogeneite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprietePopulation"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprietePopulation"/>
         <rdfs:comment xml:lang="fr">Homogeneite</rdfs:comment>
         <rdfs:label xml:lang="fr">Homogeneite</rdfs:label>
         <skos:altLabel xml:lang="de"> Einheitlichkeit </skos:altLabel>
@@ -12773,7 +12773,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/C/Curtosis.pdf</rdfs:comm
     <!-- http://ontostats.univ-paris8.fr/terms/Homoscedastique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Homoscedastique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprietePopulation"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprietePopulation"/>
         <rdfs:comment xml:lang="fr">Homoscedastique</rdfs:comment>
         <rdfs:label xml:lang="fr">Homoscedastique</rdfs:label>
         <skos:altLabel xml:lang="et"> püsihajuv</skos:altLabel>
@@ -13203,7 +13203,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/C/Curtosis.pdf</rdfs:comm
     <!-- http://ontostats.univ-paris8.fr/terms/Independance -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Independance">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteRelationEntreVariable"/>
         <rdfs:comment xml:lang="fr">Independance</rdfs:comment>
         <rdfs:label xml:lang="fr">Independance</rdfs:label>
         <skos:prefLabel xml:lang="ro">-</skos:prefLabel>
@@ -13331,7 +13331,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/C/Curtosis.pdf</rdfs:comm
     <!-- http://ontostats.univ-paris8.fr/terms/IndiceCorrige -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/IndiceCorrige">
-        <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Correction"/>
+        <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/Correction"/>
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Estimation"/>
         <rdfs:comment xml:lang="fr">IndiceCorrige</rdfs:comment>
         <rdfs:label xml:lang="fr">IndiceCorrige</rdfs:label>
@@ -13404,7 +13404,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/C/Curtosis.pdf</rdfs:comm
     <!-- http://ontostats.univ-paris8.fr/terms/IndiceDeCorrelation -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/IndiceDeCorrelation">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#EtudeLiaison"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/EtudeLiaison"/>
         <rdfs:comment xml:lang="fr">IndiceDeCorrelation</rdfs:comment>
         <rdfs:label xml:lang="fr">IndiceDeCorrelation</rdfs:label>
         <skos:altLabel xml:lang="tr"> ilişki indeksi</skos:altLabel>
@@ -13609,7 +13609,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/C/Curtosis.pdf</rdfs:comm
     <!-- http://ontostats.univ-paris8.fr/terms/Indifference -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Indifference">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteRelationEntreVariable"/>
         <rdfs:comment xml:lang="fr">Indifference</rdfs:comment>
         <rdfs:label xml:lang="fr">Indifference</rdfs:label>
         <skos:altLabel xml:lang="ca"> regió o zona d&apos;indiferència</skos:altLabel>
@@ -13649,7 +13649,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/C/Curtosis.pdf</rdfs:comm
     <!-- http://ontostats.univ-paris8.fr/terms/Induction -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Induction">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ReglesDInference"/>
         <rdfs:comment xml:lang="fr">Induction</rdfs:comment>
         <rdfs:label xml:lang="fr">Induction</rdfs:label>
         <skos:altLabel xml:lang="uk"> наведення</skos:altLabel>
@@ -13894,7 +13894,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/C/Curtosis.pdf</rdfs:comm
     <!-- http://ontostats.univ-paris8.fr/terms/Intensite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Intensite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteRelationEntreVariable"/>
         <rdfs:comment xml:lang="fr">Intensite</rdfs:comment>
         <rdfs:label xml:lang="fr">Intensite</rdfs:label>
         <skos:altLabel xml:lang="nl"> leeftijdsspecifieke sterftekans</skos:altLabel>
@@ -14110,7 +14110,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/C/Curtosis.pdf</rdfs:comm
     <!-- http://ontostats.univ-paris8.fr/terms/Intervalle -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Intervalle">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Intervalle</rdfs:comment>
         <rdfs:label xml:lang="fr">Intervalle</rdfs:label>
         <skos:altLabel xml:lang="de"> Schwankungsbreite</skos:altLabel>
@@ -14342,7 +14342,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/C/Curtosis.pdf</rdfs:comm
     <!-- http://ontostats.univ-paris8.fr/terms/Invariant -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Invariant">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Invariant</rdfs:comment>
         <rdfs:label xml:lang="fr">Invariant</rdfs:label>
         <skos:altLabel xml:lang="tr"> daima</skos:altLabel>
@@ -14373,7 +14373,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/C/Curtosis.pdf</rdfs:comm
     <!-- http://ontostats.univ-paris8.fr/terms/Inversion -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Inversion">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TransformationVariable"/>
         <rdfs:comment xml:lang="fr">Inversion</rdfs:comment>
         <rdfs:label xml:lang="fr">Inversion</rdfs:label>
         <skos:altLabel xml:lang="de"> Umkehrung</skos:altLabel>
@@ -14450,7 +14450,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/C/Curtosis.pdf</rdfs:comm
     <!-- http://ontostats.univ-paris8.fr/terms/Isomorphisme -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Isomorphisme">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteRelationEntreVariable"/>
         <rdfs:comment xml:lang="fr">Isomorphisme</rdfs:comment>
         <rdfs:comment xml:lang="fr">voir homomorphisme, application linéraire 
 Sources : 
@@ -14576,7 +14576,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/I/Isotropie.pdf</rdfs:com
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Kappa">
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/CoefficientDeFidelite"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestNonParmetrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestNonParmetrique"/>
         <dbpedia-owl:abstract xml:lang="tr">Cohen&apos;in kappa katsayısı iki değerleyici arasındaki karşılaştırmalı uyuşmanın güvenirliğini ölçen bir istatistik yöntemidir. Cohen&apos;in kappa ölçüsü her biri N tane maddeyi C tane birbirinden karşılıklı hariç olan kategoriye ay</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="en">Cohen&apos;s kappa coefficient is a statistical measure of inter-rater agreement or inter-annotator agreement for qualitative (categorical) items. It is generally thought to be a more robust measure than simple percent agreement c</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="es">El Coeficiente kappa de Cohen es una medida estadística que ajusta el efecto del azar en la proporción de la concordancia observada. para los elementos cualitativos (variables categóricas). En general se cree que es una medid</dbpedia-owl:abstract>
@@ -14648,7 +14648,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/I/Isotropie.pdf</rdfs:com
     <!-- http://ontostats.univ-paris8.fr/terms/LaTransformationRang -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/LaTransformationRang">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TransformationVariable"/>
         <rdfs:comment xml:lang="fr">LaTransformationRang</rdfs:comment>
         <rdfs:label xml:lang="fr">LaTransformationRang</rdfs:label>
         <skos:altLabel xml:lang="de"> Rangtransformation</skos:altLabel>
@@ -14798,7 +14798,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/I/Isotropie.pdf</rdfs:com
     <!-- http://ontostats.univ-paris8.fr/terms/Lien -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Lien">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Lien</rdfs:comment>
         <rdfs:label xml:lang="fr">Lien</rdfs:label>
         <skos:altLabel xml:lang="pt"> encadeamento</skos:altLabel>
@@ -14845,7 +14845,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/I/Isotropie.pdf</rdfs:com
     <!-- http://ontostats.univ-paris8.fr/terms/LigneDeBase -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/LigneDeBase">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">LigneDeBase</rdfs:comment>
         <rdfs:label xml:lang="fr">LigneDeBase</rdfs:label>
         <skos:altLabel xml:lang="de"> Basislinie</skos:altLabel>
@@ -15003,7 +15003,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/I/Isotropie.pdf</rdfs:com
     <!-- http://ontostats.univ-paris8.fr/terms/Lisrel -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Lisrel">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Logiciels"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Logiciels"/>
         <rdfs:comment xml:lang="fr">Lisrel</rdfs:comment>
         <rdfs:label xml:lang="fr">Lisrel</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term1935.htm"/>
@@ -15036,7 +15036,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/I/Isotropie.pdf</rdfs:com
     <!-- http://ontostats.univ-paris8.fr/terms/Lissage -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Lissage">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TransformationVariable"/>
         <rdfs:comment xml:lang="fr">Lissage</rdfs:comment>
         <rdfs:label xml:lang="fr">Lissage</rdfs:label>
         <skos:altLabel xml:lang="es"> ajustamiento</skos:altLabel>
@@ -15125,7 +15125,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/I/Isotropie.pdf</rdfs:com
     <!-- http://ontostats.univ-paris8.fr/terms/Liste -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Liste">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RecueilDeDonnees"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/RecueilDeDonnees"/>
         <rdfs:comment xml:lang="fr">Liste</rdfs:comment>
         <rdfs:label xml:lang="fr">Liste</rdfs:label>
         <skos:altLabel xml:lang="de"> Formular </skos:altLabel>
@@ -15208,7 +15208,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/I/Isotropie.pdf</rdfs:com
     <!-- http://ontostats.univ-paris8.fr/terms/LitteratieStatistique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/LitteratieStatistique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">LitteratieStatistique</rdfs:comment>
         <rdfs:label xml:lang="fr">LitteratieStatistique</rdfs:label>
         <skos:prefLabel xml:lang="ca">-</skos:prefLabel>
@@ -15746,7 +15746,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/I/Isotropie.pdf</rdfs:com
     <!-- http://ontostats.univ-paris8.fr/terms/MatriceDesCorrelations -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/MatriceDesCorrelations">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Matrice"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Matrice"/>
         <rdfs:comment xml:lang="fr">MatriceDesCorrelations</rdfs:comment>
         <rdfs:label xml:lang="fr">MatriceDesCorrelations</rdfs:label>
         <skos:altLabel xml:lang="tr"> ilişki matrisi</skos:altLabel>
@@ -15792,7 +15792,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/I/Isotropie.pdf</rdfs:com
     <!-- http://ontostats.univ-paris8.fr/terms/MatriceDesCovariances -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/MatriceDesCovariances">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Matrice"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Matrice"/>
         <rdfs:comment xml:lang="fr">MatriceDesCovariances</rdfs:comment>
         <rdfs:label xml:lang="fr">MatriceDesCovariances</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term789.htm"/>
@@ -15862,7 +15862,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/I/Isotropie.pdf</rdfs:com
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Mediane">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/ValeurMediane"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IndiceTendanceCentrale"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/IndiceTendanceCentrale"/>
         <rdfs:comment xml:lang="fr">Mediane</rdfs:comment>
         <rdfs:label xml:lang="fr">Mediane</rdfs:label>
         <skos:altLabel xml:lang="de"> Zentralwert</skos:altLabel>
@@ -16173,7 +16173,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Minitab -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Minitab">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Logiciels"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Logiciels"/>
         <rdfs:comment xml:lang="fr">Minitab</rdfs:comment>
         <rdfs:label xml:lang="fr">Minitab</rdfs:label>
         <skos:prefLabel xml:lang="it">-</skos:prefLabel>
@@ -16189,7 +16189,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/MiseEnOrdre -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/MiseEnOrdre">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TransformationVariable"/>
         <rdfs:comment xml:lang="fr">MiseEnOrdre</rdfs:comment>
         <rdfs:label xml:lang="fr">MiseEnOrdre</rdfs:label>
         <skos:altLabel xml:lang="pl"> klasyfikacja </skos:altLabel>
@@ -16318,7 +16318,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Moyenne">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/ValeurMoyenne"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IndiceTendanceCentrale"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/IndiceTendanceCentrale"/>
         <rdfs:comment xml:lang="fr">Moyenne</rdfs:comment>
         <rdfs:label xml:lang="fr">Moyenne</rdfs:label>
         <skos:altLabel xml:lang="de"> Durchschnitt </skos:altLabel>
@@ -16779,7 +16779,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/NonParametrique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/NonParametrique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">NonParametrique</rdfs:comment>
         <rdfs:label xml:lang="fr">NonParametrique</rdfs:label>
         <skos:altLabel xml:lang="fi"> jakaumasta riippumaton</skos:altLabel>
@@ -17248,7 +17248,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Ordre -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Ordre">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteVariable"/>
         <rdfs:comment xml:lang="fr">Ordre</rdfs:comment>
         <rdfs:label xml:lang="fr">Ordre</rdfs:label>
         <skos:altLabel xml:lang="et"> andmerida </skos:altLabel>
@@ -17329,7 +17329,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/OrdreAleatoire -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/OrdreAleatoire">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">OrdreAleatoire</rdfs:comment>
         <rdfs:label xml:lang="fr">OrdreAleatoire</rdfs:label>
         <skos:altLabel xml:lang="eu"> ordena aleatorio</skos:altLabel>
@@ -17371,7 +17371,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Origine -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Origine">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Origine</rdfs:comment>
         <rdfs:label xml:lang="fr">Origine</rdfs:label>
         <skos:altLabel xml:lang="tr"> bir sayı sistemindeki temel sayı</skos:altLabel>
@@ -17505,7 +17505,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/ParadoxeDeLindley -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ParadoxeDeLindley">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Paradoxe"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Paradoxe"/>
         <rdfs:comment xml:lang="fr">ParadoxeDeLindley</rdfs:comment>
         <rdfs:label xml:lang="fr">ParadoxeDeLindley</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term1903.htm"/>
@@ -17540,7 +17540,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/ParadoxeDeSimpson -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ParadoxeDeSimpson">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Paradoxe"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Paradoxe"/>
         <rdfs:comment xml:lang="fr">ParadoxeDeSimpson</rdfs:comment>
         <rdfs:label xml:lang="fr">ParadoxeDeSimpson</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term3027.htm"/>
@@ -17592,7 +17592,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/ParadoxeDeStPetersburg -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ParadoxeDeStPetersburg">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Paradoxe"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Paradoxe"/>
         <rdfs:comment xml:lang="fr">ParadoxeDeStPetersburg</rdfs:comment>
         <rdfs:label xml:lang="fr">ParadoxeDeStPetersburg</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term3117.htm"/>
@@ -17646,7 +17646,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/ParadoxeDeStein -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ParadoxeDeStein">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Paradoxe"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Paradoxe"/>
         <rdfs:comment xml:lang="fr">ParadoxeDeStein</rdfs:comment>
         <rdfs:label xml:lang="fr">ParadoxeDeStein</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term3153.htm"/>
@@ -18280,7 +18280,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Poids -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Poids">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Poids</rdfs:comment>
         <rdfs:label xml:lang="fr">Poids</rdfs:label>
         <skos:altLabel xml:lang="de"> Gewichtsfaktor</skos:altLabel>
@@ -18413,7 +18413,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Ponderation -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Ponderation">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OperationsMathematiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/OperationsMathematiques"/>
         <rdfs:comment xml:lang="fr">Ponderation</rdfs:comment>
         <rdfs:label xml:lang="fr">Ponderation</rdfs:label>
         <skos:altLabel xml:lang="de"> Gewichtung</skos:altLabel>
@@ -18459,7 +18459,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Population">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/PopulationStatistique"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SupportD&apos;information"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/SupportInformation"/>
         <rdfs:comment xml:lang="fr">Population</rdfs:comment>
         <rdfs:label xml:lang="fr">Population</rdfs:label>
         <skos:altLabel xml:lang="ru">   статистическая совокупность </skos:altLabel>
@@ -18642,7 +18642,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/PopulationStatistique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/PopulationStatistique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SupportD&apos;information"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/SupportInformation"/>
         <rdfs:comment xml:lang="fr">PopulationStatistique</rdfs:comment>
         <rdfs:label xml:lang="fr">PopulationStatistique</rdfs:label>
         <skos:altLabel xml:lang="ro"> colectivitate statistică</skos:altLabel>
@@ -18686,7 +18686,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/PostulatDeBayes">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/TheoremeDeBayes"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ReglesDInference"/>
         <rdfs:comment xml:lang="fr">PostulatDeBayes</rdfs:comment>
         <rdfs:label xml:lang="fr">PostulatDeBayes</rdfs:label>
         <skos:altLabel xml:lang="lt"> Bajeso postulatas</skos:altLabel>
@@ -19422,7 +19422,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Protocole -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Protocole">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Tableau"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Tableau"/>
         <rdfs:comment xml:lang="fr">Protocole</rdfs:comment>
         <rdfs:label xml:lang="fr">Protocole</rdfs:label>
         <skos:altLabel xml:lang="fi"> säännöstö</skos:altLabel>
@@ -19488,7 +19488,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Psychometrie -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Psychometrie">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Psychometrie</rdfs:comment>
         <rdfs:label xml:lang="fr">Psychometrie</rdfs:label>
         <skos:altLabel xml:lang="tr"> psiko-olcum</skos:altLabel>
@@ -19513,7 +19513,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/PuissanceDunTest -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/PuissanceDunTest">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteTest"/>
         <rdfs:comment xml:lang="fr">PuissanceDunTest</rdfs:comment>
         <rdfs:label xml:lang="fr">PuissanceDunTest</rdfs:label>
         <skos:altLabel xml:lang="de"> Güte eines Tests</skos:altLabel>
@@ -19866,7 +19866,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Quotient">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/Rapport"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OperationsMathematiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/OperationsMathematiques"/>
         <rdfs:comment xml:lang="fr">Quotient</rdfs:comment>
         <rdfs:label xml:lang="fr">Quotient</rdfs:label>
         <skos:altLabel xml:lang="pl"> iloraz</skos:altLabel>
@@ -19927,7 +19927,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/R -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/R">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Logiciels"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Logiciels"/>
         <rdfs:comment xml:lang="fr">R</rdfs:comment>
         <rdfs:label xml:lang="fr">R</rdfs:label>
         <skos:altLabel xml:lang="fi"> eräs paljon käytetty tilasto-ohjelmisto</skos:altLabel>
@@ -19944,7 +19944,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Racine -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Racine">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OperationsMathematiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/OperationsMathematiques"/>
         <rdfs:comment xml:lang="fr">Racine</rdfs:comment>
         <rdfs:label xml:lang="fr">Racine</rdfs:label>
         <skos:altLabel xml:lang="tr"> bir sayı sistemindeki temel sayı</skos:altLabel>
@@ -19983,7 +19983,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Raison -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Raison">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Raison</rdfs:comment>
         <rdfs:label xml:lang="fr">Raison</rdfs:label>
         <skos:altLabel xml:lang="pl"> iloraz</skos:altLabel>
@@ -20146,7 +20146,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Rapport">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/Ratio"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OperationsMathematiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/OperationsMathematiques"/>
         <rdfs:comment xml:lang="fr">Rapport</rdfs:comment>
         <rdfs:label xml:lang="fr">Rapport</rdfs:label>
         <skos:altLabel xml:lang="pl"> iloraz</skos:altLabel>
@@ -20207,7 +20207,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Ratio -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Ratio">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OperationsMathematiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/OperationsMathematiques"/>
         <rdfs:comment xml:lang="fr">Ratio</rdfs:comment>
         <rdfs:label xml:lang="fr">Ratio</rdfs:label>
         <skos:altLabel xml:lang="pl"> iloraz</skos:altLabel>
@@ -20370,7 +20370,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/RegleDeDecision -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/RegleDeDecision">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ReglesDInference"/>
         <rdfs:comment xml:lang="fr">RegleDeDecision</rdfs:comment>
         <rdfs:label xml:lang="fr">RegleDeDecision</rdfs:label>
         <skos:altLabel xml:lang="de"> Entscheidungsregel</skos:altLabel>
@@ -20572,7 +20572,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Reproducibilite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Reproducibilite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteExperience"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteExperience"/>
         <rdfs:comment xml:lang="fr">Reproducibilite</rdfs:comment>
         <rdfs:label xml:lang="fr">Reproducibilite</rdfs:label>
         <skos:altLabel xml:lang="nl"> nauwkeurigheid</skos:altLabel>
@@ -20614,7 +20614,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/ReseauBayesien -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ReseauBayesien">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">ReseauBayesien</rdfs:comment>
         <rdfs:label xml:lang="fr">ReseauBayesien</rdfs:label>
         <skos:altLabel xml:lang="en"> belief network</skos:altLabel>
@@ -20659,7 +20659,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Residu -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Residu">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Residu</rdfs:comment>
         <rdfs:label xml:lang="fr">Residu</rdfs:label>
         <skos:altLabel xml:lang="de"> Residuum </skos:altLabel>
@@ -20957,7 +20957,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Robustesse -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Robustesse">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Robustesse</rdfs:comment>
         <rdfs:label xml:lang="fr">Robustesse</rdfs:label>
         <skos:altLabel xml:lang="pl"> elastyczność testu</skos:altLabel>
@@ -21088,7 +21088,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/SPlus -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/SPlus">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Logiciels"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Logiciels"/>
         <rdfs:comment xml:lang="fr">SPlus</rdfs:comment>
         <rdfs:label xml:lang="fr">SPlus</rdfs:label>
         <skos:altLabel xml:lang="nl"> statistische software</skos:altLabel>
@@ -21106,7 +21106,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Sas -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Sas">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Logiciels"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Logiciels"/>
         <rdfs:comment xml:lang="fr">Sas</rdfs:comment>
         <rdfs:label xml:lang="fr">Sas</rdfs:label>
         <skos:altLabel xml:lang="it"> SAS</skos:altLabel>
@@ -21132,7 +21132,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Saturation -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Saturation">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Saturation</rdfs:comment>
         <rdfs:label xml:lang="fr">Saturation</rdfs:label>
         <skos:altLabel xml:lang="de"> Faktorbewertung </skos:altLabel>
@@ -21197,7 +21197,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Scedasticite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Scedasticite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprietePopulation"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprietePopulation"/>
         <rdfs:comment xml:lang="fr">Scedasticite</rdfs:comment>
         <rdfs:label xml:lang="fr">Scedasticite</rdfs:label>
         <skos:altLabel xml:lang="fi"> jäännösvarianssin vakioisuus</skos:altLabel>
@@ -21233,7 +21233,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Score -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Score">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OperationsMathematiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/OperationsMathematiques"/>
         <rdfs:comment xml:lang="fr">Score</rdfs:comment>
         <rdfs:label xml:lang="fr">Score</rdfs:label>
         <skos:altLabel xml:lang="de"> Punkt (bei Bewertungen)</skos:altLabel>
@@ -21579,7 +21579,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Serie">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/SerieStatistique"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Tableau"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Tableau"/>
         <rdfs:comment xml:lang="fr">Serie</rdfs:comment>
         <rdfs:label xml:lang="fr">Serie</rdfs:label>
         <skos:altLabel xml:lang="de"> Reihe</skos:altLabel>
@@ -21907,7 +21907,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/SerieStatistique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/SerieStatistique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Tableau"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Tableau"/>
         <rdfs:comment xml:lang="fr">SerieStatistique</rdfs:comment>
         <rdfs:label xml:lang="fr">SerieStatistique</rdfs:label>
         <skos:altLabel xml:lang="de"> Reihe</skos:altLabel>
@@ -22107,7 +22107,6 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/SeuilDeConfiance">
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Critere"/>
-        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/SeuilDeConfiance"/>
         <rdfs:comment xml:lang="fr">SeuilDeConfiance</rdfs:comment>
         <rdfs:label xml:lang="fr">SeuilDeConfiance</rdfs:label>
         <skos:altLabel xml:lang="de"> Konfidenzniveau </skos:altLabel>
@@ -22222,7 +22221,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Signification -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Signification">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Signification</rdfs:comment>
         <rdfs:label xml:lang="fr">Signification</rdfs:label>
         <skos:altLabel xml:lang="de"> Bedeutung</skos:altLabel>
@@ -22265,7 +22264,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Significativite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Significativite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Significativite</rdfs:comment>
         <rdfs:label xml:lang="fr">Significativite</rdfs:label>
         <skos:altLabel xml:lang="de"> Bedeutung</skos:altLabel>
@@ -22308,7 +22307,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Similarite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Similarite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteRelationEntreVariable"/>
         <rdfs:comment xml:lang="fr">Similarite</rdfs:comment>
         <rdfs:label xml:lang="fr">Similarite</rdfs:label>
         <skos:altLabel xml:lang="lt"> analogija</skos:altLabel>
@@ -22356,7 +22355,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Similtude -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Similtude">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteRelationEntreVariable"/>
         <rdfs:comment xml:lang="fr">Similtude</rdfs:comment>
         <rdfs:label xml:lang="fr">Similtude</rdfs:label>
         <skos:altLabel xml:lang="lt"> analogija</skos:altLabel>
@@ -22516,7 +22515,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/SommeFactorielle -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/SommeFactorielle">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OperationsMathematiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/OperationsMathematiques"/>
         <rdfs:comment xml:lang="fr">SommeFactorielle</rdfs:comment>
         <rdfs:label xml:lang="fr">SommeFactorielle</rdfs:label>
         <skos:altLabel xml:lang="pt"> soma fatorial (bra)</skos:altLabel>
@@ -22557,7 +22556,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Sondage -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Sondage">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RecueilDeDonnees"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/RecueilDeDonnees"/>
         <rdfs:comment xml:lang="fr">Sondage</rdfs:comment>
         <rdfs:label xml:lang="fr">Sondage</rdfs:label>
         <skos:altLabel xml:lang="de"> Erhebung</skos:altLabel>
@@ -22791,7 +22790,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Specificite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Specificite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Specificite</rdfs:comment>
         <rdfs:label xml:lang="fr">Specificite</rdfs:label>
         <skos:altLabel xml:lang="af"> spesifisiteit (bv. by faktorontleding)</skos:altLabel>
@@ -22832,7 +22831,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Spss -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Spss">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Logiciels"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Logiciels"/>
         <rdfs:comment xml:lang="fr">Spss</rdfs:comment>
         <rdfs:label xml:lang="fr">Spss</rdfs:label>
         <skos:altLabel xml:lang="tr"> Sosyal Bilimler için İstatistik Yazılım Paketi</skos:altLabel>
@@ -22857,7 +22856,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/StandardisationDirecte -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/StandardisationDirecte">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TransformationVariable"/>
         <rdfs:comment xml:lang="fr">StandardisationDirecte</rdfs:comment>
         <rdfs:label xml:lang="fr">StandardisationDirecte</rdfs:label>
         <skos:altLabel xml:lang="en"> direct standardization</skos:altLabel>
@@ -22898,7 +22897,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/StandardisationIndirecte -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/StandardisationIndirecte">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TransformationVariable"/>
         <rdfs:comment xml:lang="fr">StandardisationIndirecte</rdfs:comment>
         <rdfs:label xml:lang="fr">StandardisationIndirecte</rdfs:label>
         <skos:altLabel xml:lang="fi"> (yl. malliperusteinen vakiointi)</skos:altLabel>
@@ -22937,7 +22936,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Stata -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Stata">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Logiciels"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Logiciels"/>
         <rdfs:comment xml:lang="fr">Stata</rdfs:comment>
         <rdfs:label xml:lang="fr">Stata</rdfs:label>
         <skos:altLabel xml:lang="fi"> eräs paljon käytetty tilasto-ohjelmisto</skos:altLabel>
@@ -23192,7 +23191,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Stochastique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Stochastique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariation"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteVariation"/>
         <rdfs:comment xml:lang="fr">Stochastique</rdfs:comment>
         <rdfs:label xml:lang="fr">Stochastique</rdfs:label>
         <skos:altLabel xml:lang="is"> handahófs- </skos:altLabel>
@@ -23240,7 +23239,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Structure -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Structure">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RecueilDeDonnees"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/RecueilDeDonnees"/>
         <rdfs:comment xml:lang="fr">Structure</rdfs:comment>
         <rdfs:label xml:lang="fr">Structure</rdfs:label>
         <skos:altLabel xml:lang="lt"> sandara</skos:altLabel>
@@ -23354,7 +23353,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/Systematique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Systematique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariation"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteVariation"/>
         <rdfs:comment xml:lang="fr">Systematique</rdfs:comment>
         <rdfs:label xml:lang="fr">Systematique</rdfs:label>
         <skos:altLabel xml:lang="de"> systematisch</skos:altLabel>
@@ -23393,7 +23392,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TEssaiAppareille">
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonsAppariees"/>
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestT"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TGroupesIndependants"/>
+        <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/TGroupesIndependants"/>
         <rdfs:comment xml:lang="fr">TEssaiAppareille</rdfs:comment>
         <rdfs:label xml:lang="fr">TEssaiAppareille</rdfs:label>
         <skos:altLabel xml:lang="sl"> preizskus dvojic </skos:altLabel>
@@ -23565,7 +23564,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/TableAnova -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TableAnova">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TableStatistique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TableStatistique"/>
         <rdfs:comment xml:lang="fr">TableAnova</rdfs:comment>
         <rdfs:label xml:lang="fr">TableAnova</rdfs:label>
         <skos:altLabel xml:lang="fi"> ANOVA taulukko</skos:altLabel>
@@ -23655,7 +23654,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/TableDeCorrelation -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TableDeCorrelation">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Matrice"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Matrice"/>
         <rdfs:comment xml:lang="fr">TableDeCorrelation</rdfs:comment>
         <rdfs:label xml:lang="fr">TableDeCorrelation</rdfs:label>
         <skos:altLabel xml:lang="tr"> ilişki tablosu</skos:altLabel>
@@ -24129,7 +24128,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/TauxDeFecondite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TauxDeFecondite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#StatistiquesDemographiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/StatistiquesDemographiques"/>
         <rdfs:comment xml:lang="fr">TauxDeFecondite</rdfs:comment>
         <rdfs:label xml:lang="fr">TauxDeFecondite</rdfs:label>
         <skos:altLabel xml:lang="de"> Fruchtbarkeitsrate</skos:altLabel>
@@ -24175,7 +24174,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/TauxDeMorbidite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TauxDeMorbidite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#StatistiquesDemographiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/StatistiquesDemographiques"/>
         <rdfs:comment xml:lang="fr">TauxDeMorbidite</rdfs:comment>
         <rdfs:label xml:lang="fr">TauxDeMorbidite</rdfs:label>
         <skos:altLabel xml:lang="de"> Neuzugangsziffer</skos:altLabel>
@@ -24215,7 +24214,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/TauxDeMortalite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TauxDeMortalite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#StatistiquesDemographiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/StatistiquesDemographiques"/>
         <rdfs:comment xml:lang="fr">TauxDeMortalite</rdfs:comment>
         <rdfs:label xml:lang="fr">TauxDeMortalite</rdfs:label>
         <skos:altLabel xml:lang="de"> Sterberate</skos:altLabel>
@@ -24259,7 +24258,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/TauxDeNatalite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TauxDeNatalite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#StatistiquesDemographiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/StatistiquesDemographiques"/>
         <rdfs:comment xml:lang="fr">TauxDeNatalite</rdfs:comment>
         <rdfs:label xml:lang="fr">TauxDeNatalite</rdfs:label>
         <skos:altLabel xml:lang="de"> Geburtenrate</skos:altLabel>
@@ -24370,7 +24369,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/TendanceCentrale -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TendanceCentrale">
-        <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IndiceTendanceCentrale"/>
+        <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/IndiceTendanceCentrale"/>
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/MesureDeLaTendanceCentrale"/>
         <rdfs:comment xml:lang="fr">TendanceCentrale</rdfs:comment>
         <rdfs:label xml:lang="fr">TendanceCentrale</rdfs:label>
@@ -24621,8 +24620,8 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/TestDaspinWelch -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDaspinWelch">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestParametrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesMoyennes"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestParametrique"/>
         <rdfs:comment>Idem t-test sur deux échantillons gaussiens</rdfs:comment>
         <rdfs:comment xml:lang="fr">TestDaspinWelch</rdfs:comment>
         <rdfs:label xml:lang="fr">TestDaspinWelch</rdfs:label>
@@ -24660,8 +24659,8 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/TestDeBartlett -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeBartlett">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestParametrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesMoyennes"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestParametrique"/>
         <dbpedia-owl:abstract xml:lang="de">Als Bartlett-Test (auch: Bartlett&apos;s Test) werden zwei verschiedene Tests bezeichnet: der Bartlett-Test auf Gleichheit der Varianzen in k Stichproben und der Bartlett-Test auf Spherizität zur Durchführung einer Faktorenanalyse</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="en">In statistics, Bartlett&apos;s test (see Snedecor and Cochran, 1989) is used to test if k samples are from populations with equal variances. Equal variances across samples is called homoscedasticity or homogeneity of variances. So</dbpedia-owl:abstract>
         <dbpedia-owl:abstract xml:lang="fr">Le test de Bartlett, du nom du statisticien anglais Maurice Stevenson Bartlett (18 Juin 1910 – 8 Janvier 2002), est utilisé en statistique pour évaluer si les variances empiriques de k échantillons indépendants satisfont la c</dbpedia-owl:abstract>
@@ -24711,7 +24710,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeCochran">
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/AnalyseDeLaVariance"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestParametrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestParametrique"/>
         <rdfs:comment>Test non paramétrique d&apos;homogéinéité des variances</rdfs:comment>
         <rdfs:comment xml:lang="fr">TestDeCochran</rdfs:comment>
         <rdfs:label xml:lang="fr">TestDeCochran</rdfs:label>
@@ -24756,8 +24755,8 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/index_M.pdf</rdfs:comment
     <!-- http://ontostats.univ-paris8.fr/terms/TestDeDuncan -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeDuncan">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestParametrique"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Test_post_hoc"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestParametrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Test_post_hoc"/>
         <rdfs:comment>Ce test post-hoc (ou test de comparaisons multiples) peut être utilisé pour déterminer les différences significatives entre les moyennes des groupes dans une analyse de variance.
 
 Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-duncan.html</rdfs:comment>
@@ -24813,8 +24812,8 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-duncan.ht
     <!-- http://ontostats.univ-paris8.fr/terms/TestDeDunnett -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeDunnett">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestParametrique"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Test_post_hoc"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestParametrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Test_post_hoc"/>
         <rdfs:comment>Ce test post-hoc (ou test de comparaisons multiples) peut être utilisé pour déterminer les différences significatives entre la moyenne d&apos;un groupe témoin (de contrôle) et les moyennes des autres groupes de traitement dans une analyse de variance. 
 
 (Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-dunnett.html)</rdfs:comment>
@@ -24861,7 +24860,7 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-duncan.ht
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeKolmogorovSmirnov">
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestDeNormalite"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestParametrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestParametrique"/>
         <rdfs:comment>Le Test de normalité de Kolmogorov-Smirnov pour un échantillon repose sur la différence maximum entre la distribution cumulée de l&apos;échantillon et la distribution cumulée qui est testée. 
 
 Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/tests-kolmogorov.html</rdfs:comment>
@@ -24907,8 +24906,8 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/tests-kolmogor
     <!-- http://ontostats.univ-paris8.fr/terms/TestDeKruskalWallis -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeKruskalWallis">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMedianes"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestNonParmetrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesMedianes"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestNonParmetrique"/>
         <rdfs:comment>Le test de Kruskal-Wallis est une alternative non-paramétrique à l&apos;ANOVA d&apos;ordre Un (inter-groupes). Il est utilisé pour comparer au moins trois échantillons, et tester l&apos;hypothèse nulle suivant laquelle les différents échantillons à comparer sont issus de la même distribution ou de distributions de même médiane.
 
 Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-kruskal.html</rdfs:comment>
@@ -24954,8 +24953,8 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-kruskal.h
     <!-- http://ontostats.univ-paris8.fr/terms/TestDeLaMedianeDeMoodBrown -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeLaMedianeDeMoodBrown">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMedianes"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestNonParmetrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesMedianes"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestNonParmetrique"/>
         <rdfs:comment xml:lang="fr">TestDeLaMedianeDeMoodBrown</rdfs:comment>
         <rdfs:label xml:lang="fr">TestDeLaMedianeDeMoodBrown</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term2157.htm"/>
@@ -24993,8 +24992,8 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-kruskal.h
     <!-- http://ontostats.univ-paris8.fr/terms/TestDeLaSommeDesRangsDeWilcoxon -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeLaSommeDesRangsDeWilcoxon">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesRangs"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestNonParmetrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesRangs"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestNonParmetrique"/>
         <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/TestDeSiegelTukey"/>
         <rdfs:comment xml:lang="fr">TestDeLaSommeDesRangsDeWilcoxon</rdfs:comment>
         <rdfs:label xml:lang="fr">TestDeLaSommeDesRangsDeWilcoxon</rdfs:label>
@@ -25117,8 +25116,8 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-kruskal.h
     <!-- http://ontostats.univ-paris8.fr/terms/TestDeLehmann -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeLehmann">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMedianes"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestNonParmetrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesMedianes"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestNonParmetrique"/>
         <rdfs:comment>Test non paramétrique de comparaison des médianes 
 
 Source : https://en.wikipedia.org/wiki/Hodges%E2%80%93Lehmann_estimator</rdfs:comment>
@@ -25166,7 +25165,7 @@ Source : https://en.wikipedia.org/wiki/Hodges%E2%80%93Lehmann_estimator</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/TestDeNormalite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeNormalite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestDAdequation"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestDAdequation"/>
         <rdfs:comment xml:lang="fr">TestDeNormalite</rdfs:comment>
         <rdfs:label xml:lang="fr">TestDeNormalite</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term3283.htm"/>
@@ -25207,8 +25206,8 @@ Source : https://en.wikipedia.org/wiki/Hodges%E2%80%93Lehmann_estimator</rdfs:co
     <!-- http://ontostats.univ-paris8.fr/terms/TestDeSatterthwaite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeSatterthwaite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestNonParmetrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesMoyennes"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestNonParmetrique"/>
         <rdfs:comment>Test non paramétrique de comparaison des moyennes utilisable pour comparer deux échantillons de variances inégales
 
 Source : http://www.mbaskool.com/business-concepts/statistics/7377-welch-satterthwaite-t-test.html</rdfs:comment>
@@ -25269,8 +25268,8 @@ Source : http://www.mbaskool.com/business-concepts/statistics/7377-welch-sattert
     <!-- http://ontostats.univ-paris8.fr/terms/TestDeScheffe -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeScheffe">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestParametrique"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Test_post_hoc"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestParametrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Test_post_hoc"/>
         <rdfs:comment>Ce test post-hoc permet de déterminer les différences significatives entre les moyennes des groupes dans une analyse de variance. 
 
 Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-scheffe.html</rdfs:comment>
@@ -25317,7 +25316,7 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-scheffe.h
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeShapiroWilk">
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestDeNormalite"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestParametrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestParametrique"/>
         <rdfs:comment xml:lang="fr">TestDeShapiroWilk</rdfs:comment>
         <rdfs:label xml:lang="fr">TestDeShapiroWilk</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://isi.cbs.nl/glossary/term2992.htm"/>
@@ -25360,8 +25359,8 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-scheffe.h
     <!-- http://ontostats.univ-paris8.fr/terms/TestDeSiegelTukey -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDeSiegelTukey">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesRangs"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestNonParmetrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesRangs"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestNonParmetrique"/>
         <rdfs:comment>Test  de comparaison entre deux groupes sur une variable au moins ordinale</rdfs:comment>
         <rdfs:comment xml:lang="fr">TestDeSiegelTukey</rdfs:comment>
         <rdfs:label xml:lang="fr">TestDeSiegelTukey</rdfs:label>
@@ -25401,7 +25400,7 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-scheffe.h
     <!-- http://ontostats.univ-paris8.fr/terms/TestDhomogeneiteDesMoyennesDechantillons -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDhomogeneiteDesMoyennesDechantillons">
-        <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes"/>
+        <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesMoyennes"/>
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
         <rdfs:comment xml:lang="fr">TestDhomogeneiteDesMoyennesDechantillons</rdfs:comment>
         <rdfs:label xml:lang="fr">TestDhomogeneiteDesMoyennesDechantillons</rdfs:label>
@@ -25558,8 +25557,8 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-scheffe.h
     <!-- http://ontostats.univ-paris8.fr/terms/TestDuKhiDeux -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDuKhiDeux">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesFrequences"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestNonParmetrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesFrequences"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestNonParmetrique"/>
         <rdfs:comment xml:lang="fr">TestDuKhiDeux</rdfs:comment>
         <rdfs:label xml:lang="fr">TestDuKhiDeux</rdfs:label>
         <skos:altLabel xml:lang="zh"> S 检 验</skos:altLabel>
@@ -25627,7 +25626,7 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-scheffe.h
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestF">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/TestFApproche"/>
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/AnalyseDeLaVariance"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestParametrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestParametrique"/>
         <rdfs:comment xml:lang="fr">TestF</rdfs:comment>
         <rdfs:label xml:lang="fr">TestF</rdfs:label>
         <skos:altLabel xml:lang="sl"> F-preizskus</skos:altLabel>
@@ -25732,8 +25731,8 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-scheffe.h
     <!-- http://ontostats.univ-paris8.fr/terms/TestG -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestG">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesFrequences"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestNonParmetrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesFrequences"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestNonParmetrique"/>
         <rdfs:comment>Test de signification analogue au Khi-deux</rdfs:comment>
         <rdfs:comment xml:lang="fr">TestG</rdfs:comment>
         <rdfs:label xml:lang="fr">TestG</rdfs:label>
@@ -25771,8 +25770,8 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/t/test-scheffe.h
     <!-- http://ontostats.univ-paris8.fr/terms/TestQDeTukey -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestQDeTukey">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestParametrique"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Test_post_hoc"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestParametrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Test_post_hoc"/>
         <rdfs:comment>Appelé aussi Test d&apos;écarts studentisé ( à vérifier)  est utilisé dans les cas de comparaisons multiples 
 
 Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8.htm</rdfs:comment>
@@ -25812,8 +25811,8 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TestT -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestT">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestParametrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesMoyennes"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestParametrique"/>
         <rdfs:comment xml:lang="fr">TestT</rdfs:comment>
         <rdfs:label xml:lang="fr">TestT</rdfs:label>
         <skos:altLabel xml:lang="lt"> Hotelingo priklausomų koreliacijų kriterijus </skos:altLabel>
@@ -25965,8 +25964,8 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TestZFisher -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestZFisher">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestParametrique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesMoyennes"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestParametrique"/>
         <rdfs:comment xml:lang="fr">TestZFisher</rdfs:comment>
         <rdfs:label xml:lang="fr">TestZFisher</rdfs:label>
         <skos:altLabel xml:lang="ca"> test de la z</skos:altLabel>
@@ -26003,7 +26002,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TheoremeCentralLimite">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/TheoremeLimiteCentrale"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ReglesDInference"/>
         <rdfs:comment xml:lang="fr">TheoremeCentralLimite</rdfs:comment>
         <rdfs:label xml:lang="fr">TheoremeCentralLimite</rdfs:label>
         <skos:altLabel xml:lang="is"> meginmarkgildissetning tölfræðinnar</skos:altLabel>
@@ -26048,7 +26047,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TheoremeDeBayes -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TheoremeDeBayes">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ReglesDInference"/>
         <rdfs:comment xml:lang="fr">TheoremeDeBayes</rdfs:comment>
         <rdfs:label xml:lang="fr">TheoremeDeBayes</rdfs:label>
         <skos:altLabel xml:lang="lt"> Bajeso teorema</skos:altLabel>
@@ -26091,7 +26090,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TheoremeDeBernoulli -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TheoremeDeBernoulli">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ReglesDInference"/>
         <rdfs:comment xml:lang="fr">TheoremeDeBernoulli</rdfs:comment>
         <rdfs:label xml:lang="fr">TheoremeDeBernoulli</rdfs:label>
         <skos:altLabel xml:lang="tr"> Bernoulli savı</skos:altLabel>
@@ -26132,7 +26131,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TheoremeDeDeFinetti -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TheoremeDeDeFinetti">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ReglesDInference"/>
         <rdfs:comment xml:lang="fr">TheoremeDeDeFinetti</rdfs:comment>
         <rdfs:label xml:lang="fr">TheoremeDeDeFinetti</rdfs:label>
         <skos:altLabel xml:lang="lt"> De Finečio teorema</skos:altLabel>
@@ -26171,7 +26170,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TheoremeLimiteCentrale -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TheoremeLimiteCentrale">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ReglesDInference"/>
         <rdfs:comment xml:lang="fr">TheoremeLimiteCentrale</rdfs:comment>
         <rdfs:label xml:lang="fr">TheoremeLimiteCentrale</rdfs:label>
         <skos:altLabel xml:lang="is"> meginmarkgildissetning tölfræðinnar</skos:altLabel>
@@ -26261,7 +26260,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TransformationDeLaplace -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TransformationDeLaplace">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TransformationVariable"/>
         <rdfs:comment xml:lang="fr">TransformationDeLaplace</rdfs:comment>
         <rdfs:label xml:lang="fr">TransformationDeLaplace</rdfs:label>
         <skos:altLabel xml:lang="lt"> Laplace pertvarkis  </skos:altLabel>
@@ -26304,7 +26303,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TransformationDeStudent -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TransformationDeStudent">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TransformationVariable"/>
         <rdfs:comment xml:lang="fr">TransformationDeStudent</rdfs:comment>
         <rdfs:label xml:lang="fr">TransformationDeStudent</rdfs:label>
         <skos:altLabel xml:lang="pt"> estudentização (bra)</skos:altLabel>
@@ -26342,8 +26341,8 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TransformationDeVariable -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TransformationDeVariable">
-        <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RecoderVariable"/>
+        <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/TransformationVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/RecoderVariable"/>
         <rdfs:comment xml:lang="fr">TransformationDeVariable</rdfs:comment>
         <rdfs:label xml:lang="fr">TransformationDeVariable</rdfs:label>
         <skos:altLabel xml:lang="et"> tunnuse teisendamine</skos:altLabel>
@@ -26378,7 +26377,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TransformationEnZCorrelation -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TransformationEnZCorrelation">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TransformationVariable"/>
         <rdfs:comment xml:lang="fr">TransformationEnZCorrelation</rdfs:comment>
         <rdfs:label xml:lang="fr">TransformationEnZCorrelation</rdfs:label>
         <skos:altLabel xml:lang="lt"> Fišerio koreliacijos koeficiento transformacija </skos:altLabel>
@@ -26467,7 +26466,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TransformationLogarithmique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TransformationLogarithmique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TransformationVariable"/>
         <rdfs:comment xml:lang="fr">TransformationLogarithmique</rdfs:comment>
         <rdfs:label xml:lang="fr">TransformationLogarithmique</rdfs:label>
         <skos:altLabel xml:lang="et"> logaritmiline teisendus</skos:altLabel>
@@ -26508,7 +26507,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/TransformationRacineCarree -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TransformationRacineCarree">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TransformationVariable"/>
         <rdfs:comment xml:lang="fr">TransformationRacineCarree</rdfs:comment>
         <rdfs:label xml:lang="fr">TransformationRacineCarree</rdfs:label>
         <skos:altLabel xml:lang="de"> Wurzeltransfromation</skos:altLabel>
@@ -26545,7 +26544,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Troncation">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/Troncature"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OperationsMathematiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/OperationsMathematiques"/>
         <rdfs:comment xml:lang="fr">Troncation</rdfs:comment>
         <rdfs:label xml:lang="fr">Troncation</rdfs:label>
         <skos:altLabel xml:lang="lt"> atmetimas </skos:altLabel>
@@ -26587,7 +26586,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/Troncature -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Troncature">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OperationsMathematiques"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/OperationsMathematiques"/>
         <rdfs:comment xml:lang="fr">Troncature</rdfs:comment>
         <rdfs:label xml:lang="fr">Troncature</rdfs:label>
         <skos:altLabel xml:lang="lt"> atmetimas </skos:altLabel>
@@ -26722,7 +26721,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/Unimodal -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Unimodal">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteDistribution"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteDistribution"/>
         <rdfs:comment xml:lang="fr">Unimodal</rdfs:comment>
         <rdfs:label xml:lang="fr">Unimodal</rdfs:label>
         <skos:altLabel xml:lang="tr"> tek doruklu</skos:altLabel>
@@ -26761,7 +26760,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/Unite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Unite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SupportD&apos;information"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/SupportInformation"/>
         <rdfs:comment xml:lang="fr">Unite</rdfs:comment>
         <rdfs:label xml:lang="fr">Unite</rdfs:label>
         <skos:altLabel xml:lang="de"> Einheit</skos:altLabel>
@@ -26812,7 +26811,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/ValeurCentrale -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ValeurCentrale">
-        <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IndiceTendanceCentrale"/>
+        <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/IndiceTendanceCentrale"/>
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/MesureDeLaTendanceCentrale"/>
         <rdfs:comment xml:lang="fr">ValeurCentrale</rdfs:comment>
         <rdfs:label xml:lang="fr">ValeurCentrale</rdfs:label>
@@ -27056,7 +27055,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/ValeurMediane -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ValeurMediane">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IndiceTendanceCentrale"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/IndiceTendanceCentrale"/>
         <rdfs:comment xml:lang="fr">ValeurMediane</rdfs:comment>
         <rdfs:label xml:lang="fr">ValeurMediane</rdfs:label>
         <skos:altLabel xml:lang="de"> Zentralwert</skos:altLabel>
@@ -27154,7 +27153,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/ValeurMoyenne -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ValeurMoyenne">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IndiceTendanceCentrale"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/IndiceTendanceCentrale"/>
         <rdfs:comment xml:lang="fr">ValeurMoyenne</rdfs:comment>
         <rdfs:label xml:lang="fr">ValeurMoyenne</rdfs:label>
         <skos:altLabel xml:lang="de"> Durchschnitt </skos:altLabel>
@@ -27308,7 +27307,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/ValiditeExterne -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ValiditeExterne">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteExperience"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteExperience"/>
         <rdfs:comment xml:lang="fr">ValiditeExterne</rdfs:comment>
         <rdfs:label xml:lang="fr">ValiditeExterne</rdfs:label>
         <skos:prefLabel xml:lang="fa">-</skos:prefLabel>
@@ -27347,7 +27346,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/ValiditeInterne -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ValiditeInterne">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteExperience"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteExperience"/>
         <rdfs:comment xml:lang="fr">ValiditeInterne</rdfs:comment>
         <rdfs:label xml:lang="fr">ValiditeInterne</rdfs:label>
         <skos:prefLabel xml:lang="fi">(tutkimuksen) sisäinen validius</skos:prefLabel>
@@ -27376,7 +27375,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/Variabilite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Variabilite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteVariable"/>
         <rdfs:comment xml:lang="fr">Variabilite</rdfs:comment>
         <rdfs:label xml:lang="fr">Variabilite</rdfs:label>
         <skos:altLabel xml:lang="de"> Mutationsfähigkeit </skos:altLabel>
@@ -27966,7 +27965,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/VariableDechelle -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/VariableDechelle">
-        <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/ont.owl#VariableOrdonnee"/>
+        <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/VariableOrdonnee"/>
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/VariableObservable"/>
         <rdfs:comment xml:lang="fr">VariableDechelle</rdfs:comment>
         <rdfs:label xml:lang="fr">VariableDechelle</rdfs:label>
@@ -28096,7 +28095,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/VariableDichotomique -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/VariableDichotomique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#VariableNominale"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/VariableNominale"/>
         <rdfs:comment xml:lang="fr">VariableDichotomique</rdfs:comment>
         <rdfs:label xml:lang="fr">VariableDichotomique</rdfs:label>
         <skos:altLabel xml:lang="lt"> besišakojantis kintamasis </skos:altLabel>
@@ -28172,8 +28171,8 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/VariableDiscontinue">
         <owl:equivalentClass rdf:resource="http://ontostats.univ-paris8.fr/terms/VariableDiscrete"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#VariableNumerique"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#VariableContinue"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/VariableNumerique"/>
+        <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/VariableContinue"/>
         <rdfs:comment xml:lang="fr">VariableDiscontinue</rdfs:comment>
         <rdfs:label xml:lang="fr">VariableDiscontinue</rdfs:label>
         <skos:altLabel xml:lang="da"> diskret variabel</skos:altLabel>
@@ -28213,7 +28212,7 @@ Source : http://imss-www.upmf-grenoble.fr/prevert/MathSHS/PSY3/ANOVA/Cours/Chap8
     <!-- http://ontostats.univ-paris8.fr/terms/VariableDiscrete -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/VariableDiscrete">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#VariableNumerique"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/VariableNumerique"/>
         <rdfs:comment xml:lang="fr">VariableDiscrete</rdfs:comment>
         <rdfs:label xml:lang="fr">VariableDiscrete</rdfs:label>
         <skos:altLabel xml:lang="et"> diskreetne juhuslik suurus</skos:altLabel>
@@ -29867,7 +29866,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/V/Variable_fictive.pdf</r
     <!-- http://ontostats.univ-paris8.fr/terms/Variation -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Variation">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
         <rdfs:comment xml:lang="fr">Variation</rdfs:comment>
         <rdfs:label xml:lang="fr">Variation</rdfs:label>
         <skos:altLabel xml:lang="et"> hajuvus</skos:altLabel>
@@ -30200,7 +30199,7 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/V/Variable_fictive.pdf</r
     <!-- http://ontostats.univ-paris8.fr/terms/Volatilite -->
 
     <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Volatilite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProprieteTest"/>
         <rdfs:comment xml:lang="fr">Volatilite</rdfs:comment>
         <rdfs:label xml:lang="fr">Volatilite</rdfs:label>
         <skos:altLabel xml:lang="fi"> rahamarkkinatilastoissa oleva vaihtelu</skos:altLabel>
@@ -30392,419 +30391,470 @@ Source : http://jeanalain.monfort.free.fr/Dicostat2005/V/Vraisemblance.pdf</rdfs
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ComparaisonGroupesIndependants -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ComparaisonGroupesIndependants -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ComparaisonGroupesIndependants">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ComparaisonGroupesIndependants">
+        <rdfs:label xml:lang="fr">ComparaisonGroupesIndependants</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#Comparer -->
+    <!-- http://ontostats.univ-paris8.fr/terms/Comparer -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Comparer">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Comparer">
+        <rdfs:label xml:lang="fr">Comparer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/AnalyseStatistique"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ComparerDesFrequences -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ComparerDesFrequences -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ComparerDesFrequences">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ComparerDesFrequences">
+    		<rdfs:label xml:lang="fr">ComparerDesFrequences</rdfs:label>    
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMedianes"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesRangs"/>
+        <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesMedianes"/>
+        <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesMoyennes"/>
+        <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesRangs"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ComparerDesMedianes -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ComparerDesMedianes -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMedianes">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ComparerDesMedianes">
+    		<rdfs:label xml:lang="fr">ComparerDesMedianes</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesRangs"/>
+        <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesMoyennes"/>
+        <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesRangs"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ComparerDesMoyennes -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ComparerDesMoyennes">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ComparerDesMoyennes">
+    		<rdfs:label xml:lang="fr">ComparerDesMoyennes</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparerDesRangs"/>
+        <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparerDesRangs"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ComparerDesRangs -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ComparerDesRangs -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ComparerDesRangs">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ComparerDesRangs">
+    		<rdfs:label xml:lang="fr">ComparerDesRangs</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonEntreGroupes"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#Correction -->
+    <!-- http://ontostats.univ-paris8.fr/terms/Correction -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Correction">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Correction">
+    		<rdfs:label xml:lang="fr">Correction</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Estimation"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#CorrelationVariableNumerique -->
+    <!-- http://ontostats.univ-paris8.fr/terms/CorrelationVariableNumerique -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CorrelationVariableNumerique">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/CorrelationVariableNumerique">
+    		<rdfs:label xml:lang="fr">CorrelationVariableNumerique</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/IndiceDeCorrelation"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#DistributionFormeRemarquable -->
+    <!-- http://ontostats.univ-paris8.fr/terms/DistributionFormeRemarquable -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DistributionFormeRemarquable">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/DistributionFormeRemarquable">
+    		<rdfs:label xml:lang="fr">DistributionFormeRemarquable</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Distribution"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#EtudeLiaison -->
+    <!-- http://ontostats.univ-paris8.fr/terms/EtudeLiaison -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#EtudeLiaison">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/EtudeLiaison">
+    		<rdfs:label xml:lang="fr">EtudeLiaison</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/AnalyseStatistique"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#IndiceTendanceCentrale -->
+    <!-- http://ontostats.univ-paris8.fr/terms/IndiceTendanceCentrale -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#IndiceTendanceCentrale">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/IndiceTendanceCentrale">
+    		<rdfs:label xml:lang="fr">IndiceTendanceCentrale</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/MesureDeLaTendanceCentrale"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#Logiciels -->
+    <!-- http://ontostats.univ-paris8.fr/terms/Logiciels -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Logiciels">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Outils"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Logiciels">
+    		<rdfs:label xml:lang="fr">Logiciels</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Outils"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#Matrice -->
+    <!-- http://ontostats.univ-paris8.fr/terms/Matrice -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Matrice">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Tableau"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Matrice">
+    		<rdfs:label xml:lang="fr">Matrice</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Tableau"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#MethodeStatistiqueApprochee -->
+    <!-- http://ontostats.univ-paris8.fr/terms/MethodeStatistiqueApprochee -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#MethodeStatistiqueApprochee">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/MethodeStatistiqueApprochee">
+    		<rdfs:label xml:lang="fr">MethodeStatistiqueApprochee</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Test"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#Notions -->
+    <!-- http://ontostats.univ-paris8.fr/terms/Notions -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Notions">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Notions">
+    		<rdfs:label xml:lang="fr">Notions</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ConceptStatistique"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#OperationsMathematiques -->
+    <!-- http://ontostats.univ-paris8.fr/terms/OperationsMathematiques -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OperationsMathematiques">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/OperationsMathematiques">
+    		<rdfs:label xml:lang="fr">OperationsMathematiques</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Resultats"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#Outils -->
+    <!-- http://ontostats.univ-paris8.fr/terms/Outils -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Outils">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Outils">
+    		<rdfs:label xml:lang="fr">Outils</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ConceptStatistique"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#Paradoxe -->
+    <!-- http://ontostats.univ-paris8.fr/terms/Paradoxe -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Paradoxe">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Paradoxe">
+    		<rdfs:label xml:lang="fr">Paradoxe</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ReglesDInference"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteDistribution -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProprieteDistribution -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteDistribution">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProprieteDistribution">
+    		<rdfs:label xml:lang="fr">ProprieteDistribution</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteEchantillonnage -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProprieteEchantillonnage -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteEchantillonnage">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProprieteEchantillonnage">
+    		<rdfs:label xml:lang="fr">ProprieteEchantillonnage</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteExperience -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProprieteExperience -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteExperience">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProprieteExperience">
+    		<rdfs:label xml:lang="fr">ProprieteExperience</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteObservations -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProprieteObservations -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteObservations">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProprieteObservations">
+    		<rdfs:label xml:lang="fr">ProprieteObservations</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprietePopulation -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProprietePopulation -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprietePopulation">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProprietePopulation">
+    		<rdfs:label xml:lang="fr">ProprietePopulation</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteProtocole -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProprieteProtocole -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteProtocole">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProprieteProtocole">
+    		<rdfs:label xml:lang="fr">ProprieteProtocole</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProprieteRelationEntreVariable -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteRelationEntreVariable">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProprieteRelationEntreVariable">
+    		<rdfs:label xml:lang="fr">ProprieteRelationEntreVariable</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteTest -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProprieteTest -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteTest">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProprieteTest">
+    		<rdfs:label xml:lang="fr">ProprieteTest</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProprieteVariable -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariable">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProprieteVariable">
+    		<rdfs:label xml:lang="fr">ProprieteVariable</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProprieteVariation -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProprieteVariation -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProprieteVariation">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProprieteVariation">
+    		<rdfs:label xml:lang="fr">ProprieteVariation</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Propriete"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProtocoleBivarie -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProtocoleBivarie -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProtocoleBivarie">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProtocoleBivarie">
+    		<rdfs:label xml:lang="fr">ProtocoleBivarie</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Protocole"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProtocoleMutivarie -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProtocoleMutivarie -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProtocoleMutivarie">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProtocoleMutivarie">
+    		<rdfs:label xml:lang="fr">ProtocoleMutivarie</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Protocole"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructure -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProtocoleStructure -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructure">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProtocoleStructure">
+    		<rdfs:label xml:lang="fr">ProtocoleStructure</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Protocole"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructureParCroisement -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProtocoleStructureParCroisement -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructureParCroisement">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructure"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProtocoleStructureParCroisement">
+   		<rdfs:label xml:lang="fr">ProtocoleStructureParCroisement</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProtocoleStructure"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructureParEmboitement -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProtocoleStructureParEmboitement -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructureParEmboitement">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ProtocoleStructure"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProtocoleStructureParEmboitement">
+    		<rdfs:label xml:lang="fr">ProtocoleStructureParEmboitement</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ProtocoleStructure"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ProtocoleUnivarie -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ProtocoleUnivarie -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProtocoleUnivarie">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ProtocoleUnivarie">
+   		<rdfs:label xml:lang="fr">ProtocoleUnivarie</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Protocole"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#RecodageEnClasses -->
+    <!-- http://ontostats.univ-paris8.fr/terms/RecodageEnClasses -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#RecodageEnClasses">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RecodageParProximite"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/RecodageEnClasses">
+        <rdfs:label xml:lang="fr">RecodageEnClasses</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/RecodageParProximite"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#RecodageParProximite -->
+    <!-- http://ontostats.univ-paris8.fr/terms/RecodageParProximite -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#RecodageParProximite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RecodageSemantique"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/RecodageParProximite">
+        <rdfs:label xml:lang="fr">RecodageParProximite</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/RecodageSemantique"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#RecodageSemantique -->
+    <!-- http://ontostats.univ-paris8.fr/terms/RecodageSemantique -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#RecodageSemantique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RecoderVariable"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/RecodageSemantique">
+    		<rdfs:label xml:lang="fr">RecodageSemantique</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/RecoderVariable"/>
+        <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/TransformationVariable"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#Recoder -->
+    <!-- http://ontostats.univ-paris8.fr/terms/Recoder -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Recoder">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Recoder">
+    		<rdfs:label xml:lang="fr">Recoder</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/AnalyseStatistique"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#RecoderMatrice -->
+    <!-- http://ontostats.univ-paris8.fr/terms/RecoderMatrice -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#RecoderMatrice">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Recoder"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RecoderVariable"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/RecoderMatrice">
+    		<rdfs:label xml:lang="fr">RecoderMatrice</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Recoder"/>
+        <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/RecoderVariable"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#RecoderVariable -->
+    <!-- http://ontostats.univ-paris8.fr/terms/RecoderVariable -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#RecoderVariable">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Recoder"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/RecoderVariable">
+    		<rdfs:label xml:lang="fr">RecoderVariable</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Recoder"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#RecueilDeDonnees -->
+    <!-- http://ontostats.univ-paris8.fr/terms/RecueilDeDonnees -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#RecueilDeDonnees">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Notions"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/RecueilDeDonnees">
+    		<rdfs:label xml:lang="fr">RecueilDeDonnees</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Notions"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ReglesDInference -->
+    <!-- http://ontostats.univ-paris8.fr/terms/ReglesDInference -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ReglesDInference">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/ReglesDInference">
+    		<rdfs:label xml:lang="fr">ReglesDInference</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ConceptStatistique"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#StatistiquesDemographiques -->
+    <!-- http://ontostats.univ-paris8.fr/terms/StatistiquesDemographiques -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#StatistiquesDemographiques">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/StatistiquesDemographiques">
+    		<rdfs:label xml:lang="fr">StatistiquesDemographiques</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Resultats"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#TGroupesIndependants -->
+    <!-- http://ontostats.univ-paris8.fr/terms/TGroupesIndependants -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#TGroupesIndependants">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TGroupesIndependants">
+    		<rdfs:label xml:lang="fr">TGroupesIndependants</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/TestT"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ComparaisonGroupesIndependants"/>
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ComparaisonGroupesIndependants"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#TableStatistique -->
+    <!-- http://ontostats.univ-paris8.fr/terms/TableStatistique -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#TableStatistique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Tableau"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TableStatistique">
+    		<rdfs:label xml:lang="fr">TableStatistique</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Tableau"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#Tableau -->
+    <!-- http://ontostats.univ-paris8.fr/terms/Tableau -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Tableau">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Tableau">
+    		<rdfs:label xml:lang="fr">Tableau</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ConceptStatistique"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#TestDAdequation -->
+    <!-- http://ontostats.univ-paris8.fr/terms/TestDAdequation -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#TestDAdequation">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Comparer"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDAdequation">
+    		<rdfs:label xml:lang="fr">TestDAdequation</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Comparer"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#TestDHomogeneite -->
+    <!-- http://ontostats.univ-paris8.fr/terms/TestDHomogeneite -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#TestDHomogeneite">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Comparer"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestDHomogeneite">
+    		<rdfs:label xml:lang="fr">TestDHomogeneite</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Comparer"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#TestNonParmetrique -->
+    <!-- http://ontostats.univ-paris8.fr/terms/TestNonParmetrique -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#TestNonParmetrique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#MethodeStatistiqueApprochee"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TestParametrique"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestNonParmetrique">
+    		<rdfs:label xml:lang="fr">TestNonParmetrique</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/MethodeStatistiqueApprochee"/>
+        <owl:disjointWith rdf:resource="http://ontostats.univ-paris8.fr/terms/TestParametrique"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#TestParametrique -->
+    <!-- http://ontostats.univ-paris8.fr/terms/TestParametrique -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#TestParametrique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#MethodeStatistiqueApprochee"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TestParametrique">
+    		<rdfs:label xml:lang="fr">TestParametrique</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/MethodeStatistiqueApprochee"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#Test_post_hoc -->
+    <!-- http://ontostats.univ-paris8.fr/terms/Test_post_hoc -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Test_post_hoc">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Test_post_hoc">
+    		<rdfs:label xml:lang="fr">Test_post_hoc</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/AnalyseDeLaVariance"/>
         <rdfs:comment>Souvent, après avoir obtenu un test du F statistiquement significatif dans l&apos;ANOVA, on souhaite identifier les moyennes qui ont contribué à l&apos;effet ; c&apos;est-à-dire, connaître les groupes qui sont particulièrement différents les uns des autres. On pourrait bien sûr réaliser une série de tests-t afin de comparer tous les couples de moyennes possibles. Cependant cette procédure capitalise sur la chance. Les niveaux de probabilités qui sont reportés surestiment en fait la significativité statistique des différences entre les moyennes. Par exemple, supposons que vous tiriez 20 échantillons composés de 10 nombres aléatoires chacun, et que vous calculiez alors les 20 moyennes. Prenez alors le groupe (échantillon) qui possède la plus forte moyenne et comparez le avec celui qui possède la plus faible moyenne. Le test-t pour des échantillons indépendants va tester si ces deux moyennes sont ou non significativement différentes entre elles, à condition que seuls ces deux échantillons aient été tirés. D&apos;un autre côté, les comparaisons post-hoc prennent en compte le fait de tirer plus de deux échantillons. Vous pouvez utiliser ces comparaisons post-hoc comme méthode de test d&apos;hypothèses ou comme méthode exploratoire des Données.
 
@@ -30813,57 +30863,64 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/c/comparaisons.h
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#TransformationVariable -->
+    <!-- http://ontostats.univ-paris8.fr/terms/TransformationVariable -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#TransformationVariable">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RecoderVariable"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/TransformationVariable">
+    		<rdfs:label xml:lang="fr">TransformationVariable</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/RecoderVariable"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#Valeurs -->
+    <!-- http://ontostats.univ-paris8.fr/terms/Valeurs -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Valeurs">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/Valeurs">
+    		<rdfs:label xml:lang="fr">Valeurs</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/Rang"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#VariableContinue -->
+    <!-- http://ontostats.univ-paris8.fr/terms/VariableContinue -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#VariableContinue">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#VariableNumerique"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/VariableContinue">
+    		<rdfs:label xml:lang="fr">VariableContinue</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/VariableNumerique"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#VariableNominale -->
+    <!-- http://ontostats.univ-paris8.fr/terms/VariableNominale -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#VariableNominale">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/VariableNominale">
+    		<rdfs:label xml:lang="fr">VariableNominale</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/VariableObservable"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#VariableNumerique -->
+    <!-- http://ontostats.univ-paris8.fr/terms/VariableNumerique -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#VariableNumerique">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#VariableOrdonnee"/>
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/VariableNumerique">
+    		<rdfs:label xml:lang="fr">VariableNumerique</rdfs:label>        
+        <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/VariableOrdonnee"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#VariableOrdonnee -->
+    <!-- http://ontostats.univ-paris8.fr/terms/VariableOrdonnee -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#VariableOrdonnee">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/VariableOrdonnee">
+    		<rdfs:label xml:lang="fr">VariableOrdonnee</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/VariableObservable"/>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#SupportD&apos;information -->
+    <!-- http://ontostats.univ-paris8.fr/terms/SupportInformation -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SupportD&apos;information">
+    <owl:Class rdf:about="http://ontostats.univ-paris8.fr/terms/SupportInformation">
+    		<rdfs:label xml:lang="fr">SupportInformation</rdfs:label>        
         <rdfs:subClassOf rdf:resource="http://ontostats.univ-paris8.fr/terms/ConceptStatistique"/>
     </owl:Class>
     
@@ -30892,7 +30949,7 @@ Source : http://www.statsoft.fr/concepts-statistiques/glossaire/c/comparaisons.h
         <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://ontostats.univ-paris8.fr/terms/CoefficientDeContingence"/>
             <rdf:Description rdf:about="http://ontostats.univ-paris8.fr/terms/CorrelationDesRangs"/>
-            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#CorrelationVariableNumerique"/>
+            <rdf:Description rdf:about="http://ontostats.univ-paris8.fr/terms/CorrelationVariableNumerique"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
