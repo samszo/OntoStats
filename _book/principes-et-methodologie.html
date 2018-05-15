@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>L’inférence Statistique</title>
+  <meta name="description" content="Ce document constitue la version enrichi du support de cours des étudiants de licence de pyschologie à l’institut d’enseignement à distance de l’Université Paris 8.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="L’inférence Statistique" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Ce document constitue la version enrichi du support de cours des étudiants de licence de pyschologie à l’institut d’enseignement à distance de l’Université Paris 8." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="L’inférence Statistique" />
+  
+  <meta name="twitter:description" content="Ce document constitue la version enrichi du support de cours des étudiants de licence de pyschologie à l’institut d’enseignement à distance de l’Université Paris 8." />
+  
+
+<meta name="author" content="Jean-Marc Meunier">
+
+
+<meta name="date" content="2018-05-11">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="index.html">
+<link rel="next" href="inference-sur-un-protocole-univarie-non-structure.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-1.2/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.4/datatables.js"></script>
+<link href="libs/dt-core-1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.16/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.16/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Inférence statistique</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>INTRODUCTION</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#presentation-du-cours"><i class="fa fa-check"></i>Présentation du cours</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html"><i class="fa fa-check"></i><b>1</b> PRINCIPES ET METHODOLOGIE</a><ul>
+<li class="chapter" data-level="1.1" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#definition-des-principaux-concepts"><i class="fa fa-check"></i><b>1.1</b> Définition des principaux concepts</a></li>
+<li class="chapter" data-level="1.2" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#principes-generaux-de-linference"><i class="fa fa-check"></i><b>1.2</b> Principes généraux de l’inférence</a></li>
+<li class="chapter" data-level="1.3" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#choix-du-modele-dechantillonnage"><i class="fa fa-check"></i><b>1.3</b> Choix du modèle d’échantillonnage</a></li>
+<li class="chapter" data-level="1.4" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#choix-de-la-distribution-dechantillonnage"><i class="fa fa-check"></i><b>1.4</b> Choix de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="1.5" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#mise-en-uvre-du-test"><i class="fa fa-check"></i><b>1.5</b> Mise en œuvre du test</a></li>
+<li class="chapter" data-level="1.6" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#formulation-de-la-conclusion-et-interpretation"><i class="fa fa-check"></i><b>1.6</b> Formulation de la conclusion et Interprétation</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html"><i class="fa fa-check"></i><b>2</b> INFERENCE SUR UN PROTOCOLE UNIVARIE NON STRUCTURE</a><ul>
+<li class="chapter" data-level="2.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#les-combinaisons"><i class="fa fa-check"></i><b>2.1</b> Les combinaisons</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#calcul-de-la-taille-de-lespace-des-echantillons"><i class="fa fa-check"></i><b>2.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="2.1.2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#determination-de-lespace-des-echantillons"><i class="fa fa-check"></i><b>2.1.2</b> Détermination de l’espace des échantillons</a></li>
+<li class="chapter" data-level="2.1.3" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#calcul-de-la-distribution-dechantillonnage"><i class="fa fa-check"></i><b>2.1.3</b> Calcul de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="2.1.4" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#limites-du-test"><i class="fa fa-check"></i><b>2.1.4</b> Limites du test</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-exacte"><i class="fa fa-check"></i><b>2.2</b> Utilisation d’une distribution exacte</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#situer-un-echantillon-dans-une-population"><i class="fa fa-check"></i><b>2.2.1</b> Situer un échantillon dans une population</a></li>
+<li class="chapter" data-level="2.2.2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-approchee"><i class="fa fa-check"></i><b>2.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#inference-sur-un-protocole-univarie-numerique"><i class="fa fa-check"></i><b>2.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-exacte-1"><i class="fa fa-check"></i><b>2.3.1</b> Utilisation d’une distribution exacte</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-approchee-1"><i class="fa fa-check"></i><b>2.4</b> Utilisation d’une distribution approchée</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#situer-un-echantillon-dans-une-population-1"><i class="fa fa-check"></i><b>2.4.1</b> Situer un échantillon dans une population</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><i class="fa fa-check"></i><b>3</b> INFERENCE SUR UN PROTOCOLE UNIVARIE STRUCTURE PAR UN CROISEMENT</a><ul>
+<li class="chapter" data-level="3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#les-permutations"><i class="fa fa-check"></i><b>3.1</b> Les permutations</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#calcul-de-la-taille-de-lespace-des-echantillons-1"><i class="fa fa-check"></i><b>3.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="3.1.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#determination-de-lespace-des-echantillons-1"><i class="fa fa-check"></i><b>3.1.2</b> Détermination de l’espace des échantillons</a></li>
+<li class="chapter" data-level="3.1.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#calcul-de-la-distribution-dechantillonnage-1"><i class="fa fa-check"></i><b>3.1.3</b> Calcul de la distribution d’échantillonnage</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#inference-sur-un-protocole-univarie-nominal"><i class="fa fa-check"></i><b>3.2</b> Inférence sur un protocole univarié nominal</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-exacte-2"><i class="fa fa-check"></i><b>3.2.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="3.2.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-approchee-2"><i class="fa fa-check"></i><b>3.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#inference-sur-un-protocole-univarie-numerique-1"><i class="fa fa-check"></i><b>3.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-exacte-3"><i class="fa fa-check"></i><b>3.3.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="3.3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-approchee-3"><i class="fa fa-check"></i><b>3.3.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><i class="fa fa-check"></i><b>4</b> INFERENCE SUR UN PROTOCOLE UNIVARIE STRUCTURE PAR UN EMBOITEMENT</a><ul>
+<li class="chapter" data-level="4.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#les-partitions"><i class="fa fa-check"></i><b>4.1</b> Les partitions</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#calcul-de-la-taille-de-lespace-des-echantillons-2"><i class="fa fa-check"></i><b>4.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="4.1.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#calcul-de-la-distribution-dechantillonnage-2"><i class="fa fa-check"></i><b>4.1.2</b> Calcul de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="4.1.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#interpretation-du-test-1"><i class="fa fa-check"></i><b>4.1.3</b> Interprétation du test</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#inference-sur-un-protocole-univarie-nominal-1"><i class="fa fa-check"></i><b>4.2</b> Inférence sur un protocole univarié nominal</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-exacte-4"><i class="fa fa-check"></i><b>4.2.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="4.2.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-approchee-4"><i class="fa fa-check"></i><b>4.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#inference-sur-un-protocole-univarie-numerique-2"><i class="fa fa-check"></i><b>4.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-exacte-5"><i class="fa fa-check"></i><b>4.3.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="4.3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-approchee-5"><i class="fa fa-check"></i><b>4.3.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html"><i class="fa fa-check"></i><b>5</b> INFERENCE SUR UN PROTOCOLE BIVARIE</a><ul>
+<li class="chapter" data-level="5.1" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#inference-sur-un-protocole-bivarie-numerique"><i class="fa fa-check"></i><b>5.1</b> Inférence sur un protocole bivarié numérique</a></li>
+<li class="chapter" data-level="5.2" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#inference-sur-un-protocole-bivarie-nominal"><i class="fa fa-check"></i><b>5.2</b> Inférence sur un protocole bivarié nominal</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#cas-des-variables-dichotomiques"><i class="fa fa-check"></i><b>5.2.1</b> Cas des variables dichotomiques</a></li>
+<li class="chapter" data-level="5.2.2" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#cas-des-variables-a-plus-de-deux-modalites."><i class="fa fa-check"></i><b>5.2.2</b> Cas des variables à plus de deux modalités.</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">L’inférence Statistique</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="principes-et-methodologie" class="section level1">
+<h1><span class="header-section-number">Chapter 1</span> PRINCIPES ET METHODOLOGIE</h1>
+<div id="definition-des-principaux-concepts" class="section level2">
+<h2><span class="header-section-number">1.1</span> Définition des principaux concepts</h2>
+<p>L’inférence statistique utilise un certain nombre de concepts qu’il convient de connaître et pour certains de ne pas confondre. Nous allons donc dans un premier temps poser les définitions de ces concepts.
+Les analyses statistiques, quelles qu’elles soient, portent sur un protocole recueilli sur un échantillon issu d’une population parente. <br></p>
+<ul>
+<li><strong>Protocole</strong>. Ensemble d’observations sur une ou plusieurs variables.</li>
+<li><strong>Échantillon</strong>. Ensemble d’individus statistiques sur lesquels sont recueillies les données constituant le protocole. L’échantillon est un sous-ensemble de la population.</li>
+<li><strong>Population parente</strong>. Également appelée population, c’est l’ensemble des individus statistiques d’où est extrait l’échantillon. La population parente est de taille finie.
+On distinguera l’échantillonnage dans une population et l’échantillonnage dans une distribution.</li>
+<li><strong>Échantillonnage dans une population</strong>. C’est l’extraction d’un échantillon dans ensemble de référence de taille finie. L’échantillonnage dans une population peut être vu comme un tirage sans remise.</li>
+<li><strong>Échantillonnage dans une distribution</strong>. C’est l’extraction d’un échantillon dans un ensemble de référence de taille infinie. Cette forme d’échantillonnage peut être assimilée à un tirage avec remise dans une population finie.<br></li>
+</ul>
+<p>Le principe général de l’inférence consiste à situer un échantillon dans l’espace des échantillons. Pour cela, on situe un résumé du protocole dans une distribution d’échantillonnage. La conclusion de cette inférence dépend du modèle d’échantillonnage choisi.<br></p>
+<ul>
+<li><strong>Espace des échantillons</strong>. C’est l’ensemble de tous les échantillons possibles obtenus par combinatoire.</li>
+<li><strong>Distribution d’échantillonnage</strong>. C’est la distribution, pour une statistique donnée, de l’ensemble des échantillons possibles. Pour les variables numériques, la distribution d’échantillonnage est faite sur la moyenne. Pour les variables nominales ou catégorisées, on utilise généralement la fréquence pour construire la distribution d’échantillonnage.</li>
+<li><strong>Modèle d’échantillonnage</strong>. C’est l’ensemble des hypothèses que l’on fait sur le mode de constitution de l’échantillon à partir de la population.<br></li>
+</ul>
+</div>
+<div id="principes-generaux-de-linference" class="section level2">
+<h2><span class="header-section-number">1.2</span> Principes généraux de l’inférence</h2>
+<p>L’inférence statistique est une forme de raisonnement hypothético-déductif. Dans cette forme de raisonnement, on cherche à tester une hypothèse à travers un raisonnement déductif dont la démarche suit le questionnement suivant :<br></p>
+<ul>
+<li>Dans un premier temps, la démarche consiste à se demander quel est l’ensemble des protocoles possibles. Cet ensemble de protocoles est obtenu par combinatoire, d’où le nom de cette approche, Dans cette approche, le protocole observé est un des protocoles possibles, mais n’est pas nécessairement tiré au hasard.</li>
+<li>Ensuite on cherche à situer le protocole observé dans l’ensemble des protocoles possibles. Pour cela, on calcule sur chacun des protocoles possibles une statistique résumant les protocoles (statistique d’échantillonnage). Dans le cas des variables catégorisées, c’est-à-dire nominale ou ordinale, cette statistique est la fréquence. Dans le cas des variables numériques, cette statistique est la moyenne. Ces statistiques résumant les protocoles sont utilisées pour calculer une distribution qui permettra de situer le protocole observé dans l’ensemble des protocoles possibles. Cette distribution est ce qu’on appelle distribution d’échantillonnage.</li>
+<li>Enfin, on se demandera si le protocole observé est suffisamment rare dans la distribution d’échantillonnage pour le considérer comme atypique ou si on doit le considérer comme typique.<br></li>
+</ul>
+</div>
+<div id="choix-du-modele-dechantillonnage" class="section level2">
+<h2><span class="header-section-number">1.3</span> Choix du modèle d’échantillonnage</h2>
+<p>Le modèle d’échantillonnage est l’ensemble des hypothèses que l’on fait sur le mode de constitution de l’échantillon à partir de la population. Concrètement, le choix du modèle d’échantillonnage n’engage en rien le choix de la distribution d’échantillonnage et de la procédure à mettre en oeuvre. En revanche, le choix du modèle d’échantillonnage détermine la formulation de la conclusion.<br></p>
+<p>Dans tous les cas, on peut se placer dans le cadre du modèle combinatoire qui consiste à considérer le protocole observé comme un élément de l’ensemble des protocoles possibles (espace des échantillons). La conclusion se formulera en termes de typicité (comparaison d’un groupe d’observations à une distribution de référence) ou d’homogénéité (comparaison de deux groupes d’observations).<br></p>
+<p>On peut parfois se situer dans le cadre du modèle fréquentiste qui consiste à considérer que la distribution d’échantillonnage est une distribution des probabilités d’obtenir un échantillon de telle ou telle moyenne. Ce modèle constitue un prolongement du modèle combinatoire. Pour cela, on fait l’hypothèse supplémentaire que l’échantillon a été tiré au hasard dans l’ensemble des protocoles possibles. Cette hypothèse n’est justifiée que si la procédure expérimentale fait intervenir le hasard (sondage ou aléatorisation de la répartition des sujets) ou si l’expérience vise véritablement à tester une hypothèse, autrement dit que la comparaison est faite toutes choses égales par ailleurs.<br></p>
+</div>
+<div id="choix-de-la-distribution-dechantillonnage" class="section level2">
+<h2><span class="header-section-number">1.4</span> Choix de la distribution d’échantillonnage</h2>
+<p>Ce choix dépend de l’échelle de mesure de la variable dépendante. On distinguera les variables numériques, pour lesquelles on peut utiliser des tests dits paramétriques des autres variables pour lesquelles on utilise des tests non paramétriques.<br></p>
+<p>Dans les deux cas, on peut utiliser une distribution exacte ou une distribution approchée. Les distributions d’échantillonnage exactes sont obtenues par combinatoire ou en ayant recours lorsqu’elles existent, à des distributions particulières. On peut également utiliser une distribution approchée. Pour les variables nominales, il s’agit de la distribution de <span class="math inline">\(\chi^{2}\)</span> (lire khi-deux ou khi carré). Pour les variables numériques, si la variance parente est connue, on emploiera la distribution de Z sinon on emploiera la distribution du T de Student. Chaque fois que cela est possible, on préférera la distribution exacte à la distribution approchée.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-l711{border-color:inherit}
+.tg .tg-us36{border-color:inherit;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-l711">
+Echelle de la variable dépendante
+</th>
+<th class="tg-l711">
+Type d’échantillonnage
+</th>
+<th class="tg-l711">
+Distribution exacte
+</th>
+<th class="tg-us36">
+Distribution approchée
+</th>
+</tr>
+<tr>
+<td class="tg-l711" rowspan="2">
+Nominale ou catégorisée
+</td>
+<td class="tg-l711">
+Dans une population
+</td>
+<td class="tg-l711">
+Combinatoire ou distribution hypergéométrique
+</td>
+<td class="tg-us36" rowspan="2">
+Distribution de <span class="math inline">\(\chi^{2}\)</span>
+</td>
+</tr>
+<tr>
+<td class="tg-l711">
+Dans une distribution
+</td>
+<td class="tg-l711">
+Distribution binomiale
+</td>
+</tr>
+<tr>
+<td class="tg-us36" rowspan="2">
+Numérique
+</td>
+<td class="tg-us36">
+Dans une population (variance parente connue)
+</td>
+<td class="tg-us36">
+Combinatoire
+</td>
+<td class="tg-us36">
+Distribution de Z
+</td>
+</tr>
+<tr>
+<td class="tg-us36">
+Dans une distribution (variance parente inconnue
+</td>
+<td class="tg-us36">
+</td>
+<td class="tg-us36">
+Distribution du T de Student
+</td>
+</tr>
+</table>
+<p><em>Tableau 1: Choix de la distribution d’échantillonnage</em>
+<br></p>
+</div>
+<div id="mise-en-uvre-du-test" class="section level2">
+<h2><span class="header-section-number">1.5</span> Mise en œuvre du test</h2>
+<p>La mise en œuvre du test dépend du type de protocole et de la distribution d’échantillonnage choisi. Elle ne dépend pas du modèle d’échantillonnage. La mise en œuvre des tests statistiques sera présentée en détail dans les chapitres suivants. Nous distinguerons 4 cas :<br></p>
+<ul>
+<li>L’inférence sur un protocole univarié non structuré.</li>
+<li>L’inférence sur un protocole univarié structuré par un emboîtement (groupes indépendants)</li>
+<li>L’inférence sur un protocole univarié structuré par un croisement (groupes appariés)
+L’inférence sur un protocole bivarié.
+Quel que soit le cas, la démarche générale de l’inférence suit un schéma en quatre étapes :</li>
+<li>Choisir le modèle d’échantillonnage (combinatoire ou fréquentiste).</li>
+<li>Déterminer la distribution d’échantillonnage (voir le paragraphe précédent)</li>
+<li>Situer le protocole observé dans la distribution d’échantillonnage en calculant (ou en lisant dans la table) la proportion d’échantillons plus extrêmes ou égaux au protocole observé.</li>
+<li>Comparer cette proportion au seuil-repère .025 (unilatéral) ou .05 (bilatéral).<br></li>
+</ul>
+</div>
+<div id="formulation-de-la-conclusion-et-interpretation" class="section level2">
+<h2><span class="header-section-number">1.6</span> Formulation de la conclusion et Interprétation</h2>
+<p>La formulation de la conclusion repose toujours sur une comparaison entre la proportion observée (calculée ou lue dans une table) et un seuil de significativité fixé par convention à .025 (seuil unilatéral) ou à .05 (seuil bilatéral). Lorsque la proportion observée est inférieure au seuil, le test est déclaré significatif.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-031e">
+Seuil
+</th>
+<th class="tg-031e">
+Seuil-repère
+</th>
+<th class="tg-031e">
+Echantillon vs population
+</th>
+<th class="tg-031e">
+Groupe 1 vs Groupe 2
+</th>
+</tr>
+<tr>
+<td class="tg-031e">
+Unilatéral supérieur
+</td>
+<td class="tg-031e">
+.025
+</td>
+<td class="tg-031e">
+L’échantillon est-il extrême du côté des valeurs élevées ?
+</td>
+<td class="tg-031e">
+Le groupe 1 est-il supérieur au groupe 2 ?
+</td>
+</tr>
+<tr>
+<td class="tg-031e">
+Unilatéral inférieur
+</td>
+<td class="tg-031e">
+.025
+</td>
+<td class="tg-031e">
+L’échantillon est-il extrême du côté des valeurs faibles ?
+</td>
+<td class="tg-031e">
+Le groupe 1 est-il inférieur au groupe 2 ?
+</td>
+</tr>
+<tr>
+<td class="tg-031e">
+Bilatérale
+</td>
+<td class="tg-031e">
+.05
+</td>
+<td class="tg-031e">
+L’échantillon est-il différent de la population ?
+</td>
+<td class="tg-031e">
+Le groupe 1 est-il différents du groupe 2 ?
+</td>
+</tr>
+</table>
+<p><em>Tableau 2: Choix du seuil-repère</em><br></p>
+<p>Le choix entre un seuil unilatéral ou bilatéral dépend du type de comparaison que l’on fait et de la question qu’on se pose (voir Tableau 1.2). On distinguera deux types de comparaison : la comparaison d’un groupe d’observations à une population ou une distribution de référence (échantillon vs population) et la comparaison de deux groupes d’observations.<br>
+Dans tous les cas, le seuil bilatéral est égal à la somme des seuils unilatéraux supérieurs et inférieurs. Dans le cas particulier des distributions d’échantillonnage symétriques, le seuil bilatéral est égal au double d’un des seuils unilatéraux.<br>
+D’un point de vue statistique, l’interprétation du test dépend du type de comparaison que l’on fait et du modèle d’échantillonnage choisi. Le test est significatif si pobs ≤ seuil repère.<br></p>
+<p>Dans le cas du modèle combinatoire, la conclusion sera formulée en termes de typicité ou d’atypicité de l’échantillon dans le cas de l’inférence sur une protocole univarié non structuré et en termes d’homogénéité ou d’hétérogéneité des groupes dans le cas de l’inférence sur des protocoles univariés structurés.<br></p>
+<p>Dans le cas de l’inférence fréquentiste, la conclusion sera formulée en termes de conservation ou de rejet de l’hypothèse nulle, ce qui conduira à admettre l’existence d’une différence dans le cas d’un test significatif, un test non significatif ne permettant pas de conclure.<br>
+Il faut garder à l’esprit deux points importants : (i) une analyse inférentielle ne dit rien sur l’importance d’une différence, elle permet seulement de se prononcer ou non sur son existence. (ii) L’analyse inférentielle est le prolongement de l’analyse descriptive.<br>
+Toute analyse statistique vise à permettre au chercheur de mieux comprendre les phénomènes psychologiques. Une interprétation statistique des résultats doit donc être accompagnée d’une interprétation psychologique (qu’est-ce que cela nous apprend sur les comportements étudiés ?).<br></p>
+
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="inference-sur-un-protocole-univarie-non-structure.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": ["InferenceStatistique.pdf", "InferenceStatistique.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>L’inférence Statistique</title>
+  <meta name="description" content="Ce document constitue la version enrichi du support de cours des étudiants de licence de pyschologie à l’institut d’enseignement à distance de l’Université Paris 8.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="L’inférence Statistique" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Ce document constitue la version enrichi du support de cours des étudiants de licence de pyschologie à l’institut d’enseignement à distance de l’Université Paris 8." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="L’inférence Statistique" />
+  
+  <meta name="twitter:description" content="Ce document constitue la version enrichi du support de cours des étudiants de licence de pyschologie à l’institut d’enseignement à distance de l’Université Paris 8." />
+  
+
+<meta name="author" content="Jean-Marc Meunier">
+
+
+<meta name="date" content="2018-05-11">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+
+<link rel="next" href="principes-et-methodologie.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-1.2/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.4/datatables.js"></script>
+<link href="libs/dt-core-1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.16/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.16/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Inférence statistique</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>INTRODUCTION</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#presentation-du-cours"><i class="fa fa-check"></i>Présentation du cours</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html"><i class="fa fa-check"></i><b>1</b> PRINCIPES ET METHODOLOGIE</a><ul>
+<li class="chapter" data-level="1.1" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#definition-des-principaux-concepts"><i class="fa fa-check"></i><b>1.1</b> Définition des principaux concepts</a></li>
+<li class="chapter" data-level="1.2" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#principes-generaux-de-linference"><i class="fa fa-check"></i><b>1.2</b> Principes généraux de l’inférence</a></li>
+<li class="chapter" data-level="1.3" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#choix-du-modele-dechantillonnage"><i class="fa fa-check"></i><b>1.3</b> Choix du modèle d’échantillonnage</a></li>
+<li class="chapter" data-level="1.4" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#choix-de-la-distribution-dechantillonnage"><i class="fa fa-check"></i><b>1.4</b> Choix de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="1.5" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#mise-en-uvre-du-test"><i class="fa fa-check"></i><b>1.5</b> Mise en œuvre du test</a></li>
+<li class="chapter" data-level="1.6" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#formulation-de-la-conclusion-et-interpretation"><i class="fa fa-check"></i><b>1.6</b> Formulation de la conclusion et Interprétation</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html"><i class="fa fa-check"></i><b>2</b> INFERENCE SUR UN PROTOCOLE UNIVARIE NON STRUCTURE</a><ul>
+<li class="chapter" data-level="2.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#les-combinaisons"><i class="fa fa-check"></i><b>2.1</b> Les combinaisons</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#calcul-de-la-taille-de-lespace-des-echantillons"><i class="fa fa-check"></i><b>2.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="2.1.2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#determination-de-lespace-des-echantillons"><i class="fa fa-check"></i><b>2.1.2</b> Détermination de l’espace des échantillons</a></li>
+<li class="chapter" data-level="2.1.3" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#calcul-de-la-distribution-dechantillonnage"><i class="fa fa-check"></i><b>2.1.3</b> Calcul de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="2.1.4" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#limites-du-test"><i class="fa fa-check"></i><b>2.1.4</b> Limites du test</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-exacte"><i class="fa fa-check"></i><b>2.2</b> Utilisation d’une distribution exacte</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#situer-un-echantillon-dans-une-population"><i class="fa fa-check"></i><b>2.2.1</b> Situer un échantillon dans une population</a></li>
+<li class="chapter" data-level="2.2.2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-approchee"><i class="fa fa-check"></i><b>2.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#inference-sur-un-protocole-univarie-numerique"><i class="fa fa-check"></i><b>2.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-exacte-1"><i class="fa fa-check"></i><b>2.3.1</b> Utilisation d’une distribution exacte</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-approchee-1"><i class="fa fa-check"></i><b>2.4</b> Utilisation d’une distribution approchée</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#situer-un-echantillon-dans-une-population-1"><i class="fa fa-check"></i><b>2.4.1</b> Situer un échantillon dans une population</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><i class="fa fa-check"></i><b>3</b> INFERENCE SUR UN PROTOCOLE UNIVARIE STRUCTURE PAR UN CROISEMENT</a><ul>
+<li class="chapter" data-level="3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#les-permutations"><i class="fa fa-check"></i><b>3.1</b> Les permutations</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#calcul-de-la-taille-de-lespace-des-echantillons-1"><i class="fa fa-check"></i><b>3.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="3.1.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#determination-de-lespace-des-echantillons-1"><i class="fa fa-check"></i><b>3.1.2</b> Détermination de l’espace des échantillons</a></li>
+<li class="chapter" data-level="3.1.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#calcul-de-la-distribution-dechantillonnage-1"><i class="fa fa-check"></i><b>3.1.3</b> Calcul de la distribution d’échantillonnage</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#inference-sur-un-protocole-univarie-nominal"><i class="fa fa-check"></i><b>3.2</b> Inférence sur un protocole univarié nominal</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-exacte-2"><i class="fa fa-check"></i><b>3.2.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="3.2.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-approchee-2"><i class="fa fa-check"></i><b>3.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#inference-sur-un-protocole-univarie-numerique-1"><i class="fa fa-check"></i><b>3.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-exacte-3"><i class="fa fa-check"></i><b>3.3.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="3.3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-approchee-3"><i class="fa fa-check"></i><b>3.3.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><i class="fa fa-check"></i><b>4</b> INFERENCE SUR UN PROTOCOLE UNIVARIE STRUCTURE PAR UN EMBOITEMENT</a><ul>
+<li class="chapter" data-level="4.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#les-partitions"><i class="fa fa-check"></i><b>4.1</b> Les partitions</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#calcul-de-la-taille-de-lespace-des-echantillons-2"><i class="fa fa-check"></i><b>4.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="4.1.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#calcul-de-la-distribution-dechantillonnage-2"><i class="fa fa-check"></i><b>4.1.2</b> Calcul de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="4.1.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#interpretation-du-test-1"><i class="fa fa-check"></i><b>4.1.3</b> Interprétation du test</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#inference-sur-un-protocole-univarie-nominal-1"><i class="fa fa-check"></i><b>4.2</b> Inférence sur un protocole univarié nominal</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-exacte-4"><i class="fa fa-check"></i><b>4.2.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="4.2.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-approchee-4"><i class="fa fa-check"></i><b>4.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#inference-sur-un-protocole-univarie-numerique-2"><i class="fa fa-check"></i><b>4.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-exacte-5"><i class="fa fa-check"></i><b>4.3.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="4.3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-approchee-5"><i class="fa fa-check"></i><b>4.3.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html"><i class="fa fa-check"></i><b>5</b> INFERENCE SUR UN PROTOCOLE BIVARIE</a><ul>
+<li class="chapter" data-level="5.1" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#inference-sur-un-protocole-bivarie-numerique"><i class="fa fa-check"></i><b>5.1</b> Inférence sur un protocole bivarié numérique</a></li>
+<li class="chapter" data-level="5.2" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#inference-sur-un-protocole-bivarie-nominal"><i class="fa fa-check"></i><b>5.2</b> Inférence sur un protocole bivarié nominal</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#cas-des-variables-dichotomiques"><i class="fa fa-check"></i><b>5.2.1</b> Cas des variables dichotomiques</a></li>
+<li class="chapter" data-level="5.2.2" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#cas-des-variables-a-plus-de-deux-modalites."><i class="fa fa-check"></i><b>5.2.2</b> Cas des variables à plus de deux modalités.</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">L’inférence Statistique</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">L’inférence Statistique</h1>
+<h4 class="author"><em>Jean-Marc Meunier</em></h4>
+<h4 class="date"><em>2018-05-11</em></h4>
+</div>
+<div id="introduction" class="section level1 unnumbered">
+<h1>INTRODUCTION</h1>
+<p>Ce document constitue la version enrichi du support de cours des étudiants de licence de pyschologie à l’institut d’enseignement à distance de l’Université Paris 8. L’enrichissement du cours a été réalisé dans le cadre du projet Ontostat, financé par le ministère de l’enseignement supérieur, de la recherche et de l’innovation français dans le cadre de l’appel à manifestation d’intérêt de la mission pour innovation et la pédagogie numérique dans l’enseignement supérieur (MIPNES). Il constitue un prototype viusant à instrumentaliser une ontologie des concepts statistiques développée par l’université d’Oxford (Stato).<br></p>
+<div id="presentation-du-cours" class="section level2 unnumbered">
+<h2>Présentation du cours</h2>
+<p>En première année, vous avez eu à étudier les méthodes descriptives d’analyse de données. Ces méthodes sont applicables à différents types d’objets : variable, protocole et distribution. Elles visent pour l’essentiel à résumer les données et à tirer un certain nombre de conclusions sur l’échantillon observé. La portée de ces conclusions ne peut cependant pas dépasser l’échantillon, c’est pourquoi ces méthodes sont dites descriptives.
+Avec les méthodes inférentielles, qui seront abordées dans ce cours, nous allons voir sous quelles conditions les conclusions descriptives peuvent être étendues à la population d’où est issue l’échantillon. L’idée de base qui préside à l’inférence statistique est que l’échantillon observé est un des échantillons possibles. Partant de là, la démarche consiste à situer l’échantillon observé dans cet ensemble d’échantillons possibles. Il s’agit en fait d’une généralisation aux protocoles de la méthode permettant de situer un individu dans une distribution (voir le cours de licence première année)<br></p>
+<p>La démarche générale reste la même quel que soit le type de protocole. Cependant la méthodologie varie en fonction (i) de l’échelle de mesure de la variable observée (ii) mais surtout de la structuration du protocole. C’est pour cette raison que ce cours est structuré en fonction des types de protocoles sur lesquels porte l’inférence. Nous aurions pu, à l’instar, de certains manuels, structurer ce cours en distinguant les tests paramétriques et les tests non paramétriques. Une structuration du cours fondée sur les propriétés des protocoles nous paraît cependant préférable à une structuration fondée sur la nature du test pour trois raisons. D’abord une telle structuration permet de mettre en évidence les similitudes dans les démarches d’analyses des protocoles nominaux et des protocoles numériques et nous verrons à travers l’inférence combinatoire que ces similitudes sont tout à fait importantes. Ensuite, une telle structuration permet de montrer comment la démarche inférentielle sur un protocole non structuré peut être généralisée à des protocoles structurés. Enfin, et c’est à nos yeux l’argument le plus important, au moment de choisir le type de test à appliquer, que ce soit dans le cadre d’une recherche ou plus simplement le jour de l’examen, ce sont les propriétés du protocole qui sont les plus disponibles et qui doivent guider le chercheur dans sa démarche d’analyse et non les propriétés du test.<br></p>
+<p>Ce cours, complété par les séquences audiovisuelles disponibles sur notre plate-forme d’enseignement à distance, est donc structuré en cinq chapitres. Le premier chapitre est consacré aux principes généraux de l’inférence et à la définition des principaux concepts. Dans le deuxième chapitre, nous aborderons l’inférence sur les protocoles univariés non structurés. Nous verrons ensuite l’inférence sur les protocoles structurés par un croisement, dans le chapitre 3, et par un emboîtement, dans le chapitre 4. Enfin, dans le dernier chapitre, nous aborderons l’inférence sur les protocoles bivariés.<br></p>
+
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="principes-et-methodologie.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": ["InferenceStatistique.pdf", "InferenceStatistique.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

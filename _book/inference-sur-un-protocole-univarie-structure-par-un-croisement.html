@@ -1,0 +1,2950 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>L’inférence Statistique</title>
+  <meta name="description" content="Ce document constitue la version enrichi du support de cours des étudiants de licence de pyschologie à l’institut d’enseignement à distance de l’Université Paris 8.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="L’inférence Statistique" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Ce document constitue la version enrichi du support de cours des étudiants de licence de pyschologie à l’institut d’enseignement à distance de l’Université Paris 8." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="L’inférence Statistique" />
+  
+  <meta name="twitter:description" content="Ce document constitue la version enrichi du support de cours des étudiants de licence de pyschologie à l’institut d’enseignement à distance de l’Université Paris 8." />
+  
+
+<meta name="author" content="Jean-Marc Meunier">
+
+
+<meta name="date" content="2018-05-11">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="inference-sur-un-protocole-univarie-non-structure.html">
+<link rel="next" href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-1.2/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.4/datatables.js"></script>
+<link href="libs/dt-core-1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.16/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.16/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Inférence statistique</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>INTRODUCTION</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#presentation-du-cours"><i class="fa fa-check"></i>Présentation du cours</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html"><i class="fa fa-check"></i><b>1</b> PRINCIPES ET METHODOLOGIE</a><ul>
+<li class="chapter" data-level="1.1" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#definition-des-principaux-concepts"><i class="fa fa-check"></i><b>1.1</b> Définition des principaux concepts</a></li>
+<li class="chapter" data-level="1.2" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#principes-generaux-de-linference"><i class="fa fa-check"></i><b>1.2</b> Principes généraux de l’inférence</a></li>
+<li class="chapter" data-level="1.3" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#choix-du-modele-dechantillonnage"><i class="fa fa-check"></i><b>1.3</b> Choix du modèle d’échantillonnage</a></li>
+<li class="chapter" data-level="1.4" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#choix-de-la-distribution-dechantillonnage"><i class="fa fa-check"></i><b>1.4</b> Choix de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="1.5" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#mise-en-uvre-du-test"><i class="fa fa-check"></i><b>1.5</b> Mise en œuvre du test</a></li>
+<li class="chapter" data-level="1.6" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#formulation-de-la-conclusion-et-interpretation"><i class="fa fa-check"></i><b>1.6</b> Formulation de la conclusion et Interprétation</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html"><i class="fa fa-check"></i><b>2</b> INFERENCE SUR UN PROTOCOLE UNIVARIE NON STRUCTURE</a><ul>
+<li class="chapter" data-level="2.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#les-combinaisons"><i class="fa fa-check"></i><b>2.1</b> Les combinaisons</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#calcul-de-la-taille-de-lespace-des-echantillons"><i class="fa fa-check"></i><b>2.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="2.1.2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#determination-de-lespace-des-echantillons"><i class="fa fa-check"></i><b>2.1.2</b> Détermination de l’espace des échantillons</a></li>
+<li class="chapter" data-level="2.1.3" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#calcul-de-la-distribution-dechantillonnage"><i class="fa fa-check"></i><b>2.1.3</b> Calcul de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="2.1.4" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#limites-du-test"><i class="fa fa-check"></i><b>2.1.4</b> Limites du test</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-exacte"><i class="fa fa-check"></i><b>2.2</b> Utilisation d’une distribution exacte</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#situer-un-echantillon-dans-une-population"><i class="fa fa-check"></i><b>2.2.1</b> Situer un échantillon dans une population</a></li>
+<li class="chapter" data-level="2.2.2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-approchee"><i class="fa fa-check"></i><b>2.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#inference-sur-un-protocole-univarie-numerique"><i class="fa fa-check"></i><b>2.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-exacte-1"><i class="fa fa-check"></i><b>2.3.1</b> Utilisation d’une distribution exacte</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-approchee-1"><i class="fa fa-check"></i><b>2.4</b> Utilisation d’une distribution approchée</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#situer-un-echantillon-dans-une-population-1"><i class="fa fa-check"></i><b>2.4.1</b> Situer un échantillon dans une population</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><i class="fa fa-check"></i><b>3</b> INFERENCE SUR UN PROTOCOLE UNIVARIE STRUCTURE PAR UN CROISEMENT</a><ul>
+<li class="chapter" data-level="3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#les-permutations"><i class="fa fa-check"></i><b>3.1</b> Les permutations</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#calcul-de-la-taille-de-lespace-des-echantillons-1"><i class="fa fa-check"></i><b>3.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="3.1.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#determination-de-lespace-des-echantillons-1"><i class="fa fa-check"></i><b>3.1.2</b> Détermination de l’espace des échantillons</a></li>
+<li class="chapter" data-level="3.1.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#calcul-de-la-distribution-dechantillonnage-1"><i class="fa fa-check"></i><b>3.1.3</b> Calcul de la distribution d’échantillonnage</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#inference-sur-un-protocole-univarie-nominal"><i class="fa fa-check"></i><b>3.2</b> Inférence sur un protocole univarié nominal</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-exacte-2"><i class="fa fa-check"></i><b>3.2.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="3.2.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-approchee-2"><i class="fa fa-check"></i><b>3.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#inference-sur-un-protocole-univarie-numerique-1"><i class="fa fa-check"></i><b>3.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-exacte-3"><i class="fa fa-check"></i><b>3.3.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="3.3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-approchee-3"><i class="fa fa-check"></i><b>3.3.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><i class="fa fa-check"></i><b>4</b> INFERENCE SUR UN PROTOCOLE UNIVARIE STRUCTURE PAR UN EMBOITEMENT</a><ul>
+<li class="chapter" data-level="4.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#les-partitions"><i class="fa fa-check"></i><b>4.1</b> Les partitions</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#calcul-de-la-taille-de-lespace-des-echantillons-2"><i class="fa fa-check"></i><b>4.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="4.1.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#calcul-de-la-distribution-dechantillonnage-2"><i class="fa fa-check"></i><b>4.1.2</b> Calcul de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="4.1.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#interpretation-du-test-1"><i class="fa fa-check"></i><b>4.1.3</b> Interprétation du test</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#inference-sur-un-protocole-univarie-nominal-1"><i class="fa fa-check"></i><b>4.2</b> Inférence sur un protocole univarié nominal</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-exacte-4"><i class="fa fa-check"></i><b>4.2.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="4.2.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-approchee-4"><i class="fa fa-check"></i><b>4.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#inference-sur-un-protocole-univarie-numerique-2"><i class="fa fa-check"></i><b>4.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-exacte-5"><i class="fa fa-check"></i><b>4.3.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="4.3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-approchee-5"><i class="fa fa-check"></i><b>4.3.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html"><i class="fa fa-check"></i><b>5</b> INFERENCE SUR UN PROTOCOLE BIVARIE</a><ul>
+<li class="chapter" data-level="5.1" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#inference-sur-un-protocole-bivarie-numerique"><i class="fa fa-check"></i><b>5.1</b> Inférence sur un protocole bivarié numérique</a></li>
+<li class="chapter" data-level="5.2" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#inference-sur-un-protocole-bivarie-nominal"><i class="fa fa-check"></i><b>5.2</b> Inférence sur un protocole bivarié nominal</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#cas-des-variables-dichotomiques"><i class="fa fa-check"></i><b>5.2.1</b> Cas des variables dichotomiques</a></li>
+<li class="chapter" data-level="5.2.2" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#cas-des-variables-a-plus-de-deux-modalites."><i class="fa fa-check"></i><b>5.2.2</b> Cas des variables à plus de deux modalités.</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">L’inférence Statistique</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="inference-sur-un-protocole-univarie-structure-par-un-croisement" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> INFERENCE SUR UN PROTOCOLE UNIVARIE STRUCTURE PAR UN CROISEMENT</h1>
+<p>Dans ce chapitre, nous allons voir comment faire une inférence sur un protocole univarié structuré par un croisement. Ce type de structure est également appelé plan croisé, plan à groupes appariés ou plan à mesures répétées. Il correspond à une répétition de mesure sur chacune des modalités du facteur. Dans le cadre de ce cours, nous ne traiterons que les plans à un facteur. Les plans à plus d’un facteur seront traités en troisième année.<br></p>
+<div id="les-permutations" class="section level2">
+<h2><span class="header-section-number">3.1</span> Les permutations</h2>
+<p>Dans le cas des structures de croisement, l’espace des échantillons nous est donné par l’ensemble des permutations possibles. Dans ce type de protocole, on a pour chacun des sujets un couple d’observations, puisque la mesure a été répétée dans deux conditions. D’un point de vue inférentiel, on cherche alors à tester l’homogénéité des groupes d’observations. On peut considérer que deux groupes d’observations appariés sont homogènes si on peut permuter les observations d’un ou plusieurs couples, sans affecter la statistique d’échantillonnage sur les différences. L’espace des échantillons est alors défini par l’ensemble des protocoles qu’on peut obtenir en faisant toutes les permutations possibles entre les observations.<br></p>
+<div id="calcul-de-la-taille-de-lespace-des-echantillons-1" class="section level3">
+<h3><span class="header-section-number">3.1.1</span> Calcul de la taille de l’espace des échantillons</h3>
+<p>Le nombre de permutations possibles est de <span class="math inline">\(2^{n}\)</span> où n est le nombre d’individus. Pour illustrer la mise en œuvre du calcul de la distribution d’échantillonnage par permutation, nous allons, comme précédemment prendre un exemple simplifié à l’extrême de façon à faciliter la compréhension du principe général. Nous considérerons donc un échantillon de 4 individus. Le calcul de la taille de l’espace des échantillons ne pose pas de difficulté particulière. Si on considère un échantillon de 4 individus, nous aurons <span class="math inline">\(2^{4}=16\)</span> échantillons possibles.<br></p>
+</div>
+<div id="determination-de-lespace-des-echantillons-1" class="section level3">
+<h3><span class="header-section-number">3.1.2</span> Détermination de l’espace des échantillons</h3>
+<p>Considérons par exemple un ensemble de 4 individus. Chacun d’eux est associé à un couple d’observations obtenu dans un ordre particulier, t1 puis t2. Pour chacun des sujets, on peut conserver l’ordre original, que nous noterons O ou inverser les observations, ce que nous noterons I. Posons maintenant un tableau contenant autant de lignes que de protocoles possibles. Un premier protocole possible est l’ordre original pour tous les sujets. On peut ensuite inverser les observations du premier sujet, puis celle du second et ainsi de suite. On passera ensuite aux protocoles comportant deux inversions et en décalant la seconde d’un cran jusqu’au bout du tableau. On procédera de même pour les protocoles comportant trois inversions. Le dernier protocole étant naturellement celui qui comporte quatre inversions. En procédant ainsi, on est assuré de ne pas en oublier.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-yw4l">
+S
+</th>
+<th class="tg-yw4l">
+S1
+</th>
+<th class="tg-yw4l">
+S2
+</th>
+<th class="tg-yw4l">
+S3
+</th>
+<th class="tg-yw4l">
+S4
+</th>
+</tr>
+<tr>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+O
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+2
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+O
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+3
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+O
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+4
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+O
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+I
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+6
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+O
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+O
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+8
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+I
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+9
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+O
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+10
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+I
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+I
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+12
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+O
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+13
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+I
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+14
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+I
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+15
+</td>
+<td class="tg-yw4l">
+O
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+I
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+16
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+I
+</td>
+<td class="tg-yw4l">
+I
+</td>
+</tr>
+</table>
+<p><em>Tableau 1 Détermination des permutations possibles</em><br></p>
+<p>Comme précédemment avec les combinaisons, la détermination des permutations possibles ne dépend pas de l’échelle de mesure, mais va servir de support au calcul des différences et de la distribution d’échantillonnage.<br></p>
+</div>
+<div id="calcul-de-la-distribution-dechantillonnage-1" class="section level3">
+<h3><span class="header-section-number">3.1.3</span> Calcul de la distribution d’échantillonnage</h3>
+<div id="cas-dune-variable-nominale" class="section level4">
+<h4><span class="header-section-number">3.1.3.1</span> Cas d’une variable nominale</h4>
+<p>Nous allons illustrer l’application du calcul de la distribution d’échantillonnage en prenant une des tâches les plus utilisée dans l’étude du raisonnement : la tâche de Wason. Rappelons que dans cette tâche, l’expérimentateur énonce aux sujets une règle conditionnelle du type « Si une carte à une voyelle d’un côté, alors elle a un chiffre pair de l’autre », puis propose aux sujets 4 cartes en lui demandant de retourner celles qui sont nécessaires et suffisantes pour décider si la règle est vraie. La bonne réponse consiste à retourner la carte portant la voyelle et le chiffre impair. Dans une version thématique, ce sont des enveloppes qui sont présentées aux sujets en leur demandant de vérifier la règle « si une enveloppe est cachetée alors elle doit être timbrée à 5 pences ». La bonne réponse consistant à retourner l’enveloppe à trois pences et l’enveloppe cachetée. Imaginons qu’on ait fait passer à quatre sujets ces deux tâches, en commençant par la version formelle suivie de la version thématique. On note pour chacun des sujets sa réussite ou son échec à la tâche. Nous allons noter 1 les cas de réussite et 0 les cas d’échec et construire l’espace des échantillons.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-yw4l" colspan="4">
+Espace des échantillons
+</th>
+<th class="tg-yw4l" colspan="4">
+Protocoles des différences
+</th>
+<th class="tg-yw4l">
+</th>
+</tr>
+<tr>
+<td class="tg-yw4l">
+S1
+</td>
+<td class="tg-yw4l">
+S2
+</td>
+<td class="tg-yw4l">
+S3
+</td>
+<td class="tg-yw4l">
+S4
+</td>
+<td class="tg-yw4l">
+S1
+</td>
+<td class="tg-yw4l">
+S2
+</td>
+<td class="tg-yw4l">
+S3
+</td>
+<td class="tg-yw4l">
+S4
+</td>
+<td class="tg-yw4l">
+Somme
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+-3
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+-3
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+3
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(0;1)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(1;1)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+(1;0)
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+3
+</td>
+</tr>
+</table>
+<p><em>Tableau 2 Illustration du calcul de l’espace des échantillons avec une variable nominale</em><br></p>
+<p>Le premier échantillon est l’échantillon observé, puisque les données sont toutes dans l’ordre original. Le premier sujet a échoué à la tâche formelle, mais réussi la tâche thématique. Le second a réussi les deux tâches. Le troisième et le quatrième n’ont réussi que la tâche thématique. Ensuite, on procède aux permutations indiquées dans le tableau des permutations. On obtient ainsi les 16 échantillons possibles. On calculera ensuite, pour chacun des échantillons, le protocole des différences, en faisant la différence entre la première et la seconde observation. Dans le premier échantillon, pour le sujet 1, nous avons 0 pour première observation et 1 pour la seconde. Ce qui nous donne une différence de -1. Pour le sujet 2, la différence est nulle et on a -1 pour les sujets 3 et 4. On procède ainsi pour tous les échantillons possibles. On calcule ensuite pour chacun des échantillons, la somme des différences. Dans cet exemple, une somme des différences négative indique une meilleure réussite de la tâche thématique, tandis qu’une différence positive indique une meilleure réussite de la tâche formelle. Nous avons ainsi une nouvelle variable dont nous allons faire la distribution. Pour faire la distribution, il suffit d’ordonner les sommes des différences et de compter le nombre d’occurrences pour chacune des modalités de la variable.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-yw4l">
+Différences
+</th>
+<th class="tg-yw4l">
+Effectifs
+</th>
+<th class="tg-yw4l">
+Fréquences
+</th>
+</tr>
+<tr>
+<td class="tg-yw4l">
+-3
+</td>
+<td class="tg-yw4l">
+2
+</td>
+<td class="tg-yw4l">
+0,125
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+-1
+</td>
+<td class="tg-yw4l">
+6
+</td>
+<td class="tg-yw4l">
+0,375
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+6
+</td>
+<td class="tg-yw4l">
+0,375
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+3
+</td>
+<td class="tg-yw4l">
+2
+</td>
+<td class="tg-yw4l">
+0,125
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+Total
+</td>
+<td class="tg-yw4l">
+16
+</td>
+<td class="tg-yw4l">
+1
+</td>
+</tr>
+</table>
+<p><em>Tableau 3 distribution d’échantillonnage</em><br></p>
+<p>Voici la distribution des sommes des différences pour notre exemple. Nous cherchons à situer le premier protocole. La somme des différences pour ce protocole est de -3. On peut voir qu’il est présent avec une fréquence de 0,125 dans l’espace des échantillons. Cette proportion étant supérieure au seuil repère de .025, le résultat est non significatif. On peut considérer que l’échantillon observé n’est pas atypique de la population.
+Bien sûr, dans cet exemple très artificiel, et que nous présentons uniquement à des fins d’illustration de la démarche, aucun échantillon ne peut être déclaré atypique, puisqu’aucune fréquence n’est inférieure au seuil repère. Il faut rappeler que ces procédures, comme toutes les procédures statistiques, sont adaptées pour les grands effectifs que nous n’avons pas pu considérer ici, faute de place.<br></p>
+</div>
+<div id="cas-dune-variable-numerique" class="section level4">
+<h4><span class="header-section-number">3.1.3.2</span> Cas d’une variable numérique</h4>
+<p>Nous allons voir maintenant une application à une variable numérique. Dans ce cas, la statistique d’échantillonnage est la moyenne. La procédure de calcul est analogue à celle que nous avons vu pour les variables nominales. Posons d’abord un contexte, pour donner du sens à ce que nous faisons. Pour cela, imaginons que nous avons réalisé une tâche d’amorçage. On parle d’amorçage lorsque la vitesse d’identification d’un mot, appelé cible, est influencée par la présentation préalable d’un autre mot, appelé amorce. Dans ce type d’expérience, on fait varier la relation sémantique entre l’amorce et la cible pour mesurer l’effet de cette relation. L’effet d’amorçage dans un couple amorce-cible est mesuré par différence avec une situation neutre sans amorce. Nous avons donc deux tâches pour chacun de nos sujets : identifier la cible avec ou sans amorce. Nous sommes donc bien dans le cas d’un croisement. Encore une fois, pour des raisons de simplification et de place, nous nous limiterons à un échantillon de quatre sujets. Voici l’espace des échantillons.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-yzt1{background-color:#efefef;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-yw4l" colspan="4">
+Espace des échantillons
+</th>
+<th class="tg-yw4l" colspan="4">
+Protocoles des différences
+</th>
+<th class="tg-yw4l">
+</th>
+</tr>
+<tr>
+<td class="tg-yzt1">
+S1
+</td>
+<td class="tg-yzt1">
+S2
+</td>
+<td class="tg-yzt1">
+S3
+</td>
+<td class="tg-yzt1">
+S4
+</td>
+<td class="tg-yzt1">
+S1
+</td>
+<td class="tg-yzt1">
+S2
+</td>
+<td class="tg-yzt1">
+S3
+</td>
+<td class="tg-yzt1">
+S4
+</td>
+<td class="tg-yzt1">
+Somme
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(22;17)
+</td>
+<td class="tg-yw4l">
+(23;11)
+</td>
+<td class="tg-yw4l">
+(21;10)
+</td>
+<td class="tg-yw4l">
+(23;12)
+</td>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+12
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+9,75
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(17;22)
+</td>
+<td class="tg-yw4l">
+(23;11)
+</td>
+<td class="tg-yw4l">
+(21;10)
+</td>
+<td class="tg-yw4l">
+(23;12)
+</td>
+<td class="tg-yw4l">
+-5
+</td>
+<td class="tg-yw4l">
+12
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+7,25
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(22;17)
+</td>
+<td class="tg-yw4l">
+(11;23)
+</td>
+<td class="tg-yw4l">
+(21;10)
+</td>
+<td class="tg-yw4l">
+(23;12)
+</td>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+-12
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+3,75
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(22;17)
+</td>
+<td class="tg-yw4l">
+(23;11)
+</td>
+<td class="tg-yw4l">
+(10;21)
+</td>
+<td class="tg-yw4l">
+(23;12)
+</td>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+12
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+4,25
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(22;17)
+</td>
+<td class="tg-yw4l">
+(23;11)
+</td>
+<td class="tg-yw4l">
+(21;10)
+</td>
+<td class="tg-yw4l">
+(12;23)
+</td>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+12
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+4,25
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(17;22)
+</td>
+<td class="tg-yw4l">
+(11;23)
+</td>
+<td class="tg-yw4l">
+(21;10)
+</td>
+<td class="tg-yw4l">
+(23;12)
+</td>
+<td class="tg-yw4l">
+-5
+</td>
+<td class="tg-yw4l">
+-12
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+1,25
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(17;22)
+</td>
+<td class="tg-yw4l">
+(23;11)
+</td>
+<td class="tg-yw4l">
+(10;21)
+</td>
+<td class="tg-yw4l">
+(23;12)
+</td>
+<td class="tg-yw4l">
+-5
+</td>
+<td class="tg-yw4l">
+12
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+1,75
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(17;22)
+</td>
+<td class="tg-yw4l">
+(23;11)
+</td>
+<td class="tg-yw4l">
+(21;10)
+</td>
+<td class="tg-yw4l">
+(12;23)
+</td>
+<td class="tg-yw4l">
+-5
+</td>
+<td class="tg-yw4l">
+12
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+1,75
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(22;17)
+</td>
+<td class="tg-yw4l">
+(11;23)
+</td>
+<td class="tg-yw4l">
+(10;21)
+</td>
+<td class="tg-yw4l">
+(23;12)
+</td>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+-12
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+-1,75
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(22;17)
+</td>
+<td class="tg-yw4l">
+(11;23)
+</td>
+<td class="tg-yw4l">
+(21;10)
+</td>
+<td class="tg-yw4l">
+(12;23)
+</td>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+-12
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+-1,75
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(22;17)
+</td>
+<td class="tg-yw4l">
+(23;11)
+</td>
+<td class="tg-yw4l">
+(10;21)
+</td>
+<td class="tg-yw4l">
+(12;23)
+</td>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+12
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+-1,25
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(17;22)
+</td>
+<td class="tg-yw4l">
+(11;23)
+</td>
+<td class="tg-yw4l">
+(10;21)
+</td>
+<td class="tg-yw4l">
+(23;12)
+</td>
+<td class="tg-yw4l">
+-5
+</td>
+<td class="tg-yw4l">
+-12
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+-4,25
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(17;22)
+</td>
+<td class="tg-yw4l">
+(11;23)
+</td>
+<td class="tg-yw4l">
+(21;10)
+</td>
+<td class="tg-yw4l">
+(12;23)
+</td>
+<td class="tg-yw4l">
+-5
+</td>
+<td class="tg-yw4l">
+-12
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+-4,25
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(17;22)
+</td>
+<td class="tg-yw4l">
+(23;11)
+</td>
+<td class="tg-yw4l">
+(10;21)
+</td>
+<td class="tg-yw4l">
+(12;23)
+</td>
+<td class="tg-yw4l">
+-5
+</td>
+<td class="tg-yw4l">
+12
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+-3,75
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(22;17)
+</td>
+<td class="tg-yw4l">
+(11;23)
+</td>
+<td class="tg-yw4l">
+(10;21)
+</td>
+<td class="tg-yw4l">
+(12;23)
+</td>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+-12
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+-7,25
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+(17;22)
+</td>
+<td class="tg-yw4l">
+(11;23)
+</td>
+<td class="tg-yw4l">
+(10;21)
+</td>
+<td class="tg-yw4l">
+(12;23)
+</td>
+<td class="tg-yw4l">
+-5
+</td>
+<td class="tg-yw4l">
+-12
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+-11
+</td>
+<td class="tg-yw4l">
+-9,75
+</td>
+</tr>
+</table>
+<p><em>Tableau 4 Illustration du calcul de l’espace des échantillons avec une variable numérique</em><br></p>
+<p>Comme précédemment, pour la variable nominale, la première ligne correspond à l’échantillon observé. Les temps de réponses sont donnés en centièmes de seconde. Le premier chiffre, avant la barre de fraction, indique le temps de réponse pour les stimuli neutres, c’est-à-dire sans amorce. Le second chiffre, indique le temps de réponse pour les stimuli comportant une amorce. Les protocoles des différences sont construits de la même manière que précédemment, c’est-à-dire en faisant la différence entre la première et la seconde observation. Dans cet exemple, la différence représente l’ampleur de l’effet de l’amorce sur la cible. On calcule ensuite notre statistique d’échantillonnage pour chacun des protocoles des différences. Dans le cas des variables numériques, cette statistique est la moyenne, et non la somme qui est utilisée pour les variables nominales. Le calcul de la distribution d’échantillonnage se fera de la même façon que précédemment, en ordonnant les moyennes des différences et en dénombrant les occurrences pour chacune des valeurs. Voici la distribution d’échantillonnage obtenue sur notre exemple.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-yw4l">
+Différences
+</th>
+<th class="tg-yw4l">
+Effectifs
+</th>
+<th class="tg-yw4l">
+Fréquences
+</th>
+</tr>
+<tr>
+<td class="tg-yw4l">
+-9,8
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0,0625
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+-7,3
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0,0625
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+-4,3
+</td>
+<td class="tg-yw4l">
+2
+</td>
+<td class="tg-yw4l">
+0,125
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+-3,8
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0,0625
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+-1,8
+</td>
+<td class="tg-yw4l">
+2
+</td>
+<td class="tg-yw4l">
+0,125
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+-1,3
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0,0625
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+1,3
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0,0625
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+1,8
+</td>
+<td class="tg-yw4l">
+2
+</td>
+<td class="tg-yw4l">
+0,125
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+3,8
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0,0625
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+4,3
+</td>
+<td class="tg-yw4l">
+2
+</td>
+<td class="tg-yw4l">
+0,125
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+7,3
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0,0625
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+9,8
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0,0625
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+Total
+</td>
+<td class="tg-yw4l">
+16
+</td>
+<td class="tg-yw4l">
+1
+</td>
+</tr>
+</table>
+<p><em>Tableau 5 Distribution d’échantillonnage</em><br></p>
+<p>Dans l’échantillon observé, nous avons une moyenne des différences de 9,8. On peut lire la proportion d’échantillon de même moyenne à la dernière ligne du tableau de distribution. On voit que cette proportion est de 0,06, elle est supérieure à notre seuil repère de .025. Le résultat est donc non significatif. Notre échantillon n’est pas atypique de la population. Comme dans l’exemple précédent, le nombre de sujets est trop petit pour qu’un résultat significatif puisse être trouvé et il s’agit uniquement d’illustrer la démarche.<br></p>
+</div>
+<div id="interpretation-du-test" class="section level4">
+<h4><span class="header-section-number">3.1.3.3</span> Interprétation du test</h4>
+<p>Quel sens donner au résultat de ce test ? Sans doute ne l’avez-vous pas remarqué, mais les distributions d’échantillonnage que nous venons de calculer ont toutes les deux pour moyenne 0. Il en est toujours ainsi. Les distributions d’échantillonnage de toutes les permutations possibles sont toujours centrées sur 0. En situant un échantillon dans une telle distribution, nous nous demandons s’il est atypique d’une distribution où il n’y a pas de différence entre les deux tâches. L’interprétation du résultat du test dépend comme toujours du modèle d’échantillonnage adopté.<br></p>
+<p>Dans le cas d’un modèle combinatoire, dire qu’un échantillon des différences entre deux tâches est typique d’une distribution des différences centrée sur 0, c’est dire que les observations dans les deux tâches sont homogènes, autrement dit qu’on peut mélanger les observations des deux tâches.<br></p>
+<p>Dans le cadre du modèle fréquentiste, la proportion est interprétée comme une probabilité d’obtenir l’échantillon observé dans une distribution de moyenne des différences nulle. On dit qu’on teste l’hypothèse nulle. Une probabilité supérieure au seuil conduit à ne pas rejeter l’hypothèse nulle, le risque de se tromper est trop grand. A l’inverse, une probabilité inférieure au seuil conduit à rejeter l’hypothèse nulle. Dans ce cas, le risque de se tromper est suffisamment petit pour qu’on puisse l’accepter.<br></p>
+<p>Comment formulerions-nous la conclusion dans nos deux exemples ? Dans le cas de la tâche de Wason, une différence négative indique une meilleure réussite de la tâche thématique. Dans l’échantillon observé, trois sujets sur quatre échouent à la tâche formelle et réussissent la tâche thématique. Peut-on dire alors que la tâche thématique est mieux réussie que la tâche formelle? Si c’est le cas, les observations dans les deux tâches sont hétérogènes. L’analyse des résultats nous conduit à affirmer que ce n’est pas le cas.<br></p>
+<p>Dans le second exemple, une différence positive, comme celle de notre échantillon, reflète l’effet d’amorçage, c’est-à-dire le gain de rapidité de la réponse dû à la présence de l’amorce avant la cible. Si l’amorce n’a aucun effet, les observations sur les deux tâches sont homogènes. Dans cet exemple, on peut effectivement conclure à l’homogénéité des observations.<br></p>
+</div>
+</div>
+</div>
+<div id="inference-sur-un-protocole-univarie-nominal" class="section level2">
+<h2><span class="header-section-number">3.2</span> Inférence sur un protocole univarié nominal</h2>
+<div id="utilisation-dune-distribution-exacte-2" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Utilisation d’une distribution exacte</h3>
+<p>La comparaison de deux groupes d’observations appariés se pose différemment selon que la variable dépendante à deux ou plus de deux modalités. Dans le premier cas, le problème revient à se demander si l’observation est la même dans les deux conditions. Dans le second cas, cela revient à se demander s’il existe une relation entre les observations dans la première condition et les observations dans la seconde, ce qui n’est pas formellement différent de la façon de traiter un protocole bivarié qui sera abordé au chapitre 5. Nous ne traiterons donc, dans ce paragraphe, que du cas des variables dépendantes dichotomiques. <br></p>
+<p>Dans le cas d’un protocole structuré par un croisement avec une variable nominale dichotomique, la distribution exacte nous est donnée par la distribution binomiale que nous avons présentée précédemment (<strong>voir CHAPITRE 2 - 2.1.2</strong>). Nous avons en effet deux événements possibles (égalité ou différence des observations dans les deux conditions) et l’hypothèse d’homogénéité des groupes d’observations (ou l’hypothèse nulle dans l’approche fréquentiste) revient à postuler une égalité des fréquences de ces deux événements dans la distribution d’échantillonnage. Illustrons la démarche d’analyse à l’aide d’une situation concrète.<br></p>
+<p>Dans une recherche, on souhaite étudier l’effet du nombre de distracteurs sur la détection de la présence d’un objet cible lors d’une tâche de détection visuelle. Dans ce type d’expérience, le sujet doit appuyer sur un bouton à l’apparition d’un objet sur l’écran (cible). Cet objet est présenté au milieu de plusieurs autres objets (les distracteurs). On fait l’hypothèse que la cible sera d’autant moins bien détectée que les distracteurs seront nombreux. Pour cet exemple, nous allons considérer que 30 sujets doivent détecter la présence d’un objet cible présenté parmi 20 distracteurs (condition 20) dans une première condition, et parmi 40 distracteurs dans une seconde condition (condition 40). La variable dépendante est la détection ou non de la cible. Le protocole observé est présenté dans le Tableau 6<br></p>
+<p>Pour tester l’hypothèse d’une diminution des détections dans la condition 40, nous allons considérer la fréquence des individus qui vérifient l’hypothèse, et la comparer à une fréquence théorique de 50% correspondant à une réponse au hasard. Pour cela nous allons recoder les modalités de la variable en notant 1 les cas de détection et 0 les cas de non détection. Nous obtenons ainsi une variable pseudonumérique sur laquelle il est facile de calculer les différences entre la condition 20 et la condition 40. Le protocole recodé et le protocole des différences est présenté dans le Tableau 6. Dans le protocole des différences, les différences nulles correspondent aux individus qui ont répondu de la même façon dans les deux conditions. Du point de vue de notre hypothèse, ils ne sont pas informatifs. Nous allons donc les ignorer. Les différences négatives correspondent aux individus dont les réponses s’opposent à notre hypothèse (non détection en condition 20 et détection en condition 40). A contrario, les différences positives correspondent aux individus dont les réponses sont conformes à notre hypothèse (détection en condition 20 et non détection en condition 40). Ce sont ces deux derniers que nous allons considérer pour tester notre hypothèse. C’est ce qu’on appelle le test du signe.<br></p>
+<div id="htmlwidget-b7bfc8480e2424b33aa8" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b7bfc8480e2424b33aa8">{"x":{"filter":"none","data":[["S1","S2","S3","S4","S5","S6","S7","S8","S9","S10","S11","S12","S13","S14","S15","S16","S17","S18","S19","S20","S21","S22","S23","S24","S25","S26","S27","S28","S29","S30"],["D","D","D","D","ND","D","D","ND","D","D","D","ND","D","D","D","ND","D","D","D","ND","D","D","D","D","ND","D","D","D","D","D"],["D","ND","D","D","ND","D","D","D","D","ND","D","ND","D","D","ND","D","D","nd","D","D","D","ND","DD","D","ND","D","ND","D","ND","D"],[1,1,1,1,0,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,1,0,1,1,1,1,1],[1,0,1,1,0,1,1,1,1,0,1,0,1,1,0,1,1,0,1,1,1,0,0,1,0,1,0,1,0,1],[0,1,0,0,0,0,0,-1,0,1,0,0,0,0,1,-1,0,1,0,-1,0,1,1,0,0,0,1,0,1,0]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Individu<\/th>\n      <th>Condition 20<\/th>\n      <th>Condition 40<\/th>\n      <th>Cond. 20 recodée<\/th>\n      <th>Cond. 40 recodée<\/th>\n      <th>Différences<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":true,"caption":"Tableau 6 Illustration du test du signe","columnDefs":[{"className":"dt-right","targets":[3,4,5]}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<p><em>Tableau 6 Illustration du test du signe</em><br></p>
+<p>Si on fait abstraction des cas d’égalité, il nous reste alors 10 individus dont 7 vont dans le sens de l’hypothèse. Nous allons situer cet échantillon dans une distribution théorique correspondant à des réponses au hasard, soit une fréquence de détection de 50%. Il faut noter qu’en considérant ainsi le protocole des différences, on ramène le cas de l’inférence sur un protocole structuré par un croisement à celui de l’inférence sur un protocole univarié non structuré qu’on doit situer dans une distribution. Ce qui permet de comprendre pourquoi dans ce cas, la distribution exacte est la distribution binomiale.<br></p>
+<p>Nous avons pour cette distribution les paramètres suivants : <span class="math inline">\(P=0,5\)</span> ; <span class="math inline">\(Q=1-0,5\)</span> et <span class="math inline">\(n=10\)</span>. Il ne nous reste qu’à appliquer la procédure de calcul présenté précédemment (<strong>CHAPITRE 2 - 2.1.2</strong>). Les résultats de ces calculs sont présentés dans le tableau ci-dessous.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-yw4l">
+<span class="math inline">\(k\)</span>
+</th>
+<th class="tg-yw4l">
+<span class="math inline">\(\binom{n}{k}\)</span>
+</th>
+<th class="tg-yw4l">
+<span class="math inline">\(P^{k}\)</span>
+</th>
+<th class="tg-yw4l">
+<span class="math inline">\(Q^{n-k}\)</span>
+</th>
+<th class="tg-yw4l">
+<span class="math inline">\(p_{k}\)</span>
+</th>
+</tr>
+<tr>
+<td class="tg-yw4l">
+0
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+1,0000
+</td>
+<td class="tg-yw4l">
+0,0010
+</td>
+<td class="tg-yw4l">
+0,001
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+10
+</td>
+<td class="tg-yw4l">
+0,5000
+</td>
+<td class="tg-yw4l">
+0,0020
+</td>
+<td class="tg-yw4l">
+0,010
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+2
+</td>
+<td class="tg-yw4l">
+45
+</td>
+<td class="tg-yw4l">
+0,2500
+</td>
+<td class="tg-yw4l">
+0,0040
+</td>
+<td class="tg-yw4l">
+0,044
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+3
+</td>
+<td class="tg-yw4l">
+120
+</td>
+<td class="tg-yw4l">
+0,1250
+</td>
+<td class="tg-yw4l">
+0,0080
+</td>
+<td class="tg-yw4l">
+0,117
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+4
+</td>
+<td class="tg-yw4l">
+210
+</td>
+<td class="tg-yw4l">
+0,0625
+</td>
+<td class="tg-yw4l">
+0,0160
+</td>
+<td class="tg-yw4l">
+0,205
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+252
+</td>
+<td class="tg-yw4l">
+0,0313
+</td>
+<td class="tg-yw4l">
+0,0310
+</td>
+<td class="tg-yw4l">
+0,246
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+6
+</td>
+<td class="tg-yw4l">
+210
+</td>
+<td class="tg-yw4l">
+0,0156
+</td>
+<td class="tg-yw4l">
+0,0630
+</td>
+<td class="tg-yw4l">
+0,205
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+120
+</td>
+<td class="tg-yw4l">
+0,0078
+</td>
+<td class="tg-yw4l">
+0,1250
+</td>
+<td class="tg-yw4l">
+0,117
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+8
+</td>
+<td class="tg-yw4l">
+45
+</td>
+<td class="tg-yw4l">
+0,0039
+</td>
+<td class="tg-yw4l">
+0,2500
+</td>
+<td class="tg-yw4l">
+0,044
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+9
+</td>
+<td class="tg-yw4l">
+10
+</td>
+<td class="tg-yw4l">
+0,0020
+</td>
+<td class="tg-yw4l">
+0,5000
+</td>
+<td class="tg-yw4l">
+0,010
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+10
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0,0010
+</td>
+<td class="tg-yw4l">
+1,0000
+</td>
+<td class="tg-yw4l">
+0,001
+</td>
+</tr>
+</table>
+<p><em>Tableau 7 Distribution binomiale</em><br></p>
+<p>La première colonne contient les différentes valeurs de k qui vont dans cet exemple de 0 à 10. On trouve dans la deuxième colonne le nombre de k éléments dans n éléments (voir le mode de calcul dans le <strong>CHAPITRE 2 - 3.2.2)</strong>. Dans la troisième colonne la proportion P est élevée à la puissance k et dans la troisième colonne Q est élevée à la puissance n-k. La dernière colonne correspond au produit des trois précédentes. C’est notre distribution d’échantillonnage.
+On peut voir dans cette distribution que la proportion d’échantillons dans lesquels on a 70% ou plus d’individus conformes à l’hypothèse est de 0,117+0,044+0,010+0,001=0,172. Cette proportion étant supérieure au seuil .025, le résultat est donc non significatif. Dans le cadre d’un modèle d’échantillonnage combinatoire, cela veut dire que le protocole observé des différences n’est pas atypique d’une distribution où on a 50% de réponses conformes à l’hypothèse. Autrement dit, les deux séries d’observations peuvent être considérée comme homogènes. D’un point de vue fréquentiste, p=0,5 correspond à l’hypothèse nulle, c’est-à-dire l’absence de différence entre la condition 20 et la condition 40. La proportion doit alors être interprétée comme la probabilité d’obtenir un échantillon où il y a 70% de réponses conformes dans une population où il y en a 50%. Cette probabilité étant trop élevée (supérieure au seuil repère) l’hypothèse nulle n’est pas rejetée. D’un point de vue psychologique, cela signifie que nos données ne nous permettent pas de conclure que l’augmentation du nombre de distracteurs diminue la fréquence de détection de la cible. Cela dépend en fait de la nature des distracteurs qui, s’ils sont suffisamment différents de la cible, peuvent même en plus grand nombre favoriser la détection de la cible. C’est ce qu’on nomme l’effet « pop out ».<br></p>
+</div>
+<div id="utilisation-dune-distribution-approchee-2" class="section level3">
+<h3><span class="header-section-number">3.2.2</span> Utilisation d’une distribution approchée</h3>
+<p>La distribution binomiale calculée précédemment peut être approchée à l’aide d’une distribution de <span class="math inline">\(\chi ^{2}\)</span> à 1 degré de liberté. Comme précédemment (voir <strong>CHAPITRE 2 - 2.2</strong>), cette distribution approchée peut être utilisée à condition que les effectifs théoriques soient tous supérieurs à 5 et sous réserve d’appliquer la correction de continuité. La formule du calcul de <span class="math inline">\(\chi ^{2}\)</span> est alors la suivante :</p>
+<div id="utilisation-du-test-du-signe" class="section level4">
+<h4><span class="header-section-number">3.2.2.1</span> Utilisation du test du signe</h4>
+<p>Comme précédemment, le test du signe consiste à ne considérer que les différences non nulles et à situer le protocole des différences dans la distribution d’échantillonnage. Pour l’utilisation de <span class="math inline">\(\chi ^{2}\)</span>, cela revient à construire la distribution des effectifs observés en recodant les données selon trois modalités : les différences conformes à l’hypothèse, les différences nulles et les différences non conformes à l’hypothèse. Dans l’exemple précédent, nous avons ainsi la distribution observée suivante :</p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-yzt1{background-color:#efefef;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-yw4l" colspan="3">
+Différences
+</th>
+<th class="tg-yw4l">
+</th>
+</tr>
+<tr>
+<td class="tg-yzt1">
+Conformes
+</td>
+<td class="tg-yzt1">
+Nulles
+</td>
+<td class="tg-yzt1">
+Non conformes
+</td>
+<td class="tg-yzt1">
+Total
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+20
+</td>
+<td class="tg-yw4l">
+3
+</td>
+<td class="tg-yw4l">
+30
+</td>
+</tr>
+</table>
+<p><em>Tableau 8 Distribution des différences observées</em><br></p>
+<p>Les différences nulles n’étant pas informatives du point de vue de l’hypothèse à tester, on peut en faire abstraction. Nous obtenons ainsi les effectifs observés suivants où les différences conformes correspondent au cas de détection dans la condition 20 et de non détection dans la condition 40. Les différences conformes correspondant à l’inverse.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-yzt1{background-color:#efefef;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-yw4l" colspan="2">
+Différences obervées
+</th>
+<th class="tg-yw4l">
+</th>
+</tr>
+<tr>
+<td class="tg-yzt1">
+Conformes
+</td>
+<td class="tg-yzt1">
+Non conformes
+</td>
+<td class="tg-yzt1">
+Total
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+3
+</td>
+<td class="tg-yw4l">
+10
+</td>
+</tr>
+</table>
+<p><em>Tableau 9 Illustration du test du signe avec la distribution de</em> <span class="math inline">\(\chi ^2_{[1]}\)</span><br></p>
+<p>Les effectifs théoriques correspondent à une fréquence des différences conformes de 0,5 et une fréquence des différences non conformes de 1-0,5=0,5. Nous avons donc comme effectifs théoriques : 10*0,5 soit 5. Les effectifs théoriques étant supérieurs ou égaux à 5, nous pouvons calculer <span class="math inline">\(\chi ^2_{corr}\)</span> :<br></p>
+<p><span class="math inline">\(\chi_{corr}^{2} = \frac{(\left | 7-5 \right |-0.5)^{2}}{5}+\frac{(\left | 3-5 \right |-0.5)^{2}}{5}=0.9\)</span><br></p>
+<p>On consulte ensuite la table de <span class="math inline">\(\chi ^2_{[1]}\)</span>, en cherchant la valeur la plus proche mais inférieure à la valeur observée. Dans notre exemple, c’est la valeur .45, ce qui nous permet de lire en tête de colonne une valeur de p de .05. Le test peut donc être déclaré non significatif puisque p est supérieur au seuil repère .05 (notre table est bilatérale). Notre table étant imprécise, l’approximation de p est grossière. En fait la valeur de p que nous cherchons est comprise entre .50 et .30 qui correspondent aux valeurs immédiatement inférieures et supérieures à la valeur observée. Mais un logiciel de statistiques ou simplement un tableur nous renverrait une valeur de p de 0,34 ce qui correspond bien au double de ce que nous avons calculer avec la distribution binomiale.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-i8ip{background-color:#efefef;color:#3531ff;vertical-align:top}
+.tg .tg-9hbo{font-weight:bold;vertical-align:top}
+.tg .tg-1700{font-weight:bold;background-color:#efefef;color:#3531ff;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-9hbo">
+ddl
+</th>
+<th class="tg-9hbo">
+0,9
+</th>
+<th class="tg-9hbo">
+0,8
+</th>
+<th class="tg-9hbo">
+0,7
+</th>
+<th class="tg-1700">
+0,5
+</th>
+<th class="tg-9hbo">
+0,3
+</th>
+<th class="tg-9hbo">
+0,2
+</th>
+<th class="tg-9hbo">
+0,1
+</th>
+<th class="tg-9hbo">
+0,05
+</th>
+<th class="tg-9hbo">
+0,025
+</th>
+<th class="tg-9hbo">
+0,01
+</th>
+<th class="tg-9hbo">
+0,001
+</th>
+</tr>
+<tr>
+<td class="tg-i8ip">
+1
+</td>
+<td class="tg-i8ip">
+0,02
+</td>
+<td class="tg-i8ip">
+0,06
+</td>
+<td class="tg-i8ip">
+0,15
+</td>
+<td class="tg-i8ip">
+0,45
+</td>
+<td class="tg-yw4l">
+1,07
+</td>
+<td class="tg-yw4l">
+1,64
+</td>
+<td class="tg-yw4l">
+2,71
+</td>
+<td class="tg-yw4l">
+3,84
+</td>
+<td class="tg-yw4l">
+5,02
+</td>
+<td class="tg-yw4l">
+6,63
+</td>
+<td class="tg-yw4l">
+10,83
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+2
+</td>
+<td class="tg-yw4l">
+0,21
+</td>
+<td class="tg-yw4l">
+0,45
+</td>
+<td class="tg-yw4l">
+0,71
+</td>
+<td class="tg-yw4l">
+1,39
+</td>
+<td class="tg-yw4l">
+2,41
+</td>
+<td class="tg-yw4l">
+3,22
+</td>
+<td class="tg-yw4l">
+4,61
+</td>
+<td class="tg-yw4l">
+5,99
+</td>
+<td class="tg-yw4l">
+7,38
+</td>
+<td class="tg-yw4l">
+9,21
+</td>
+<td class="tg-yw4l">
+13,82
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+3
+</td>
+<td class="tg-yw4l">
+0,58
+</td>
+<td class="tg-yw4l">
+1,01
+</td>
+<td class="tg-yw4l">
+1,42
+</td>
+<td class="tg-yw4l">
+2,37
+</td>
+<td class="tg-yw4l">
+3,66
+</td>
+<td class="tg-yw4l">
+4,64
+</td>
+<td class="tg-yw4l">
+6,25
+</td>
+<td class="tg-yw4l">
+7,81
+</td>
+<td class="tg-yw4l">
+9,35
+</td>
+<td class="tg-yw4l">
+11,34
+</td>
+<td class="tg-yw4l">
+16,27
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+</tr>
+</table>
+<p><em>Tableau 10 Lecture de la table de <span class="math inline">\(\chi ^2_{[1]}\)</span></em><br></p>
+</div>
+<div id="utilisation-du-test-de-mc-nemar" class="section level4">
+<h4><span class="header-section-number">3.2.2.2</span> Utilisation du test de Mc Némar</h4>
+<p>On peut également utiliser dans le cas d’un protocole structuré par un croisement avec un facteur à deux modalités, on peut également utiliser le test de Mc Némar. Ce test est équivalent au test du signe que nous venons de voir. Il faut pour cela construire un tableau de distribution croisée à quatre cases. Dans notre exemple, celui-ci se présente ainsi : <br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-7fle{font-weight:bold;background-color:#efefef;text-align:center;vertical-align:top}
+.tg .tg-erlg{font-weight:bold;background-color:#efefef;vertical-align:top}
+.tg .tg-2sfh{font-weight:bold;background-color:#efefef}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-erlg">
+</th>
+<th class="tg-erlg">
+</th>
+<th class="tg-7fle" colspan="2">
+Condition 40
+</th>
+</tr>
+<tr>
+<td class="tg-erlg">
+</td>
+<td class="tg-erlg">
+</td>
+<td class="tg-erlg">
+Non détection
+</td>
+<td class="tg-erlg">
+Détection
+</td>
+</tr>
+<tr>
+<td class="tg-2sfh" rowspan="2">
+Condition 20
+</td>
+<td class="tg-erlg">
+Détection
+</td>
+<td class="tg-yw4l">
+<ol style="list-style-type: upper-alpha">
+<li>7
+</td>
+<td class="tg-yw4l">
+B (17)
+</td>
+</tr>
+<tr>
+<td class="tg-erlg">
+Non détection
+</td>
+<td class="tg-yw4l">
+(C)  3
+</td>
+<td class="tg-yw4l">
+D (3)
+</td>
+</tr>
+</table>
+<em>Tableau 11 Distribution croisée</em>
+Comme précédemment, on ne considère que les cas où la différence est non nulle, soit les cases A et D. Dans le test du signe, l’effectif théorique est égal à (A+D)/2. On peut alors simplifier la formule de X2corr utilisée dans le test du signe et obtenir une nouvelle formule de calcul :<br></li>
+</ol>
+<p><span class="math inline">\(\chi_{corr}^{2} = \frac{(\left | A-(A+D)/2 \right |-0.5)^{2}}{(A+D)/2}+\frac{(\left | (D-(A+D)/2) \right |-0.5)^{2}}{(A+D)/2}= \frac{(\left | A-D \right |-1)^{2}}{A+D}\)</span><br></p>
+<p>On peut alors vérifier, en remplaçant les lettres A et D par les valeurs correspondantes, qu’on obtient bien la même valeur pour <span class="math inline">\(\chi ^2_{corr}\)</span> : <br></p>
+<p><span class="math inline">\(\chi_{corr}^{2} = \frac{(\left | 7-3 \right |-1)^{2}}{7+3} = 0,9\)</span></p>
+<p>Le test de Mc Némar est donc un cas particulier du test du signe. Il ne permet de tester que le cas où la fréquence théorique est de 0,5. Pour les cas où la fréquence théorique est différente de 0,5, il faut utiliser le test du signe. L’utilisation du test de Mc Némar permet cependant de simplifier les calculs, mais on doit garder à l’esprit que ce test s’utilise avec les protocoles univariés structurés par un croisement (groupes appariés) et ne pas confondre ce test avec le calcul du <span class="math inline">\(\chi^{2}\)</span> dans le cas des protocoles structurés par un emboîtement (groupes indépendants). <br></p>
+</div>
+</div>
+</div>
+<div id="inference-sur-un-protocole-univarie-numerique-1" class="section level2">
+<h2><span class="header-section-number">3.3</span> Inférence sur un protocole univarié numérique</h2>
+<div id="utilisation-dune-distribution-exacte-3" class="section level3">
+<h3><span class="header-section-number">3.3.1</span> Utilisation d’une distribution exacte</h3>
+<p>Dans le cas d’un protocole numérique, la distribution d’échantillonnage exacte peut être calculée sur l’espace des échantillons déterminé par combinatoire en cherchant l’ensemble des permutations possibles. Cette procédure a été développée précédemment (<strong>CHAPITRE 3 - 1.3.2</strong>). Nous n’y reviendrons pas. <br></p>
+<p>On peut également utiliser, notamment lorsque la distribution observée est trop asymétrique, la distribution binomiale en recodant la variable en ne considérant que le sens des différences. On peut alors mettre en œuvre le test du signe tel que nous l’avons présenté précédemment. Nous allons illustrer rapidement cette seconde démarche. Nous allons, pour cela, reprendre l’exemple de la tâche de détection en imaginant cette fois que la variable dépendante est le temps de réponse en millisecondes. L’hypothèse qu’on cherche à tester est que le temps de détection est plus long avec 40 distracteurs qu’avec 20. Le protocole observé est donné dans le <strong>Tableau 12</strong>.<br></p>
+<p><div id="htmlwidget-2fb341319a277078beb1" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2fb341319a277078beb1">{"x":{"filter":"none","data":[["S1","S2","S3","S4","S5","S6","S7","S8","S9","S10","S11","S12","S13","S14","S15","S16","S17","S18","S19","S20","S21","S22","S23","S24","S25","S26","S27","S28","S29","S30"],[451,362,336,394,476,394,350,473,438,443,468,443,477,408,427,430,438,295,467,407,341,154,418,299,440,467,395,495,442,429],[576,393,404,341,414,441,425,509,407,537,502,664,515,412,405,445,442,435,505,515,511,231,527,448,460,450,442,542,463,513],[125,31,68,-53,-62,47,75,36,-31,94,34,221,38,4,-22,15,4,140,38,108,170,77,109,149,20,-17,47,47,21,84],["+","+","+","-","-","+","+","+","-","+","+","+","+","+","-","+","+","+","+","+","+","+","+","+","+","-","+","+","+","+"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Individu<\/th>\n      <th>Condition 20<\/th>\n      <th>Condition 40<\/th>\n      <th>Différences<\/th>\n      <th>Signes<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":true,"caption":"Tableau 12 Protocole observé et protocole des différences","columnDefs":[{"className":"dt-right","targets":[1,2,3]}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<em>Tableau 12 Protocole observé et protocole des différences</em><br></p>
+<p>A partir du protocole observé, on calcule le protocole des différences. Ici, nous voulons tester que le temps de réponses est plus long en condition 40 qu’en condition 20. Nous avons donc fait la soustraction dans ce sens, de sorte que les différences positives sont celles qui sont conformes à notre hypothèse et les différences négatives sont celles qui sont non conformes. Dans la dernière colonne du Tableau 3.12, nous avons recodé le protocole des différences en ne retenant que le signe des différences, de sorte que nous obtenons un protocole nominal qu’il est facile de situer dans une distribution binomiale. Dans cet exemple n=30 et <span class="math inline">\(P\)</span> et <span class="math inline">\(Q\)</span> sont égaux à 0,5. <br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-yw4l">
+<span class="math inline">\(k\)</span>
+</th>
+<th class="tg-yw4l">
+<span class="math inline">\(\binom{n}{k}\)</span>
+</th>
+<th class="tg-yw4l">
+<span class="math inline">\(P^{k}\)</span>
+</th>
+<th class="tg-yw4l">
+<span class="math inline">\(Q^{n-k}\)</span>
+</th>
+<th class="tg-yw4l">
+p_{k}
+</th>
+</tr>
+<tr>
+<td class="tg-yw4l">
+25
+</td>
+<td class="tg-yw4l">
+142506
+</td>
+<td class="tg-yw4l">
+0,00000030
+</td>
+<td class="tg-yw4l">
+0,3125
+</td>
+<td class="tg-yw4l">
+0,000132719
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+26
+</td>
+<td class="tg-yw4l">
+27405
+</td>
+<td class="tg-yw4l">
+0,00000015
+</td>
+<td class="tg-yw4l">
+0,0625
+</td>
+<td class="tg-yw4l">
+0,000025523
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+27
+</td>
+<td class="tg-yw4l">
+4060
+</td>
+<td class="tg-yw4l">
+0,00000007
+</td>
+<td class="tg-yw4l">
+0,125
+</td>
+<td class="tg-yw4l">
+0,000003781
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+28
+</td>
+<td class="tg-yw4l">
+435
+</td>
+<td class="tg-yw4l">
+0,00000004
+</td>
+<td class="tg-yw4l">
+0,25
+</td>
+<td class="tg-yw4l">
+0,000000405
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+29
+</td>
+<td class="tg-yw4l">
+30
+</td>
+<td class="tg-yw4l">
+0,00000002
+</td>
+<td class="tg-yw4l">
+0,5
+</td>
+<td class="tg-yw4l">
+0,000000028
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+30
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0,00000001
+</td>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0,000000001
+</td>
+</tr>
+</table>
+<p><em>Tableau 3.13 Distribution binomiale</em><br></p>
+<p>Nous ne reviendrons pas sur le calcul de la distribution binomiale qui a déjà été présenté précédemment. Nous présenterons simplement les résultats. Dans notre exemple, nous cherchons la proportion d’échantillons pour lesquels on a 25 différences conformes ou plus. Nous n’avons donc pas besoin de calculer la valeur de pk pour toutes les valeurs de k. On peut se contenter des valeurs de k≥25. La proportion que nous cherchons est égale au total de la dernière colonne du <strong>Tableau 13</strong>, soit 0,00016. Cette proportion étant inférieure au seuil repère .025, le résultat peut être déclaré significatif. Les deux groupes d’observations sont hétérogènes et on peut généraliser le résultat descriptif d’un temps de réponse dans la condition 40 supérieur à la condition 20. Dans le cadre d’un modèle d’échantillonnage fréquentiste, cela signifie que l’hypothèse nulle peut être rejetée.<br></p>
+</div>
+<div id="utilisation-dune-distribution-approchee-3" class="section level3">
+<h3><span class="header-section-number">3.3.2</span> Utilisation d’une distribution approchée</h3>
+<p>Comme nous l’avons vu précédemment, avec une variable numérique, deux distributions approchées peuvent être utilisées : la distribution de <span class="math inline">\(Z\)</span> et la distribution de <span class="math inline">\(T\)</span>. Dans le cas où l’échantillon doit être situé dans une population, la moyenne et la variance parente sont connues. C’est alors le test du z qui doit être utilisé. Dans le cas où l’échantillon doit être situé dans une distribution, si la variance parente est connue c’est également le test du z qui doit être utilisé. Lorsque la variance parente n’est pas connue, il faut utiliser le test du t de Student.
+Dans les deux cas, le principe général de l’inférence sur un protocole numérique structuré par un croisement consiste à calculer le protocole des différences et à le situer dans la distribution d’échantillonnage des différences.<br></p>
+<div id="utilisation-de-la-distribution-du-z" class="section level4">
+<h4><span class="header-section-number">3.3.2.1</span> Utilisation de la distribution du <span class="math inline">\(Z\)</span></h4>
+<p>Pour illustrer la mise en œuvre du test du z, nous allons prendre un exemple très simplifié. Imaginons que, dans une recherche, on mesure, en minutes, le temps que les sujets mettent à lire un texte. Puis qu’on leur donne un second texte traitant du même sujet, présenté différemment. On fait l’hypothèse que les connaissances acquises au cours de la lecture du premier texte aideront à la lecture du second. Le temps de lecture devrait être plus court pour le second texte. On est dans le cas d’un protocole structuré par un croisement, chaque sujet ayant vu les deux tâches. Pour comparer le temps moyen de lecture des deux textes, il faut construire le protocole dérivé des différences individuelles. Pour cela, on calculera, pour chaque sujet la différence entre les temps de lecture du premier et du second texte. La dernière colonne du tableau représente le protocole dérivé des différences individuelles. En calculant ce protocole, on construit une nouvelle variable.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-yw4l">
+Individu
+</th>
+<th class="tg-yw4l">
+t1
+</th>
+<th class="tg-yw4l">
+t2
+</th>
+<th class="tg-yw4l">
+t2-t1
+</th>
+</tr>
+<tr>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+8
+</td>
+<td class="tg-yw4l">
+6
+</td>
+<td class="tg-yw4l">
+-2
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+2
+</td>
+<td class="tg-yw4l">
+6
+</td>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+3
+</td>
+<td class="tg-yw4l">
+4
+</td>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+3
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+4
+</td>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+-2
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+9
+</td>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+-2
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+6
+</td>
+<td class="tg-yw4l">
+4
+</td>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+3
+</td>
+<td class="tg-yw4l">
+4
+</td>
+<td class="tg-yw4l">
+1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+8
+</td>
+<td class="tg-yw4l">
+6
+</td>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+9
+</td>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+0
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+10
+</td>
+<td class="tg-yw4l">
+8
+</td>
+<td class="tg-yw4l">
+6
+</td>
+<td class="tg-yw4l">
+-2
+</td>
+</tr>
+</table>
+<p><em>Tableau 14 Protocole dérivé des différences</em>
+Si on ne considère que cette dernière variable, on se trouve alors dans le cas d’un protocole univarié non structuré. Si on connaît la variance parente, on peut alors utiliser le test du <span class="math inline">\(z\)</span> tel qu’il a été présenté pour les protocoles non structurés. Dans cet exemple, la moyenne des différences de l’échantillon est de -0,3 et l’écart-type des différences est de 1,77.<br></p>
+<p>Imaginons que l’écart-type de la population parente <span class="math inline">\(\sigma_{0}\)</span> soit de 1,80. La moyenne parente est de 0. Rappelons que nous testons l’absence de différences, ce qu’on nomme également l’hypothèse nulle. Dans notre exemple, l’application de la formule de <span class="math inline">\(z\)</span> nous donne un <span class="math inline">\(z_{obs}\)</span> de : <br></p>
+<p><span class="math inline">\(z_{obs} = \frac{m-\mu _{0}}{\sigma _{0}/\sqrt{n}} = \frac{-0,3-0}{1,80/\sqrt{10}} = 0,52\)</span></p>
+<p>La lecture de la table du <span class="math inline">\(Z\)</span> se fait comme précédemment en recherchant dans la table la valeur de <span class="math inline">\(z_{obs}\)</span> et en lisant la proportion associée. Dans notre exemple, nous faisons l’hypothèse que le temps de lecture du texte 2 est plus court que le temps de lecture du texte 1. C’est donc la proportion cumulée à gauche des échantillons que nous cherchons. La proportion que nous lisons dans la table en regard de -0,52 est de 0,302. Elle représente la proportion des échantillons dans lesquels la valeur de Z est inférieure à -0,52. Cette proportion étant supérieur au seuil repère de .025, le test peut être déclaré non significatif.<br></p>
+<p>Comme précédemment, l’interprétation du test dépend du modèle d’échantillonnage dans lequel on se situe. Du point de vue du modèle combinatoire toujours possible quel que soit le cas de figure, il s’agit de tester l’homogénéité des deux groupes d’observations. Autrement dit, si la moyenne des différences est proche de 0, les données des deux tâches peuvent être mélangées. Le test étant non significatif, les deux groupes d’observations doivent être considérés comme homogènes. <br></p>
+<p>Dans cet exemple, on peut également se placer dans l’approche fréquentiste. On teste en effet une hypothèse et on peut considérer, que toutes choses égale par ailleurs, les deux tâches sont équivalentes. Les sujets peuvent également être considérés comme tirés au hasard dans la population. De ce point de vue, la proportion peut alors être interprétée comme une probabilité d’obtenir une telle moyenne des différences dans l’espace des échantillons. La probabilité d’obtenir une moyenne des différences de -0,3 étant trop élevée, on ne peut rejeter l’hypothèse nulle. Il n’y a donc pas de différence entre les deux groupes d’observations. On ne peut donc pas dire que la lecture du second texte soit plus rapide que la lecture du premier. Ce qui d’un point de vue psychologique pose la question du transfert de connaissance du premier au second texte.<br></p>
+</div>
+<div id="utilisation-du-test-du-t-de-student" class="section level4">
+<h4><span class="header-section-number">3.3.2.2</span> Utilisation du test du t de Student</h4>
+<p>Nous allons illustrer l’utilisation du t de Student avec la classique situation de l’économie au réapprentissage. Dans ce type d’expérience, l’expérimentateur fait apprendre à deux reprise une liste de mots aux sujets et mesure le nombre de répétitions nécessaires pour que les sujets soient capables de restituer parfaitement la liste. La réduction du nombre de répétition constitue l’économie au réapprentissage.<br></p>
+<p>Imaginons que la liste comporte 20 mots. Dans une première phase, le sujet doit apprendre la liste par cœur. On mesure le nombre de répétitions nécessaires à un rappel parfait des 20 mots. Quelques semaines après, les mêmes sujets sont à nouveau invités à réapprendre la même liste de mots. On mesure à nouveau le nombre de répétitions nécessaires pour un rappel parfait de la liste.<br></p>
+<p>Bien qu’avant le deuxième apprentissage, les sujets n’aient pas été capables de rappeler la liste, on fait l’hypothèse qu’ils n’ont pas oublié leur premier apprentissage, ce qui devrait se traduire par un nombre de répétitions nécessaires à un rappel parfait moins important pour le second apprentissage.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-yw4l">
+Individu
+</th>
+<th class="tg-yw4l">
+t1
+</th>
+<th class="tg-yw4l">
+t2
+</th>
+<th class="tg-yw4l">
+t2-t1
+</th>
+</tr>
+<tr>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+12
+</td>
+<td class="tg-yw4l">
+10
+</td>
+<td class="tg-yw4l">
+-2
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+2
+</td>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+2
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+3
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+9
+</td>
+<td class="tg-yw4l">
+-2
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+4
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+8
+</td>
+<td class="tg-yw4l">
+-3
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+-4
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+6
+</td>
+<td class="tg-yw4l">
+6
+</td>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+-1
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+14
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+-3
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+8
+</td>
+<td class="tg-yw4l">
+14
+</td>
+<td class="tg-yw4l">
+12
+</td>
+<td class="tg-yw4l">
+-2
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+9
+</td>
+<td class="tg-yw4l">
+9
+</td>
+<td class="tg-yw4l">
+7
+</td>
+<td class="tg-yw4l">
+-2
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+10
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+6
+</td>
+<td class="tg-yw4l">
+-5
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+9
+</td>
+<td class="tg-yw4l">
+9
+</td>
+<td class="tg-yw4l">
+0
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+12
+</td>
+<td class="tg-yw4l">
+11
+</td>
+<td class="tg-yw4l">
+8
+</td>
+<td class="tg-yw4l">
+-3
+</td>
+</tr>
+</table>
+<p><em>Tableau 15 Dérivation du protocole des différences individuelles</em><br></p>
+<p>Nous sommes dans le cas d’un protocole structuré par un croisement, chaque sujet ayant vu les deux tâches. Pour comparer le nombre de répétitions dans les deux apprentissages, il faut construire le protocole dérivé des différences individuelles. Pour cela, on calculera, pour chaque sujet la différence entre le nombre de répétition au premier et du second apprentissage. La dernière colonne du tableau représente le protocole dérivé des différences individuelles. En calculant ce protocole dérivé, on construit une nouvelle variable. Si on ne considère que cette dernière variable, on se trouve alors dans le cas d’un protocole univarié non structuré. Ne connaissant pas la variance parente, le test du <span class="math inline">\(Z\)</span> ne peut être employé. Dans ce cas, on calculera le t de Student. Dans cet exemple, la moyenne des différences est de 2,08. L’écart-type corrigé des différences est de 1,87. On peut, à partir de ces paramètres calculer la valeur de <span class="math inline">\(t_{obs}\)</span>.<br></p>
+<p>Rappelons que dans cet exemple, nous testons l’absence de différences, autrement dit l’hypothèse nulle. La moyenne parente sera donc de 0 et <span class="math inline">\(t_{obs}\)</span> est de 3,85.</p>
+<p><span class="math inline">\(t_{obs} = \frac{m-\mu _{0}}{\sigma/\sqrt{n}} = \frac{2,08-0}{1,87/\sqrt{12}} = 3,85\)</span><br></p>
+<p>Nous avons 12 observations donc 11 degrés de liberté. C’est donc la ligne 11 qu’il nous faut regarder. Nous cherchons ensuite sur cette ligne la valeur inférieur ou égale la plus proche à notre <span class="math inline">\(t_{obs}\)</span>. Cette valeur est de 3,11. Nous testons l’hypothèse que les sujets font moins de répétitions lors du second apprentissage pour parvenir à un rappel parfait.<br></p>
+<p>Notre hypothèse est donc orientée du coté des valeurs basses. En conséquence, nous regarderons le seuil unilatéral, et lisons en tête de colonne la proportion recherchée. Elle est de .005. Cette proportion étant inférieure au seuil repère de .025, le résultat est déclaré significatif au seuil de .005. La valeur pour ce seuil étant inférieure à la valeur observée, si nous avions eu une table plus précise, nous aurions eu une valeur de p inférieure à .005. C’est la raison pour laquelle, on voit souvent écrit pour rendre compte du résultat du test que p est inférieur à .005. Cela ne veut pas dire qu’il est significatif pour toutes les valeurs de p inférieures à .005, On voit en effet qu’il ne l’est pas pour un seuil de .001. En fait, avec une table suffisamment précise ou à l’aide de la fonction t de Student d’un tableur, nous aurions trouvé une valeur de p comprise entre .005 et .001. Dans cet exemple, le tableur nous renverrait une valeur de p de .0013.<br></p>
+<p>Comme précédemment, l’interprétation d’un point de vue statistique dépend du modèle d’échantillonnage dans lequel on se place. Du point de vue du modèle combinatoire, toujours possible quel que soit le cas de figure, il s’agit de tester l’homogénéité des deux groupes d’observations. Autrement dit, si la moyenne des différences est proche de 0, les données des deux tâches peuvent être mélangées. Le test étant significatif, les deux groupes d’observations doivent être considérés comme hétérogènes. La valeur de t étant positive, on a t1&gt;t2. On peut donc dire que les sujets ont besoin de moins de répétitions, dans le second apprentissage, pour réapprendre parfaitement la liste de mots.<br></p>
+<p>Dans cet exemple, on peut également se placer dans l’approche fréquentiste. On peut, en effet, considérer que les sujets sont tirés au sort dans la population et que toutes choses égales par ailleurs, les deux tâches sont comparables. De ce point de vue, la proportion p peut être interprétée comme étant la probabilité d’obtenir une différence de 2,08. Autrement dit, on a 5 chances sur mille d’obtenir un échantillon présentant une moyenne supérieure ou égale à celle observée dans notre échantillon. Ce qui permet dans trop de risque de rejeter l’hypothèse nulle d’absence de différences.<br></p>
+<p>D’un point de vue psychologique, on peut donc généraliser l’idée que les sujets réapprennent plus vite une liste de mots, même si à première vue ils ne s’en souviennent pas. Ce qui montre que le premier apprentissage n’est pas perdu, mais seulement inaccessible en mémoire.<br></p>
+
+</div>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="inference-sur-un-protocole-univarie-non-structure.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": ["InferenceStatistique.pdf", "InferenceStatistique.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

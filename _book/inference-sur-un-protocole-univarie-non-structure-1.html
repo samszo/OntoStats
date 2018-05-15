@@ -1,0 +1,2143 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>L’inférence Statistique</title>
+  <meta name="description" content="Ce document constitue la version enrichi du support de cours des étudiants de licence de pyschologie à l’institut d’enseignement à distance de l’Université Paris 8.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="L’inférence Statistique" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Ce document constitue la version enrichi du support de cours des étudiants de licence de pyschologie à l’institut d’enseignement à distance de l’Université Paris 8." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="L’inférence Statistique" />
+  
+  <meta name="twitter:description" content="Ce document constitue la version enrichi du support de cours des étudiants de licence de pyschologie à l’institut d’enseignement à distance de l’Université Paris 8." />
+  
+
+<meta name="author" content="Jean-Marc Meunier">
+
+
+<meta name="date" content="2018-05-09">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="principes-et-methodologie-1.html">
+<link rel="next" href="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-1.0/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.4/datatables.js"></script>
+<link href="libs/dt-core-1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.16/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.16/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Inférence statistique</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>INTRODUCTION</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#presentation-du-cours"><i class="fa fa-check"></i>Présentation du cours</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html"><i class="fa fa-check"></i><b>1</b> PRINCIPES ET METHODOLOGIE</a><ul>
+<li class="chapter" data-level="1.1" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#definition-des-principaux-concepts"><i class="fa fa-check"></i><b>1.1</b> Définition des principaux concepts</a></li>
+<li class="chapter" data-level="1.2" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#principes-generaux-de-linference"><i class="fa fa-check"></i><b>1.2</b> Principes généraux de l’inférence</a></li>
+<li class="chapter" data-level="1.3" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#choix-du-modele-dechantillonnage"><i class="fa fa-check"></i><b>1.3</b> Choix du modèle d’échantillonnage</a></li>
+<li class="chapter" data-level="1.4" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#choix-de-la-distribution-dechantillonnage"><i class="fa fa-check"></i><b>1.4</b> Choix de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="1.5" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#mise-en-uvre-du-test"><i class="fa fa-check"></i><b>1.5</b> Mise en œuvre du test</a></li>
+<li class="chapter" data-level="1.6" data-path="principes-et-methodologie.html"><a href="principes-et-methodologie.html#formulation-de-la-conclusion-et-interpretation"><i class="fa fa-check"></i><b>1.6</b> Formulation de la conclusion et Interprétation</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html"><i class="fa fa-check"></i><b>2</b> INFERENCE SUR UN PROTOCOLE UNIVARIE NON STRUCTURE</a><ul>
+<li class="chapter" data-level="2.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#les-combinaisons"><i class="fa fa-check"></i><b>2.1</b> Les combinaisons</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#calcul-de-la-taille-de-lespace-des-echantillons"><i class="fa fa-check"></i><b>2.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="2.1.2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#determination-de-lespace-des-echantillons"><i class="fa fa-check"></i><b>2.1.2</b> Détermination de l’espace des échantillons</a></li>
+<li class="chapter" data-level="2.1.3" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#calcul-de-la-distribution-dechantillonnage"><i class="fa fa-check"></i><b>2.1.3</b> Calcul de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="2.1.4" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#limites-du-test"><i class="fa fa-check"></i><b>2.1.4</b> Limites du test</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-exacte"><i class="fa fa-check"></i><b>2.2</b> Utilisation d’une distribution exacte</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#situer-un-echantillon-dans-une-population"><i class="fa fa-check"></i><b>2.2.1</b> Situer un échantillon dans une population</a></li>
+<li class="chapter" data-level="2.2.2" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-approchee"><i class="fa fa-check"></i><b>2.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#inference-sur-un-protocole-univarie-numerique"><i class="fa fa-check"></i><b>2.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-exacte-1"><i class="fa fa-check"></i><b>2.3.1</b> Utilisation d’une distribution exacte</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#utilisation-dune-distribution-approchee-1"><i class="fa fa-check"></i><b>2.4</b> Utilisation d’une distribution approchée</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="inference-sur-un-protocole-univarie-non-structure.html"><a href="inference-sur-un-protocole-univarie-non-structure.html#situer-un-echantillon-dans-une-population-1"><i class="fa fa-check"></i><b>2.4.1</b> Situer un échantillon dans une population</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><i class="fa fa-check"></i><b>3</b> INFERENCE SUR UN PROTOCOLE UNIVARIE STRUCTURE PAR UN CROISEMENT</a><ul>
+<li class="chapter" data-level="3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#les-permutations"><i class="fa fa-check"></i><b>3.1</b> Les permutations</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#calcul-de-la-taille-de-lespace-des-echantillons-1"><i class="fa fa-check"></i><b>3.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="3.1.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#determination-de-lespace-des-echantillons-1"><i class="fa fa-check"></i><b>3.1.2</b> Détermination de l’espace des échantillons</a></li>
+<li class="chapter" data-level="3.1.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#calcul-de-la-distribution-dechantillonnage-1"><i class="fa fa-check"></i><b>3.1.3</b> Calcul de la distribution d’échantillonnage</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#inference-sur-un-protocole-univarie-nominal"><i class="fa fa-check"></i><b>3.2</b> Inférence sur un protocole univarié nominal</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-exacte-2"><i class="fa fa-check"></i><b>3.2.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="3.2.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-approchee-2"><i class="fa fa-check"></i><b>3.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#inference-sur-un-protocole-univarie-numerique-1"><i class="fa fa-check"></i><b>3.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-exacte-3"><i class="fa fa-check"></i><b>3.3.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="3.3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement.html#utilisation-dune-distribution-approchee-3"><i class="fa fa-check"></i><b>3.3.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><i class="fa fa-check"></i><b>4</b> INFERENCE SUR UN PROTOCOLE UNIVARIE STRUCTURE PAR UN EMBOITEMENT</a><ul>
+<li class="chapter" data-level="4.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#les-partitions"><i class="fa fa-check"></i><b>4.1</b> Les partitions</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#calcul-de-la-taille-de-lespace-des-echantillons-2"><i class="fa fa-check"></i><b>4.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="4.1.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#calcul-de-la-distribution-dechantillonnage-2"><i class="fa fa-check"></i><b>4.1.2</b> Calcul de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="4.1.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#interpretation-du-test-1"><i class="fa fa-check"></i><b>4.1.3</b> Interprétation du test</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#inference-sur-un-protocole-univarie-nominal-1"><i class="fa fa-check"></i><b>4.2</b> Inférence sur un protocole univarié nominal</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-exacte-4"><i class="fa fa-check"></i><b>4.2.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="4.2.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-approchee-4"><i class="fa fa-check"></i><b>4.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#inference-sur-un-protocole-univarie-numerique-2"><i class="fa fa-check"></i><b>4.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-exacte-5"><i class="fa fa-check"></i><b>4.3.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="4.3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement.html#utilisation-dune-distribution-approchee-5"><i class="fa fa-check"></i><b>4.3.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html"><i class="fa fa-check"></i><b>5</b> INFERENCE SUR UN PROTOCOLE BIVARIE</a><ul>
+<li class="chapter" data-level="5.1" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#inference-sur-un-protocole-bivarie-numerique"><i class="fa fa-check"></i><b>5.1</b> Inférence sur un protocole bivarié numérique</a></li>
+<li class="chapter" data-level="5.2" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#inference-sur-un-protocole-bivarie-nominal"><i class="fa fa-check"></i><b>5.2</b> Inférence sur un protocole bivarié nominal</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#cas-des-variables-dichotomiques"><i class="fa fa-check"></i><b>5.2.1</b> Cas des variables dichotomiques</a></li>
+<li class="chapter" data-level="5.2.2" data-path="inference-sur-un-protocole-bivarie.html"><a href="inference-sur-un-protocole-bivarie.html#cas-des-variables-a-plus-de-deux-modalites."><i class="fa fa-check"></i><b>5.2.2</b> Cas des variables à plus de deux modalités.</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html"><i class="fa fa-check"></i>INTRODUCTION</a><ul>
+<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#presentation-du-cours-1"><i class="fa fa-check"></i>Présentation du cours</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="principes-et-methodologie-1.html"><a href="principes-et-methodologie-1.html"><i class="fa fa-check"></i><b>6</b> PRINCIPES ET METHODOLOGIE</a><ul>
+<li class="chapter" data-level="6.1" data-path="principes-et-methodologie-1.html"><a href="principes-et-methodologie-1.html#definition-des-principaux-concepts-1"><i class="fa fa-check"></i><b>6.1</b> Définition des principaux concepts</a></li>
+<li class="chapter" data-level="6.2" data-path="principes-et-methodologie-1.html"><a href="principes-et-methodologie-1.html#principes-generaux-de-linference-1"><i class="fa fa-check"></i><b>6.2</b> Principes généraux de l’inférence</a></li>
+<li class="chapter" data-level="6.3" data-path="principes-et-methodologie-1.html"><a href="principes-et-methodologie-1.html#choix-du-modele-dechantillonnage-1"><i class="fa fa-check"></i><b>6.3</b> Choix du modèle d’échantillonnage</a></li>
+<li class="chapter" data-level="6.4" data-path="principes-et-methodologie-1.html"><a href="principes-et-methodologie-1.html#choix-de-la-distribution-dechantillonnage-1"><i class="fa fa-check"></i><b>6.4</b> Choix de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="6.5" data-path="principes-et-methodologie-1.html"><a href="principes-et-methodologie-1.html#mise-en-uvre-du-test-1"><i class="fa fa-check"></i><b>6.5</b> Mise en œuvre du test</a></li>
+<li class="chapter" data-level="6.6" data-path="principes-et-methodologie-1.html"><a href="principes-et-methodologie-1.html#formulation-de-la-conclusion-et-interpretation-1"><i class="fa fa-check"></i><b>6.6</b> Formulation de la conclusion et Interprétation</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="inference-sur-un-protocole-univarie-non-structure-1.html"><a href="inference-sur-un-protocole-univarie-non-structure-1.html"><i class="fa fa-check"></i><b>7</b> INFERENCE SUR UN PROTOCOLE UNIVARIE NON STRUCTURE</a><ul>
+<li class="chapter" data-level="7.1" data-path="inference-sur-un-protocole-univarie-non-structure-1.html"><a href="inference-sur-un-protocole-univarie-non-structure-1.html#les-combinaisons-1"><i class="fa fa-check"></i><b>7.1</b> Les combinaisons</a><ul>
+<li class="chapter" data-level="7.1.1" data-path="inference-sur-un-protocole-univarie-non-structure-1.html"><a href="inference-sur-un-protocole-univarie-non-structure-1.html#calcul-de-la-taille-de-lespace-des-echantillons-3"><i class="fa fa-check"></i><b>7.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="7.1.2" data-path="inference-sur-un-protocole-univarie-non-structure-1.html"><a href="inference-sur-un-protocole-univarie-non-structure-1.html#determination-de-lespace-des-echantillons-2"><i class="fa fa-check"></i><b>7.1.2</b> Détermination de l’espace des échantillons</a></li>
+<li class="chapter" data-level="7.1.3" data-path="inference-sur-un-protocole-univarie-non-structure-1.html"><a href="inference-sur-un-protocole-univarie-non-structure-1.html#calcul-de-la-distribution-dechantillonnage-3"><i class="fa fa-check"></i><b>7.1.3</b> Calcul de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="7.1.4" data-path="inference-sur-un-protocole-univarie-non-structure-1.html"><a href="inference-sur-un-protocole-univarie-non-structure-1.html#limites-du-test-1"><i class="fa fa-check"></i><b>7.1.4</b> Limites du test</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="inference-sur-un-protocole-univarie-non-structure-1.html"><a href="inference-sur-un-protocole-univarie-non-structure-1.html#utilisation-dune-distribution-exacte-6"><i class="fa fa-check"></i><b>7.2</b> Utilisation d’une distribution exacte</a><ul>
+<li class="chapter" data-level="7.2.1" data-path="inference-sur-un-protocole-univarie-non-structure-1.html"><a href="inference-sur-un-protocole-univarie-non-structure-1.html#situer-un-echantillon-dans-une-population-2"><i class="fa fa-check"></i><b>7.2.1</b> Situer un échantillon dans une population</a></li>
+<li class="chapter" data-level="7.2.2" data-path="inference-sur-un-protocole-univarie-non-structure-1.html"><a href="inference-sur-un-protocole-univarie-non-structure-1.html#utilisation-dune-distribution-approchee-6"><i class="fa fa-check"></i><b>7.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="inference-sur-un-protocole-univarie-non-structure-1.html"><a href="inference-sur-un-protocole-univarie-non-structure-1.html#inference-sur-un-protocole-univarie-numerique-3"><i class="fa fa-check"></i><b>7.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="7.3.1" data-path="inference-sur-un-protocole-univarie-non-structure-1.html"><a href="inference-sur-un-protocole-univarie-non-structure-1.html#utilisation-dune-distribution-exacte-7"><i class="fa fa-check"></i><b>7.3.1</b> Utilisation d’une distribution exacte</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="inference-sur-un-protocole-univarie-non-structure-1.html"><a href="inference-sur-un-protocole-univarie-non-structure-1.html#utilisation-dune-distribution-approchee-7"><i class="fa fa-check"></i><b>7.4</b> Utilisation d’une distribution approchée</a><ul>
+<li class="chapter" data-level="7.4.1" data-path="inference-sur-un-protocole-univarie-non-structure-1.html"><a href="inference-sur-un-protocole-univarie-non-structure-1.html#situer-un-echantillon-dans-une-population-3"><i class="fa fa-check"></i><b>7.4.1</b> Situer un échantillon dans une population</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html"><i class="fa fa-check"></i><b>8</b> INFERENCE SUR UN PROTOCOLE UNIVARIE STRUCTURE PAR UN CROISEMENT</a><ul>
+<li class="chapter" data-level="8.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html#les-permutations-1"><i class="fa fa-check"></i><b>8.1</b> Les permutations</a><ul>
+<li class="chapter" data-level="8.1.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html#calcul-de-la-taille-de-lespace-des-echantillons-4"><i class="fa fa-check"></i><b>8.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="8.1.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html#determination-de-lespace-des-echantillons-3"><i class="fa fa-check"></i><b>8.1.2</b> Détermination de l’espace des échantillons</a></li>
+<li class="chapter" data-level="8.1.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html#calcul-de-la-distribution-dechantillonnage-4"><i class="fa fa-check"></i><b>8.1.3</b> Calcul de la distribution d’échantillonnage</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html#inference-sur-un-protocole-univarie-nominal-2"><i class="fa fa-check"></i><b>8.2</b> Inférence sur un protocole univarié nominal</a><ul>
+<li class="chapter" data-level="8.2.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html#utilisation-dune-distribution-exacte-8"><i class="fa fa-check"></i><b>8.2.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="8.2.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html#utilisation-dune-distribution-approchee-8"><i class="fa fa-check"></i><b>8.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html#inference-sur-un-protocole-univarie-numerique-4"><i class="fa fa-check"></i><b>8.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="8.3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html#utilisation-dune-distribution-exacte-9"><i class="fa fa-check"></i><b>8.3.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="8.3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html#utilisation-dune-distribution-approchee-9"><i class="fa fa-check"></i><b>8.3.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html"><i class="fa fa-check"></i><b>9</b> INFERENCE SUR UN PROTOCOLE UNIVARIE STRUCTURE PAR UN EMBOITEMENT</a><ul>
+<li class="chapter" data-level="9.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html#les-partitions-1"><i class="fa fa-check"></i><b>9.1</b> Les partitions</a><ul>
+<li class="chapter" data-level="9.1.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html#calcul-de-la-taille-de-lespace-des-echantillons-5"><i class="fa fa-check"></i><b>9.1.1</b> Calcul de la taille de l’espace des échantillons</a></li>
+<li class="chapter" data-level="9.1.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html#calcul-de-la-distribution-dechantillonnage-5"><i class="fa fa-check"></i><b>9.1.2</b> Calcul de la distribution d’échantillonnage</a></li>
+<li class="chapter" data-level="9.1.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html#interpretation-du-test-3"><i class="fa fa-check"></i><b>9.1.3</b> Interprétation du test</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html#inference-sur-un-protocole-univarie-nominal-3"><i class="fa fa-check"></i><b>9.2</b> Inférence sur un protocole univarié nominal</a><ul>
+<li class="chapter" data-level="9.2.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html#utilisation-dune-distribution-exacte-10"><i class="fa fa-check"></i><b>9.2.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="9.2.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html#utilisation-dune-distribution-approchee-10"><i class="fa fa-check"></i><b>9.2.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html#inference-sur-un-protocole-univarie-numerique-5"><i class="fa fa-check"></i><b>9.3</b> Inférence sur un protocole univarié numérique</a><ul>
+<li class="chapter" data-level="9.3.1" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html#utilisation-dune-distribution-exacte-11"><i class="fa fa-check"></i><b>9.3.1</b> Utilisation d’une distribution exacte</a></li>
+<li class="chapter" data-level="9.3.2" data-path="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html"><a href="inference-sur-un-protocole-univarie-structure-par-un-emboitement-1.html#utilisation-dune-distribution-approchee-11"><i class="fa fa-check"></i><b>9.3.2</b> Utilisation d’une distribution approchée</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="inference-sur-un-protocole-bivarie-1.html"><a href="inference-sur-un-protocole-bivarie-1.html"><i class="fa fa-check"></i><b>10</b> INFERENCE SUR UN PROTOCOLE BIVARIE</a><ul>
+<li class="chapter" data-level="10.1" data-path="inference-sur-un-protocole-bivarie-1.html"><a href="inference-sur-un-protocole-bivarie-1.html#inference-sur-un-protocole-bivarie-numerique-1"><i class="fa fa-check"></i><b>10.1</b> Inférence sur un protocole bivarié numérique</a></li>
+<li class="chapter" data-level="10.2" data-path="inference-sur-un-protocole-bivarie-1.html"><a href="inference-sur-un-protocole-bivarie-1.html#inference-sur-un-protocole-bivarie-nominal-1"><i class="fa fa-check"></i><b>10.2</b> Inférence sur un protocole bivarié nominal</a><ul>
+<li class="chapter" data-level="10.2.1" data-path="inference-sur-un-protocole-bivarie-1.html"><a href="inference-sur-un-protocole-bivarie-1.html#cas-des-variables-dichotomiques-1"><i class="fa fa-check"></i><b>10.2.1</b> Cas des variables dichotomiques</a></li>
+<li class="chapter" data-level="10.2.2" data-path="inference-sur-un-protocole-bivarie-1.html"><a href="inference-sur-un-protocole-bivarie-1.html#cas-des-variables-a-plus-de-deux-modalites.-1"><i class="fa fa-check"></i><b>10.2.2</b> Cas des variables à plus de deux modalités.</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references-1.html"><a href="references-1.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">L’inférence Statistique</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="inference-sur-un-protocole-univarie-non-structure-1" class="section level1">
+<h1><span class="header-section-number">Chapter 7</span> INFERENCE SUR UN PROTOCOLE UNIVARIE NON STRUCTURE</h1>
+<div id="les-combinaisons-1" class="section level2">
+<h2><span class="header-section-number">7.1</span> Les combinaisons</h2>
+<p>Dans ce chapitre, nous allons traiter de l’inférence sur les protocoles univarié non structuré. Avec ce type de protocole, l’objectif est de situer le protocole dans l’ensemble des protocoles possibles, c’est-à-dire dans l’espace des échantillons. Quelle que soit l’échelle de mesure de la variable, on peut déterminer celui-ci par combinatoire en calculant l’ensemble des combinaisons possibles.<BR></p>
+<div id="calcul-de-la-taille-de-lespace-des-echantillons-3" class="section level3">
+<h3><span class="header-section-number">7.1.1</span> Calcul de la taille de l’espace des échantillons</h3>
+<p>L’ensemble des combinaisons de n éléments dans une population de N éléments est l’ensemble des sous-ensembles de n éléments dans une population de N éléments. Le nombre de combinaisons possibles est donné par la formule du nombre de combinaisons :<br></p>
+<p><span class="math inline">\(\textrm{C}_{n}^{N} = \binom{N}{n} = \frac{N!}{(N-n)!)}\)</span><br></p>
+<p>Le symbole à gauche de l’égalité se lit « nombre de combinaisons de n éléments dans N éléments ». La formule de droite nous permet de la calculer. Par exemple, si on cherche à savoir combien de couples sont possibles dans une population de 5 éléments, on peut se représenter intuitivement que chacun des individus peut être associés à chacun des quatre autres. On a donc 20 paires. L’ordre des éléments dans les couples n’ayant pas d’importance, on a 10 couples possibles. Mettons en application la formule de calcul du nombre de combinaisons de deux éléments dans un ensemble de 5 éléments.<br></p>
+<p><span class="math inline">\(\textrm{C}_{2}^{5} = \binom{5}{2} = \frac{5!}{(5-2)!)} = \frac{5*4*3*2*1}{2*1*3*2*1} = 10\)</span><br></p>
+<p>Ici N =5 et n=2. N suivi d’un point d’exclamation se lit factoriel de 5 et se développe en multipliant le nombre par tous les entiers inférieurs. La factorielle de 5 est donc 5*4*3*2*1. De la même manière, la factorielle de 2 est égale à 2*1 et la factorielle de 5-2, c’est-à-dire la factorielle de 3 se développe en 3*2*1. Il ne reste plus qu’à simplifier la fraction en supprimant les facteurs communs. Dans cet exemple, le nombre de combinaisons possibles est donc de 10.<br></p>
+</div>
+<div id="determination-de-lespace-des-echantillons-2" class="section level3">
+<h3><span class="header-section-number">7.1.2</span> Détermination de l’espace des échantillons</h3>
+<p>Pour déterminer l’espace des échantillons, nous allons rechercher l’ensemble des combinaisons possibles. Pour éviter d’en oublier, nous allons procéder par ordre. Reprenons notre exemple précédent et posons un tableau comportant 11 lignes, la première indiquant l’identifiant de nos individus.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-c3ow">
+S1
+</th>
+<th class="tg-c3ow">
+S2
+</th>
+<th class="tg-c3ow">
+S3
+</th>
+<th class="tg-c3ow">
+S4
+</th>
+<th class="tg-c3ow">
+S5
+</th>
+</tr>
+<tr>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+x
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+x
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+x
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+x
+</td>
+<td class="tg-baqh">
+x
+</td>
+</tr>
+</table>
+<p><em>Tableau 1: Détermination de l’ensemble des combinaisons possibles</em><br></p>
+<p>Le premier couple sera composé des deux premiers sujets. Pour le couple suivant, on décalera la croix du sujet 2 d’une case vers la droite, et on continuera de même pour le troisième couple jusqu’à atteindre la dernière colonne, celle du sujet 5, pour le quatrième couple. C’est ensuite la croix du sujet 1 qu’on décale d’une case vers la droite, le second individu du couple étant dans la case juste à droite, et on recommence à décaler la croix du second individu, jusqu’au bout du tableau. On recommence alors à décaler la croix correspondant au premier individu du couple, et on décale à nouveau le dernier. Le dernier couple correspond, bien entendu, aux deux derniers sujets.<br></p>
+<p>Une fois qu’on a déterminé l’ensemble des combinaisons, il faut calculer pour chaque protocole possible la statistique d’échantillonnage. Dans le cas des variables nominales ou catégorisées, la statistique d’échantillonnage est la fréquence. Dans le cas des variables numériques, la statistique d’échantillonnage est la moyenne.<br></p>
+</div>
+<div id="calcul-de-la-distribution-dechantillonnage-3" class="section level3">
+<h3><span class="header-section-number">7.1.3</span> Calcul de la distribution d’échantillonnage</h3>
+<p>Une fois qu’on a déterminé l’ensemble des combinaisons, il faut calculer pour chaque protocole possible la statistique d’échantillonnage. Dans le cas des variables nominales ou catégorisées, la statistique d’échantillonnage est la fréquence. Dans le cas des variables numériques, la statistique d’échantillonnage est la moyenne.<br></p>
+<div id="application-a-une-variable-nominale-ou-categorisee-1" class="section level4">
+<h4><span class="header-section-number">7.1.3.1</span> Application à une variable nominale ou catégorisée</h4>
+<p>Imaginons que nous ayons fait passer un test à nos sujets. La variable dans ce test est la réussite ou l’échec. Les observations pour la population sont données dans la seconde ligne. Les combinaisons ont été déterminées comme précédemment.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-uqo3{background-color:#efefef;text-align:center;vertical-align:top}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-c3ow">
+S1
+</th>
+<th class="tg-c3ow">
+S2
+</th>
+<th class="tg-c3ow">
+S3
+</th>
+<th class="tg-c3ow">
+S4
+</th>
+<th class="tg-c3ow">
+S5
+</th>
+<th class="tg-baqh">
+F
+</th>
+</tr>
+<tr>
+<td class="tg-uqo3">
+R
+</td>
+<td class="tg-uqo3">
+E
+</td>
+<td class="tg-uqo3">
+R
+</td>
+<td class="tg-uqo3">
+R
+</td>
+<td class="tg-uqo3">
+E
+</td>
+<td class="tg-uqo3">
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+R
+</td>
+<td class="tg-baqh">
+E
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+0.5
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+R
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+R
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+1
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+R
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+R
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+1
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+R
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+E
+</td>
+<td class="tg-baqh">
+0,5
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+E
+</td>
+<td class="tg-baqh">
+R
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+0,5
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+E
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+R
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+0,5
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+E
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+E
+</td>
+<td class="tg-baqh">
+0
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+R
+</td>
+<td class="tg-baqh">
+R
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+1
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+R
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+E
+</td>
+<td class="tg-baqh">
+0,5
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+R
+</td>
+<td class="tg-baqh">
+E
+</td>
+<td class="tg-baqh">
+0,5
+</td>
+</tr>
+</table>
+<p><em>Tableau 2: Calcul de la fréquence sur l’espace des échantillons</em><br></p>
+<p>La variable étant nominale, on calculera la fréquence des réussites. On aurait pu calculer également la fréquence des échecs qui est le complémentaire des réussites. Dans le premier couple, la fréquence est d’un demi. Elle est de 1 pour le couple suivant. On continue ainsi pour tous les protocoles possibles.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-c3ow">
+F
+</th>
+<th class="tg-c3ow">
+p
+</th>
+</tr>
+<tr>
+<td class="tg-baqh">
+0
+</td>
+<td class="tg-baqh">
+0,1
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+0.5
+</td>
+<td class="tg-baqh">
+0,6
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+0,3
+</td>
+</tr>
+</table>
+<p><em>Tableau 3: Exemple de distribution d’échantillonnage sur une variable nominale</em><br></p>
+<p>Après le calcul de la statistique d’échantillonnage, on calcule la distribution d’échantillonnage, c’est-à-dire les proportions d’échantillons associées à chacune des valeurs de la statistique. Dans notre exemple, extrêmement simplifié, trois valeurs de la fréquence sont observées dans l’ensemble des échantillons possibles. La première est la valeur 0 qui correspond à aucune réussite dans l’échantillon, elle n’est observée qu’une fois. La proportion est donc de 1 sur 10 soit 0,1. Pour la seconde valeur de la fréquence, elle a été observée 6 fois sur 10, soit une proportion de 0,6. Enfin la valeur 1 a été observée 3 fois. La proportion est donc de 0,3.<br></p>
+<p>Imaginez que le couple observé soit le couple où les deux sujets ont échoué au test. Peut-on dire qu’il est atypique de la population dont il est issue? Le seuil de typicalité est fixé par convention à .025. La proportion de couples ayant obtenu 0 réussite étant supérieur à ce seuil, on ne pourra pas dire qu’il est atypique.<br></p>
+</div>
+<div id="application-a-une-variable-numerique-1" class="section level4">
+<h4><span class="header-section-number">7.1.3.2</span> Application à une variable numérique</h4>
+<p>Les combinaisons sont également utilisables sur les variables numériques. Dans ce cas, la statistique d’échantillonnage est la moyenne. Imaginez que nos sujets soient des enfants et qu’en faisant passer le test, on ait également relevé leur âge. <br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-uqo3{background-color:#efefef;text-align:center;vertical-align:top}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-c3ow">
+S1
+</th>
+<th class="tg-c3ow">
+S2
+</th>
+<th class="tg-baqh">
+S3
+</th>
+<th class="tg-baqh">
+S4
+</th>
+<th class="tg-baqh">
+S5
+</th>
+<th class="tg-baqh">
+M
+</th>
+</tr>
+<tr>
+<td class="tg-uqo3">
+10
+</td>
+<td class="tg-uqo3">
+10
+</td>
+<td class="tg-uqo3">
+8
+</td>
+<td class="tg-uqo3">
+7
+</td>
+<td class="tg-uqo3">
+7
+</td>
+<td class="tg-uqo3">
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+10
+</td>
+<td class="tg-baqh">
+10
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+10
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+10
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+8
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+9
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+10
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+7
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+8,5
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+10
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+7
+</td>
+<td class="tg-baqh">
+8,5
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+10
+</td>
+<td class="tg-baqh">
+8
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+9
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+10
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+7
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+8,5
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+10
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+7
+</td>
+<td class="tg-baqh">
+8,5
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+8
+</td>
+<td class="tg-baqh">
+7
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+7,5
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+8
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+7
+</td>
+<td class="tg-baqh">
+7,5
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+</td>
+<td class="tg-baqh">
+7
+</td>
+<td class="tg-baqh">
+7
+</td>
+<td class="tg-baqh">
+7
+</td>
+</tr>
+</table>
+<p><em>Tableau 4 : Calcul de la moyenne sur l’espace des échantillons</em><br></p>
+<p>Comme précédemment, on calculera pour chaque couple la statistique d’échantillonnage. Pour le premier couple, la moyenne des âges est de 10. Pour le second, elle est de 18 divisé par 2, soit 9. On procède ainsi pour tous les échantillons possibles.<br></p>
+<p>On calcule ensuite la distribution d’échantillonnage, c’est-à-dire la distribution des moyennes sur tous les échantillons possibles. Pour des raisons de commodités de la présentation, nous ne noterons ici que les valeurs observées. <br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-c3ow">
+M
+</th>
+<th class="tg-c3ow">
+p
+</th>
+</tr>
+<tr>
+<td class="tg-baqh">
+7
+</td>
+<td class="tg-baqh">
+0,1
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+7,5
+</td>
+<td class="tg-baqh">
+0,2
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+8,5
+</td>
+<td class="tg-baqh">
+0,4
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+9
+</td>
+<td class="tg-baqh">
+0,2
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+10
+</td>
+<td class="tg-baqh">
+0,1
+</td>
+</tr>
+</table>
+<p><em>Tableau 5 : Exemple de distribution d’échantillonnage sur une variable numérique</em><br></p>
+<p>Dans notre exemple, la proportion des échantillons pour lesquels la moyenne des âges est de 7 ans, est de 0,1. Elle est de 0,2 pour une moyenne de 7,5 ans. La calcul se fera de la même façon pour les autres valeurs de la moyenne.
+Si le couple observé dans cette population est le premier, celui qui présente une moyenne d’âge de 10 ans, on voit dans la distribution d’échantillonnage que ce couple n’est pas atypique, puisque la proportion d’échantillons est supérieure au seuil de .025.<br></p>
+</div>
+</div>
+<div id="limites-du-test-1" class="section level3">
+<h3><span class="header-section-number">7.1.4</span> Limites du test</h3>
+<p>Bien sûr les exemples utilisés dans le cadre de ce cours, compte tenu des limites de place, ne présentent pas beaucoup d’intérêts d’un point de vue inférentiel. On comprend, en effet, sans faire tous ces calculs, que si un couple n’est présent qu’une fois dans un espace des échantillons possibles de taille 10, il ne pourra pas être déclaré atypique, la fréquence minimale qu’on peut obtenir dans la distribution d’échantillonnage étant de 0,1. <br></p>
+<p>Il faut souligner, ici, le fait que les méthodes statistiques sont avant tout des méthodes pour les grands nombres. En pratique, le calcul de l’ensemble des combinaisons possibles est peu utilisé car le nombre d’échantillons possibles croit très rapidement avec la taille de l’échantillon, même pour une population de faible taille et peu de logiciels permettent de le calculer. Ainsi, pour un échantillon de 3 sujets dans une population de 20, on a 1140 combinaisons possibles. Dans la même population, si l’échantillon est de taille 4, le nombre de combinaisons passe à 4854. Pour un échantillon de taille 5, il est de 15504.<br></p>
+<p>C’est donc avant tout la démarche et le principe général de ce type d’analyse qu’il faut retenir et qui vous aiderons à mieux comprendre les autres types de distributions d’échantillonnage, notamment les distributions d’échantillonnage approchées.<br></p>
+</div>
+</div>
+<div id="utilisation-dune-distribution-exacte-6" class="section level2">
+<h2><span class="header-section-number">7.2</span> Utilisation d’une distribution exacte</h2>
+<div id="situer-un-echantillon-dans-une-population-2" class="section level3">
+<h3><span class="header-section-number">7.2.1</span> Situer un échantillon dans une population</h3>
+<p>Nous venons de voir, dans le paragraphe précédent, qu’on peut situer un échantillon dans l’espace des échantillons possibles déterminés par combinatoire. Pour les variables nominales, la distribution d’échantillonnage nous est également donnée par la distribution hypergéométrique. Celle-ci nous permet de calculer, pour une population de N éléments dont A éléments sont d’une catégorie, la proportion pk d’échantillons contenant k éléments de la catégorie en question en appliquant simplement la formule suivante : <br></p>
+<p><span class="math inline">\(\textrm{p}_{k} = \frac{\binom{A}{k}\binom{N-A}{n-k}}{\binom{N}{n}}=\frac{A!(N-A)!n!(N-n)!}{k!(n-k)!(N-A-(n-k))!N!}\)</span><br></p>
+<p>Nous allons voir comment mettre en œuvre cette formule en reprenant notre exemple précédent afin de calculer la distribution d’échantillonnage. Repérons pour cela d’abord les valeurs composants la formule. Dans notre exemple, nous avions fait passer un test à 5 individus dont deux ont échoué le test. On se demande si cet échantillon est atypique de la distribution d’échantillonnage.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-us36{border-color:inherit;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-us36">
+</th>
+<th class="tg-us36">
+Catégorie visée (Réussite)
+</th>
+<th class="tg-yw4l">
+Catégorie complémentaire (Echec)
+</th>
+<th class="tg-yw4l">
+Total
+</th>
+</tr>
+<tr>
+<td class="tg-yw4l">
+Echantillon
+</td>
+<td class="tg-yw4l">
+k = 0
+</td>
+<td class="tg-yw4l">
+n-k = 2
+</td>
+<td class="tg-yw4l">
+2
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+Complément
+</td>
+<td class="tg-yw4l">
+A-k = 3
+</td>
+<td class="tg-yw4l">
+N-A-(n-k) = 0
+</td>
+<td class="tg-yw4l">
+3
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+Population
+</td>
+<td class="tg-yw4l">
+A = 3
+</td>
+<td class="tg-yw4l">
+N-A = 2
+</td>
+<td class="tg-yw4l">
+5
+</td>
+</tr>
+</table>
+<p><em>Tableau 6 : Repérage des valeurs de la formule de la distribution hypergéométrique</em>
+Les valeurs à considérer pour l’application de la formule sont données par le tableau de gauche. Dans notre exemple, la catégorie visée est l’échec de nos deux individus constituant l’échantillon et nous avons deux échecs et trois réussites dans la population. La ligne complément se calcule simplement par différence entre l’échantillon et la population. Il nous faut maintenant calculer les paramètres de la formule. Pour des raisons de simplicité de mise en œuvre, c’est la formule développée que nous allons appliquer. <br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-c3ow">
+<span class="math inline">\(k\)</span>
+</th>
+<th class="tg-c3ow">
+<span class="math inline">\(n-k\)</span>
+</th>
+<th class="tg-c3ow">
+<span class="math inline">\(A-k\)</span>
+</th>
+<th class="tg-c3ow">
+<span class="math inline">\(N-A-(n-k)\)</span>
+</th>
+<th class="tg-baqh">
+<span class="math inline">\(N\)</span>
+</th>
+<th class="tg-baqh">
+<span class="math inline">\(A!\)</span>
+</th>
+<th class="tg-baqh">
+<span class="math inline">\((N-A)!\)</span>
+</th>
+<th class="tg-baqh">
+<span class="math inline">\(n!\)</span>
+</th>
+<th class="tg-baqh">
+<span class="math inline">\((N-n)!\)</span>
+</th>
+<th class="tg-baqh">
+<span class="math inline">\(k!\)</span>
+</th>
+<th class="tg-baqh">
+<span class="math inline">\((n-k)!\)</span>
+</th>
+<th class="tg-baqh">
+<span class="math inline">\((A-k)!\)</span>
+</th>
+<th class="tg-baqh">
+<span class="math inline">\(N-A-(n-k)!\)</span>
+</th>
+<th class="tg-baqh">
+<span class="math inline">\(p_k\)</span>
+</th>
+</tr>
+<tr>
+<td class="tg-baqh">
+0
+</td>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+3
+</td>
+<td class="tg-baqh">
+0
+</td>
+<td class="tg-baqh">
+120
+</td>
+<td class="tg-baqh">
+6
+</td>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+6
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+6
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+0,1
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+120
+</td>
+<td class="tg-baqh">
+6
+</td>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+6
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+0,6
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+0
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+120
+</td>
+<td class="tg-baqh">
+6
+</td>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+6
+</td>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+0,3
+</td>
+</tr>
+</table>
+<p><em>Tableau 7: Calcul des paramètres de la formule de la distribution hypergéométrique</em>
+Dans la première colonne, nous considérons les différentes valeurs possibles pour k, celles-ci vont de 0 à n. Elles correspondent aux modalités de la fréquence de réussites dans la distribution d’échantillonnage. Dans les trois autres colonnes, nous calculons les valeurs du tableau pour chacune des valeurs de k. Nous calculons ensuite les paramètres de la formule compte tenu de ces valeurs. Dans la dernière colonne, nous appliquons la formule de la distribution hypergéométrique pour calculer les proportions. On retrouve la distribution d’échantillonnage précédemment calculée par combinatoire (Tableau 3).<br></p>
+<p>Le principal intérêt de la distribution hypergéométrique est de permettre de calculer la distribution d’échantillonnage sans passer par le calcul des combinaisons possibles. Ce type de distribution autorise donc l’utilisation d’une distribution exacte, même avec des échantillons importants. Cependant, nous verrons un peu plus loin que cette distribution peut être approchée de façon satisfaisante à l’aide de la distribution de <span class="math inline">\(\chi^2\)</span>, ce qui simplifie encore davantage l’inférence.<br></p>
+<div id="situer-un-echantillon-dans-une-distribution.-1" class="section level4">
+<h4><span class="header-section-number">7.2.1.1</span> Situer un échantillon dans une distribution.</h4>
+<p>Dans l’exemple précédent, nous avions connaissance de la population, mais ce n’est pas toujours le cas et on peut avoir simplement une fréquence comme référence. On se trouva alors dans le cas d’un échantillonnage dans une distribution. La distribution exacte à utiliser est alors la distribution binomiale. Dans ce cas, la taille de la population n’est pas connue et supposée de taille infinie, comme si on procédait à un tirage au sort avec remise. En pratique, la distribution hypergéométrique se rapproche de la distribution binomiale pour les populations de taille très importante. La formule permettant de calculer la distribution binomiale est la suivante : <br></p>
+<p><span class="math inline">\(p_{k} = \binom{n}{k}P^{k}Q^{n-k}\)</span><bR></p>
+<p><span class="math inline">\(p_{k}\)</span> est la proportion d’échantillons de n éléments contenant k éléments d’une catégorie.<br>
+<span class="math inline">\(\binom{n}{k}\)</span> est le nombre de combinaisons de n éléments contenant k éléments d’une catégorie, c’est-à-dire le nombre d’échantillons contenant k élément d’une catégorie.<br>
+<span class="math inline">\(P\)</span> est la proportion de référence et <span class="math inline">\(Q\)</span> son complémentaire, soit 1-P.<br></p>
+<p>Imaginons, pour illustrer cela que les sujets qui ont passé le test aient répondu au hasard. Dans ce cas, la proportion de réussite <span class="math inline">\(P\)</span> serait de 0,5 et son complémentaire <span class="math inline">\(Q\)</span> de 1-0,5=0,5. Nous allons considérer que les 5 sujets constituent l’échantillon et non plus la population comme précédemment. Nous avons donc observé une fréquence des réussites de 3/5 = 0,6. On se demande dans ce cas, si notre échantillon est atypique d’une distribution de référence où la fréquence des réussites est de 0,5.<br></p>
+<p>Nous allons calculer la proportion <span class="math inline">\(p_{k}\)</span>, pour chacune des valeurs de k. Les valeurs possibles de k vont de 0 à n. Dans notre exemple n=5.</p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-c3ow">
+<span class="math inline">\(k\)</span>
+</th>
+<th class="tg-c3ow">
+<span class="math inline">\(\binom{n}{k}\)</span>
+</th>
+<th class="tg-c3ow">
+<span class="math inline">\(p^{k}\)</span>
+</th>
+<th class="tg-c3ow">
+<span class="math inline">\(Q^{n-k}\)</span>
+</th>
+<th class="tg-c3ow">
+<span class="math inline">\(p_{k}\)</span>
+</th>
+</tr>
+<tr>
+<td class="tg-baqh">
+0
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+0,031
+</td>
+<td class="tg-baqh">
+0,031
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+5
+</td>
+<td class="tg-baqh">
+0,5
+</td>
+<td class="tg-baqh">
+0,063
+</td>
+<td class="tg-baqh">
+0,156
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+2
+</td>
+<td class="tg-baqh">
+10
+</td>
+<td class="tg-baqh">
+0,25
+</td>
+<td class="tg-baqh">
+0,125
+</td>
+<td class="tg-baqh">
+0,313
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+3
+</td>
+<td class="tg-baqh">
+10
+</td>
+<td class="tg-baqh">
+0,125
+</td>
+<td class="tg-baqh">
+0,25
+</td>
+<td class="tg-baqh">
+0,313
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+4
+</td>
+<td class="tg-baqh">
+5
+</td>
+<td class="tg-baqh">
+0,063
+</td>
+<td class="tg-baqh">
+0,5
+</td>
+<td class="tg-baqh">
+0,156
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+5
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+0,031
+</td>
+<td class="tg-baqh">
+1
+</td>
+<td class="tg-baqh">
+0,031
+</td>
+</tr>
+</table>
+<p><em>Tableau 8: Calcul des paramètres de la formule de la distribution binomiale</em><br></p>
+<p>Pour k=0 nous avons : <br></p>
+<p><span class="math inline">\(C_{0}^{5} = \binom{5}{0} =\frac{5!}{0!(5-0)!}=\frac{5*4*3*2*1}{1*5*3*2*1} = 1\)</span><br></p>
+<p>Rappelons que par convention, la factorielle de 0 est égale à 1. Nous obtenons donc le développement ci-dessus. <span class="math inline">\(P\)</span> étant de 0,5, nous avons ensuite <span class="math inline">\(p_{k}=0,5^{0}=1\)</span> et <span class="math inline">\(Q^{n-k}=0,5^{5}=0,031\)</span>. On peut alors calculer <span class="math inline">\(p_{k}\)</span> en faisant le produit des trois valeurs que nous venons de calculer. <span class="math inline">\(P_{0}=1*1*0,031=0,031\)</span>. On procède ainsi pour toutes les valeurs de p. La dernière colonne constitue la distribution d’échantillonnage.<br></p>
+<p>Dans notre échantillon, nous avons observé 3 réussites sur 5. On peut voir sur la distribution d’échantillonnage que la proportion d’échantillons pour lesquels le nombre de réussites est supérieur ou égal au nombre de réussites observé dans notre échantillon est de 0,313+0,156+0,031=0,5. Cette proportion étant très largement supérieur au seuil repère de .025, on ne peut pas considérer notre échantillon comme atypique d’une distribution où la fréquence des réussites est de 0,5. Autrement dit, les fréquences des réussites dans cet échantillon ne diffèrent pas du hasard.<br></p>
+</div>
+</div>
+<div id="utilisation-dune-distribution-approchee-6" class="section level3">
+<h3><span class="header-section-number">7.2.2</span> Utilisation d’une distribution approchée</h3>
+<p>En pratique, les distributions exactes sont peu utilisées du fait de leur complexité de mise en œuvre. Avec les protocoles nominaux, on peut également utiliser la distribution de <span class="math inline">\(\chi ^{2}\)</span> à un degré de liberté, noté <span class="math inline">\(\chi _{[1]}^{2}\)</span>, comme approximation de la distribution hypergéométrique ou de la distribution binomiale. Cette distribution correspond à la distribution du carré d’une variable normale réduite Z. On pourra vérifier que la première ligne de la table de <span class="math inline">\(\chi ^{2}\)</span> est bien égale au carré de la table du Z (voir les tables en annexes). Rappelons que le calcul de <span class="math inline">\(\chi ^{2}\)</span> nous est donné par la formule :<br></p>
+<p><span class="math inline">\(\chi^{2} = \sum \frac{(e_{obs}-e_{theo})^{2}}{e_{theo}}\)</span><br></p>
+<p>Son utilisation dans le cas de l’inférence sur une fréquence est soumise à deux conditions : (i) les effectifs théoriques doivent être supérieurs à 5. En effet, la distribution de <span class="math inline">\(\chi _{[1]}^{2}\)</span> suit une loi normale et les distributions hypergéométriques et binomiales tendent vers une distribution normale pour les grands effectifs. (ii) il faut appliquer une correction de continuité. Les distributions hypergéométriques et binomiales sont en effet des distributions sur des valeurs discrètes, alors que <span class="math inline">\(\chi _{[1]}^{2}\)</span> est continue. La formule de calcul est alors la suivante : <br></p>
+<p><span class="math inline">\(\chi_{corr}^{2} = \sum \frac{(\left |e_{obs}-e_{theo} \right |-0,5)^{2}}{e_{theo}}\)</span><br></p>
+<p>Prenons un exemple pour illustrer la mise en œuvre du test. Imaginons que nous fassions passer un test de raisonnement comme la tâche de Wason à 50 sujets, mathématiciens de leur état. On s’intéresse dans cette expérience uniquement à la réussite ou à l’échec des sujets à la tâche. On observe, dans cet échantillon, une fréquence de réussite de 20 %. Sachant que d’autres recherches ont montré que la fréquence de réussite à cette tâche est de 12%, peut-on dire que les mathématiciens réussissent plus souvent ce test de raisonnement que le reste de la population ? <br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-c3ow">
+</th>
+<th class="tg-c3ow">
+Réussites
+</th>
+<th class="tg-c3ow">
+Echecs
+</th>
+<th class="tg-c3ow">
+Total
+</th>
+</tr>
+<tr>
+<td class="tg-baqh">
+<span class="math inline">\(e_{obs}\)</span>
+</td>
+<td class="tg-baqh">
+10
+</td>
+<td class="tg-baqh">
+40
+</td>
+<td class="tg-baqh">
+50
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+<span class="math inline">\(e_{theo}\)</span>
+</td>
+<td class="tg-baqh">
+6
+</td>
+<td class="tg-baqh">
+44
+</td>
+<td class="tg-baqh">
+50
+</td>
+</tr>
+</table>
+<p><em>Tableau 9: Effectifs observés (<span class="math inline">\(e_{obs}\)</span>) et théoriques (<span class="math inline">\(e_{theo}\)</span> )</em><br></p>
+<p>Pour nos sujets mathématiciens, les effectifs observés sont les suivants : 10 sujets ont réussi et 40 ont échoué au test. Les effectifs théoriques correspondent à la fréquence des réussites dans la population, soit donc 12% de 50, pour les réussites et 88% d’échecs. Nos effectifs théoriques sont tous supérieurs à 5. La première condition d’utilisation de la distribution de <span class="math inline">\(\chi^2\)</span> est remplie. On peut donc calculer le <span class="math inline">\(\chi^2_{corr}\)</span>. Il est de 2,32.<br></p>
+<p><span class="math inline">\(\chi_{corr}^{2} = \frac{(\left | 10-6 \right |-0,5)^{2}}{6}+\frac{(\left | 40-44 \right |-0,5)^{2}}{44}=2,32\)</span></p>
+<p>Dans le cas de l’inférence avec une distribution de <span class="math inline">\(\chi^2\)</span> sur un protocole univarié non structuré sur une variable nominal, seule la distribution de <span class="math inline">\(\chi^2\)</span> à un degré de liberté nous intéresse. Elle est indiquée en rouge dans le tableau ci-dessous. Cette distribution nous indique, pour chaque valeur de <span class="math inline">\(\chi^2\)</span>, la proportion d’échantillons qui dépassent cette valeur. On peut lire cette proportion dans la première ligne du tableau. La proportion signalée dans ce tableau est une proportion bilatérale.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-uys7{border-color:inherit;text-align:center}
+.tg .tg-s8hf{color:#3531ff;border-color:inherit;text-align:center}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-uys7">
+ddl
+</th>
+<th class="tg-uys7">
+.90
+</th>
+<th class="tg-uys7">
+.80
+</th>
+<th class="tg-uys7">
+.70
+</th>
+<th class="tg-uys7">
+.50
+</th>
+<th class="tg-uys7">
+.30
+</th>
+<th class="tg-s8hf">
+.20
+</th>
+<th class="tg-uys7">
+.10
+</th>
+<th class="tg-uys7">
+.05
+</th>
+<th class="tg-uys7">
+.025
+</th>
+<th class="tg-uys7">
+.01
+</th>
+<th class="tg-uys7">
+.001
+</th>
+</tr>
+<tr>
+<td class="tg-s8hf">
+1
+</td>
+<td class="tg-s8hf">
+0,02
+</td>
+<td class="tg-s8hf">
+0,06
+</td>
+<td class="tg-s8hf">
+0,15
+</td>
+<td class="tg-s8hf">
+0,46
+</td>
+<td class="tg-s8hf">
+1,07
+</td>
+<td class="tg-s8hf">
+1,64
+</td>
+<td class="tg-uys7">
+2,71
+</td>
+<td class="tg-uys7">
+3,84
+</td>
+<td class="tg-uys7">
+5,02
+</td>
+<td class="tg-uys7">
+6,64
+</td>
+<td class="tg-uys7">
+10,83
+</td>
+</tr>
+<tr>
+<td class="tg-uys7">
+2
+</td>
+<td class="tg-uys7">
+0,21
+</td>
+<td class="tg-uys7">
+0,45
+</td>
+<td class="tg-uys7">
+0,71
+</td>
+<td class="tg-uys7">
+1,39
+</td>
+<td class="tg-uys7">
+2,41
+</td>
+<td class="tg-uys7">
+3,22
+</td>
+<td class="tg-uys7">
+4,60
+</td>
+<td class="tg-uys7">
+5,99
+</td>
+<td class="tg-uys7">
+7,38
+</td>
+<td class="tg-uys7">
+9,21
+</td>
+<td class="tg-uys7">
+13,83
+</td>
+</tr>
+<tr>
+<td class="tg-uys7">
+3
+</td>
+<td class="tg-uys7">
+0,58
+</td>
+<td class="tg-uys7">
+1,00
+</td>
+<td class="tg-uys7">
+1,42
+</td>
+<td class="tg-uys7">
+2,37
+</td>
+<td class="tg-uys7">
+3,66
+</td>
+<td class="tg-uys7">
+4,64
+</td>
+<td class="tg-uys7">
+6,25
+</td>
+<td class="tg-uys7">
+7,82
+</td>
+<td class="tg-uys7">
+9,35
+</td>
+<td class="tg-uys7">
+11,34
+</td>
+<td class="tg-uys7">
+16,27
+</td>
+</tr>
+<tr>
+<td class="tg-uys7">
+…
+</td>
+<td class="tg-uys7">
+…
+</td>
+<td class="tg-uys7">
+…
+</td>
+<td class="tg-uys7">
+…
+</td>
+<td class="tg-uys7">
+…
+</td>
+<td class="tg-uys7">
+…
+</td>
+<td class="tg-uys7">
+…
+</td>
+<td class="tg-uys7">
+…
+</td>
+<td class="tg-uys7">
+…
+</td>
+<td class="tg-uys7">
+…
+</td>
+<td class="tg-uys7">
+…
+</td>
+<td class="tg-uys7">
+…
+</td>
+</tr>
+</table>
+<p><em>Tableau 10 : Illustration de la lecture de la table de <span class="math inline">\(\chi^2\)</span></em><br></p>
+<p>La notion de degrés de liberté peut être appréhendée de plusieurs points de vue. Elle correspond au nombre de comparaisons qu’on peut faire sur un groupe d’observations ou, ce qui revient au même, au nombre de contraintes sur un tableau de données, c’est-à-dire, connaissant les marges, le nombre de valeurs qu’il faut connaître pour reconstituer le tableau. On voit dans notre exemple que notre tableau ne comporte que deux cases. Connaissant le total général, une seule valeur est nécessaire à la reconstitution du tableau. Nous n’irons pas plus loin dans la présentation de cette notion de degré de liberté qui sera revue et approfondie en troisième année.<br></p>
+<p>Revenons à l’interprétation de notre test. Le <span class="math inline">\(\chi^2\)</span> observé est de 2,32. Nous allons chercher dans la table la valeur inférieure ou égale la plus proche de notre valeur observée. C’est la valeur 1.64. Elle correspond à une valeur de p de .20 qu’on peut lire en tête de colonne. Cette dernière valeur étant supérieure au seuil repère de .05, le test est non significatif. <br></p>
+<p>L’interprétation du test dépend du modèle d’échantillonnage dans lequel on s’est placé. Dans ce cas de figure, on peut adopter un modèle combinatoire. De ce point de vue, cela revient à tester la typicité des mathématiciens dans la population des sujets ayant eu à résoudre la tâche de Wason. Il est difficile de dire que notre échantillon a été tiré au hasard. On ne peut donc pas se placer dans le cadre de l’inférence fréquentiste et interpréter la proportion comme une probabilité. Nous nous en tiendrons donc à l’approche combinatoire. Le test s’étant révélé non significatif, l’échantillon de sujets mathématiciens doit être considéré comme typique d’un population où on observe 12 % de réussite à la tâche de Wason. Autrement dit, et pour répondre à la question posée, les mathématiciens ne réussissent pas mieux la tâche de Wason que les autres sujets.<br></p>
+</div>
+</div>
+<div id="inference-sur-un-protocole-univarie-numerique-3" class="section level2">
+<h2><span class="header-section-number">7.3</span> Inférence sur un protocole univarié numérique</h2>
+<div id="utilisation-dune-distribution-exacte-7" class="section level3">
+<h3><span class="header-section-number">7.3.1</span> Utilisation d’une distribution exacte</h3>
+<p>Contrairement aux variables nominales, il n’existe pas de distribution exacte pour les variables numériques autres que celle qu’on peut déterminer par combinatoire. Nous ne reviendrons pas sur la présentation de cette procédure qui a déjà été exposée plus haut <strong>(CHAPITRE 2 - 1.3.2)</strong>.<br></p>
+<p>Nous allons cependant dire un mot des propriétés de la distribution d’échantillonnage de la moyenne ainsi obtenue et qui sont tout à fait cruciales dans la justification des distributions approchées qu’on peut utiliser avec une variable numérique. Ces propriétés nous sont données par le théorème central limite selon lequel la distribution d’échantillonnage de la moyenne se rapproche d’une distribution normale à mesure que le nombre d’observations augmente. <br></p>
+<p>De ce théorème découlent trois propriétés fondamentales de la distribution d’échantillonnage de la moyenne :</p>
+<ul>
+<li>La moyenne de la distribution d’échantillonnage de la moyenne est égale à la moyenne de l a distribution parente.</li>
+<li>Lorsque <span class="math inline">\(n/N\)</span> est petit, la variance de la distribution d’échantillonnage est approximativement égale à la variance de la population parente divisée par la taille de l’échantillon.</li>
+<li>Plus n est grand, plus la forme de la distribution d’échantillonnage est proche d’une distribution normale.<br>
+Pour illustrer ce théorème, imaginons que nous ayons une population dans laquelle la distribution des observations est uniforme. Pour des raisons de commodités, nous considèrerons une population très réduite de 8 individus dans laquelle on tire un échantillon de 3 individus. Le tableau ci-dessous, donne l’espace des 56 échantillons possibles.<br></li>
+</ul>
+<p><div id="htmlwidget-b9be78ffe4d8cc577180" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b9be78ffe4d8cc577180">{"x":{"filter":"none","data":[["i1","i2","i3","i4","i5","i6","i7","i8","i9","i10","i11","i12","i13","i14","i15","i16","i17","i18","i19","i20","i21","i22","i23","i24","i25","i26","i27","i28","i29","i30","i31","i32","i33","i34","i35","i36","i37","i38","i39","i40","i41","i42","i43","i44","i45","i46","i47","i48","i49","i50","i51","i52","i53","i54","i55","i56"],[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[2,2,2,2,2,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[3,null,null,null,null,null,3,3,3,3,3,null,null,null,null,null,null,null,null,null,null,3,3,3,3,3,null,null,null,null,null,null,null,null,null,null,3,3,3,3,3,3,3,3,3,3,null,null,null,null,null,null,null,null,null,null],[null,3,null,null,null,null,3,null,null,null,null,3,3,3,3,null,null,null,null,null,null,3,null,null,null,null,3,3,3,3,null,null,null,null,null,null,3,3,3,3,null,null,null,null,null,null,3,3,3,3,3,3,null,null,null,null],[null,null,4,null,null,null,null,4,null,null,null,4,null,null,null,4,4,4,null,null,null,null,4,null,null,null,4,null,null,null,4,4,4,null,null,null,4,null,null,null,4,4,4,null,null,null,4,4,4,null,null,null,4,4,null,null],[null,null,null,4,null,null,null,null,4,null,null,null,4,null,null,4,null,null,4,4,null,null,null,4,null,null,null,4,null,null,4,null,null,4,4,null,null,4,null,null,4,null,null,4,4,null,4,null,null,4,4,null,4,null,4,null],[null,null,null,null,5,null,null,null,null,5,null,null,null,5,null,null,5,null,5,null,5,null,null,null,5,null,null,null,5,null,null,5,null,5,null,5,null,null,5,null,null,5,null,5,null,5,null,5,null,5,null,5,5,5,5,null],[null,null,null,null,null,5,null,null,null,null,5,null,null,null,5,null,null,5,null,5,5,null,null,null,null,5,null,null,null,5,null,null,5,null,5,5,null,null,null,5,null,null,5,null,5,5,null,null,5,null,5,5,null,5,5,null],[2.33,2.33,2.67,2.67,3,3,2.67,3,3,3.33,3.33,3,3,3.33,3.33,3.33,3.67,3.67,3.67,3.67,4,2.67,3,3,3.33,3.33,3,3,3.33,3.33,3.33,3.67,3.67,3.67,3.67,4,3.33,3.33,3.67,3.67,3.67,4,4,4,4,4.33,3.67,4,4,4,4,4.33,4.33,4.67,4.67,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>I<\/th>\n      <th>v1(2)<\/th>\n      <th>v2(2)<\/th>\n      <th>v3(3)<\/th>\n      <th>v4(3)<\/th>\n      <th>v5(4)<\/th>\n      <th>v6(4)<\/th>\n      <th>v7(5)<\/th>\n      <th>v8(5)<\/th>\n      <th>M<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"scrollX":true,"caption":"Tableau 11 : Espace des échantillons","columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8,9]}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<em>Tableau 11 : Espace des échantillons</em><br></p>
+<p>Bien que la distribution des valeurs dans la population soit plate, la distribution d’échantillonnage tend vers une distribution normale, malgré la petite taille de notre population (voir le graphique ci-dessous). <br></p>
+<p><img src="InfrenceStatistique_files/figure-html/unnamed-chunk-10-1.png" width="50%" /><img src="InfrenceStatistique_files/figure-html/unnamed-chunk-10-2.png" width="50%" />
+<em>Figure 1 Représentation graphique de la distribution des valeurs dans la population (graphique de gauche) et de la distribution d’échantillonnage (graphique de droite)</em>
+<br></p>
+<p>Selon le théorème central limite, cette tendance à la normalité de la distribution d’échantillonnage est d’autant plus marquée que la taille de la population importante, ce qui va autoriser le recours à des distributions approchées suivants une loi normale pour l’inférence sur la moyenne. <br></p>
+</div>
+</div>
+<div id="utilisation-dune-distribution-approchee-7" class="section level2">
+<h2><span class="header-section-number">7.4</span> Utilisation d’une distribution approchée</h2>
+<div id="situer-un-echantillon-dans-une-population-3" class="section level3">
+<h3><span class="header-section-number">7.4.1</span> Situer un échantillon dans une population</h3>
+<p>Nous venons de voir que dans le cas de l’échantillonnage dans une population parente de moyenne <span class="math inline">\(\mu\)</span> (lire mu) et de variance <span class="math inline">\(\sigma ^{2}\)</span> (lire sigma carré), la distribution de la moyenne des échantillons possibles a également pour moyenne <span class="math inline">\(\mu\)</span> et pour variance <span class="math inline">\(\sigma ^{2}\)</span>/n. Ces propriétés permettent de transformer la distribution d’échantillonnage en calculant pour chaque valeur de la moyenne un écart réduit et ainsi d’associer à une distribution des moyennes, une distribution de Z qui sera également une distribution normale centrée sur une moyenne 0 et un écart-type de 1. On peut donc, si on connaît la variance parente, situer notre échantillon dans la distribution de <span class="math inline">\(Z\)</span>. On peut utiliser cette distribution de <span class="math inline">\(Z\)</span>, même si la distribution parente n’est pas normale. En effet, on peut montrer que si le nombre d’observations est assez grand, la distribution des moyennes des échantillons tend d’autant plus rapidement vers une distribution normale que n est grand. Concrètement, on peut estimer que si n est ≥ 20, la distribution <span class="math inline">\(Z\)</span> est une bonne approximation de la distribution d‘échantillonnage.<br></p>
+<p>Voyons un exemple d’application de ce test. Dans cet exemple de recherche, on fait passer à l’ensemble des 300 élèves de 3ème d’un collège, dont 25 étudient le latin, un test de compréhension verbale où la note représente le nombre de bonnes réponses sur 40 questions. On se demande si l’étude du latin favorise le développement de ce type de compétence. Sachant que les latinistes ont obtenu une moyenne de 30 et l’ensemble des élèves de 3ème, une moyenne de 28 et une variance de 25, peut-on dire que les latinistes ont une meilleure réussite à ce test ? <br></p>
+<p>Notre population parente est constituée des 300 élèves de 3ème. Notre échantillon est constitué des élèves latinistes qu’on cherche à situer dans la population. D’un point de vue psychologique, on se demande si l’étude du latin favorise le développement des compétences verbales mesurées par le test. Si tel est le cas, la performance des latinistes à ce test devrait être supérieure à celles du reste de la population. La moyenne obtenue par les latinistes est une des moyennes possibles dans la distribution d’échantillonnage. Mais si le nombre d’échantillons présentant une moyenne supérieure ou égale à celle de nos latinistes est suffisamment faible, on pourra considérer que les latinistes font exception dans la distribution des moyennes au test. Autrement dit, que les latinistes sont atypiques, du côté des valeurs élevées, de la population ayant passé le test. <br></p>
+<p>Concrètement, la distribution d’échantillonnage sur les moyennes est déterminée par la moyenne et l’écart-type. C’est pourquoi on parle parfois à propos des tests d’inférences sur la moyenne ayant recours à une distribution approchée normale, de tests paramétriques. Dans cet exemple, On en connaît la moyenne et la variance qui sont respectivement de 28 et 25, et on sait que les 25 latinistes ont obtenu une moyenne de 30 au test. La mise en œuvre de ce test commence par le calcul de la valeur de z correspondant à notre échantillon. Cette valeur est appelée zobs. La formule est la suivante :<br></p>
+<p><span class="math inline">\(z_{obs}=\frac{(m-\mu _{0})}{\sigma _{0}/\sqrt{n}}\)</span><br></p>
+<p>où m est la moyenne de l’échantillon, <span class="math inline">\(\mu\)</span> est la moyenne parente et <span class="math inline">\(\sigma_{0}\)</span>,la variance parente. On peut l’instancier avec les valeurs de notre exemple ; <br></p>
+<p><span class="math inline">\(z_{obs}=\frac{(m-\mu _{0})}{\sigma _{0}/\sqrt{n}}=\frac{30-28}{5/\sqrt{25}} = 2\)</span><br></p>
+<p>La lecture de la table du <span class="math inline">\(z\)</span> se fait en recherchant dans la table la valeur de <span class="math inline">\(z_{obs}\)</span> et en lisant la proportion associée. De nombreux manuels présentent trois tables de la loi normale réduite: l’une cumulée à gauche, une autre cumulée à droite et enfin une table cumulée bilatérale.</p>
+<ul>
+<li>Si l’hypothèse de recherche à tester situe l’échantillon du côté des valeurs basses, il faut utiliser la table cumulée à gauche.</li>
+<li>Si au contraire l’hypothèse situe l’échantillon du coté des valeurs hautes, il faut alors utiliser la table cumulée à droite.</li>
+<li>Dans le cas où l’hypothèse est non-orientée, on utilisera la table bilatérale.<br></li>
+</ul>
+<p>Dans notre exemple, nous faisons l’hypothèse que les latinistes ont une meilleure performance au test. On cherche donc à savoir s’ils se situent du coté des valeurs hautes. Il faut donc regarder la distribution cumulée à droite.
+La proportion que nous lisons dans la table en regard de 2 est de .022. Elle représente la proportion des échantillons dans lesquels la valeur de <span class="math inline">\(z\)</span> est supérieure à 2. Cette proportion étant inférieure au seuil repère de .025, le test peut être déclaré significatif. <br></p>
+<p>L’interprétation du test dépend du modèle d’échantillonnage. Dans l’approche combinatoire, il s’agit de tester la typicité du groupe d’observations dans la population. Autrement dit, il s’agit de savoir si les latinistes sont ou non typiques de la population des élèves de troisième du point de vue de ce test de compréhension verbale. Le résultat étant significatif, l’échantillon doit être déclaré atypique de la population. <br></p>
+<p>On ne peut guère se placer du point de vue fréquentiste dans cette recherche, dans la mesure où les sujets composant l’échantillon ne peuvent pas être considérés comme sélectionnés au hasard. On ne peut pas non plus considérés que toutes choses égales par ailleurs, ces élèves se différencient des autres uniquement par l’étude du latin. La proportion ne peut donc pas être interprétée comme une probabilité d’obtenir un tel échantillon dans la population.
+D’un point de vue psychologique, la différence significative nous conduit à affirmer que les compétences verbales ciblée par le test de compréhension sont plus importantes dans le cas de l’étude du latin en 3ème.<br></p>
+<div id="situer-un-echantillon-dans-une-distribution-1" class="section level4">
+<h4><span class="header-section-number">7.4.1.1</span> Situer un échantillon dans une distribution</h4>
+<p>Lorsqu’on cherche à situer un échantillon dans une distribution, deux cas peuvent se présenter :</p>
+<ul>
+<li>soit la variance parente est connue et dans ce cas on est ramené au cas précédent dans lequel la distribution approchée à utiliser est celle de <span class="math inline">\(Z\)</span>.</li>
+<li>soit la distribution parente n’est pas connue et dans ce cas, la distribution approchée à utiliser est la distribution de <span class="math inline">\(T\)</span> de Student.<br></li>
+</ul>
+<p>En effet, dans le cas où la variance parente n’est pas connue, le test du <span class="math inline">\(Z\)</span> n’est pas utilisable. On peut cependant estimer la variance parente en calculant la variance corrigée. On peut alors remplacer la variance parente dans la formule par la variance corrigée. Rappelons que la variance corrigée est la somme des carrés des écarts à la moyenne divisée par n-1. On obtient donc la formule suivante : <br></p>
+<p><span class="math inline">\(t_{obs}=\frac{()m-\mu _{0})}{s/\sqrt{n}} \textrm { avec } s^{2}=\frac{\sum (x-m)^{2}}{n-1}\)</span><br></p>
+<p>La démarche est alors la même que dans le cas du <span class="math inline">\(Z\)</span>. La statistique ainsi calculée est la statistique <span class="math inline">\(T\)</span>. Il s’agit également d’un écart réduit. La distribution de la statistique <span class="math inline">\(T\)</span> est un peu différente de celle du <span class="math inline">\(Z\)</span>. Elle suit une distribution de t de Student à $$ (nu) égal n-1 degrés de liberté. Les degrés de liberté correspondent au nombre de comparaisons binaires qu’on peut faire sur un groupe d’observations. Dans ce cas,<span class="math inline">\(\nu\)</span> est égale au nombre d’observations moins 1. Nous reviendrons sur cette notion dans le cours troisième année. On estimera la proportion recherchée à l’aide de la table de la distribution du t de Student.<br></p>
+<p>Pour illustrer l’application du test du t de Student, nous allons reprendre l’exemple de J-F Richard (1999) sur l’étude de l’illusion de Muller-Lyer. Cette illusion consiste à percevoir plus grand un segment encadré par des chevrons intérieurs qu’un segment de même longueur encadré par des chevrons extérieurs, comme le montre la Figure 2.<br></p>
+<center>
+<div class="figure">
+<img src="MullerLyer.jpg" alt="Figure 2 L’illusion de Muller-Lyer" />
+<p class="caption">Figure 2 L’illusion de Muller-Lyer</p>
+</div>
+</center>
+<br>
+</center>
+<p><br></p>
+<p>L’étude de cette illusion se fait en demandant aux sujets d’ajuster la seconde droite de sorte qu’elle apparaisse de même longueur que la première. On mesure alors la différence entre la longueur réelle du second segment et la longueur proposée par le sujet. Sur un groupe de 8 sujets, on a observé que l’estimation était en moyenne supérieure de 2,6 mm par rapport à la longueur réelle, avec un écart-type corrigé de 1,8. Nous allons dans un premier temps calculer la valeur de tobs sur les données observées.<bR></p>
+<p><span class="math inline">\(t_{obs} = \frac{m-\mu _{0}}{s/\sqrt{n}} = \frac{(2,6-0)}{1,8/\sqrt{8}} = 4,09\)</span><br></p>
+<p>La moyenne observée est de 2,6. La moyenne théorique correspond au cas où les sujets estimeraient correctement la longueur du second segment, c’est-à-dire ajusteraient un second segment de même longueur que le premier. Dans ce cas, l’écart observé serait de 0. L’écart-type corrigé est de 1,8, et le nombre d’observations est de 8, puisque nous avons 8 sujets et une seule variable. Ce qui nous fait un tobs de 4,09. Il faut ensuite lire la proportion recherchée dans la table du t de Student. En tête de colonne de cette table, on trouve les proportions d’échantillons. La distribution du t de Student étant à peu près normale, comme celle du Z, la distribution est symétrique. Les proportions bilatérales sont donc du double des proportions unilatérales et la table ne signale que les valeurs absolues du t de Student. La table nous présente, pour un nombre de degrés de liberté donné la valeur de t qui est dépassée pour chaque proportion.<br></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-i8ip{background-color:#efefef;color:#3531ff;vertical-align:top}
+.tg .tg-1rg7{color:#3531ff;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-yw4l">
+unilatéral
+</th>
+<th class="tg-yw4l">
+0,3
+</th>
+<th class="tg-yw4l">
+0,2
+</th>
+<th class="tg-yw4l">
+0,1
+</th>
+<th class="tg-yw4l">
+0,05
+</th>
+<th class="tg-yw4l">
+0,025
+</th>
+<th class="tg-yw4l">
+0,01
+</th>
+<th class="tg-1rg7">
+0,005
+</th>
+<th class="tg-yw4l">
+0,001
+</th>
+</tr>
+<tr>
+<td class="tg-yw4l">
+Bilatéral
+</td>
+<td class="tg-yw4l">
+0,6
+</td>
+<td class="tg-yw4l">
+0,4
+</td>
+<td class="tg-yw4l">
+0,2
+</td>
+<td class="tg-yw4l">
+0,1
+</td>
+<td class="tg-yw4l">
+0,05
+</td>
+<td class="tg-yw4l">
+0,02
+</td>
+<td class="tg-yw4l">
+0,01
+</td>
+<td class="tg-yw4l">
+0,002
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+ddl
+</td>
+<td class="tg-yw4l">
+</td>
+<td class="tg-yw4l">
+</td>
+<td class="tg-yw4l">
+</td>
+<td class="tg-yw4l">
+</td>
+<td class="tg-yw4l">
+</td>
+<td class="tg-yw4l">
+</td>
+<td class="tg-yw4l">
+</td>
+<td class="tg-yw4l">
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+1
+</td>
+<td class="tg-yw4l">
+0,73
+</td>
+<td class="tg-yw4l">
+1,38
+</td>
+<td class="tg-yw4l">
+3,08
+</td>
+<td class="tg-yw4l">
+6,31
+</td>
+<td class="tg-yw4l">
+12,71
+</td>
+<td class="tg-yw4l">
+31,82
+</td>
+<td class="tg-yw4l">
+63,66
+</td>
+<td class="tg-yw4l">
+318,31
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+2
+</td>
+<td class="tg-yw4l">
+0,62
+</td>
+<td class="tg-yw4l">
+1,06
+</td>
+<td class="tg-yw4l">
+1,89
+</td>
+<td class="tg-yw4l">
+2,92
+</td>
+<td class="tg-yw4l">
+4,30
+</td>
+<td class="tg-yw4l">
+6,96
+</td>
+<td class="tg-yw4l">
+9,92
+</td>
+<td class="tg-yw4l">
+22,33
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+3
+</td>
+<td class="tg-yw4l">
+0,58
+</td>
+<td class="tg-yw4l">
+0,98
+</td>
+<td class="tg-yw4l">
+1,64
+</td>
+<td class="tg-yw4l">
+2,35
+</td>
+<td class="tg-yw4l">
+3,18
+</td>
+<td class="tg-yw4l">
+4,54
+</td>
+<td class="tg-yw4l">
+5,84
+</td>
+<td class="tg-yw4l">
+10,21
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+4
+</td>
+<td class="tg-yw4l">
+0,57
+</td>
+<td class="tg-yw4l">
+0,94
+</td>
+<td class="tg-yw4l">
+1,53
+</td>
+<td class="tg-yw4l">
+2,13
+</td>
+<td class="tg-yw4l">
+2,78
+</td>
+<td class="tg-yw4l">
+3,75
+</td>
+<td class="tg-yw4l">
+4,60
+</td>
+<td class="tg-yw4l">
+7,17
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+5
+</td>
+<td class="tg-yw4l">
+0,56
+</td>
+<td class="tg-yw4l">
+0,92
+</td>
+<td class="tg-yw4l">
+1,48
+</td>
+<td class="tg-yw4l">
+2,02
+</td>
+<td class="tg-yw4l">
+2,57
+</td>
+<td class="tg-yw4l">
+3,36
+</td>
+<td class="tg-yw4l">
+4,03
+</td>
+<td class="tg-yw4l">
+5,89
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+6
+</td>
+<td class="tg-yw4l">
+0,55
+</td>
+<td class="tg-yw4l">
+0,91
+</td>
+<td class="tg-yw4l">
+1,44
+</td>
+<td class="tg-yw4l">
+1,94
+</td>
+<td class="tg-yw4l">
+2,45
+</td>
+<td class="tg-yw4l">
+3,14
+</td>
+<td class="tg-yw4l">
+3,71
+</td>
+<td class="tg-yw4l">
+5,21
+</td>
+</tr>
+<tr>
+<td class="tg-i8ip">
+7
+</td>
+<td class="tg-i8ip">
+0,55
+</td>
+<td class="tg-i8ip">
+0,90
+</td>
+<td class="tg-i8ip">
+1,41
+</td>
+<td class="tg-i8ip">
+1,89
+</td>
+<td class="tg-i8ip">
+2,36
+</td>
+<td class="tg-i8ip">
+3,00
+</td>
+<td class="tg-i8ip">
+3,50
+</td>
+<td class="tg-yw4l">
+4,79
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+8
+</td>
+<td class="tg-yw4l">
+0,55
+</td>
+<td class="tg-yw4l">
+0,89
+</td>
+<td class="tg-yw4l">
+1,40
+</td>
+<td class="tg-yw4l">
+1,86
+</td>
+<td class="tg-yw4l">
+2,31
+</td>
+<td class="tg-yw4l">
+2,90
+</td>
+<td class="tg-yw4l">
+3,36
+</td>
+<td class="tg-yw4l">
+4,50
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+<td class="tg-yw4l">
+…
+</td>
+</tr>
+</table>
+<p><em>Tableau 12 : Illustration de la lecture de la table du t de Student</em><br></p>
+<p>Dans notre exemple, <span class="math inline">\(t_{obs}\)</span> égale 4,09. Nous avons 8 observations donc 7 degrés de liberté. C’est donc la ligne 7 qu’il nous faut regarder. Nous cherchons ensuite sur cette ligne la valeur inférieure ou égale la plus proche à notre tobs. Cette valeur est de 3,50. Nous testons l’hypothèse que l’estimation des sujets est supérieure à la longueur réelle du segment 1. Notre hypothèse est donc orientée du côté des valeurs élevées. En conséquence, nous regarderons le seuil unilatéral, et lisons en tête de colonne la proportion recherchée. Elle est de .005. Cette proportion étant inférieure au seuil repère de .025, le résultat est déclaré significatif au seuil de .005. La valeur pour ce seuil étant inférieure à la valeur observée, si nous avions une table plus précise, nous aurions eu une valeur de p inférieure à .005. C’est la raison pour laquelle, on voit souvent écrit pour rendre compte du résultat du test que p est inférieur à .005. Cela ne veut pas dire qu’il est significatif pour toutes les valeurs de p inférieures à .005, On voit en effet qu’il ne l’est pas pour un seuil de .001. En fait, avec une table suffisamment précise ou à l’aide de la fonction « t de Student » d’un tableur, nous aurions trouvé une valeur de p comprise entre .005 et .001. Dans cet exemple, le tableur nous renverrait une valeur de p de .002.<br></p>
+<p>L’interprétation d’un point de vue statistique dépend, comme toujours, du modèle d’échantillonnage dans lequel on s’est placé. Dans ce cas de figure, outre le modèle combinatoire qui est toujours possible, on peut se placer dans le cadre d’un modèle fréquentiste. Nous cherchons en effet à tester une hypothèse : dans l’illusion de Muller-Lyer, les sujets surestiment la longueur du second segment, ce qui les conduit à ajuster sa longueur par défaut. Par ailleurs, on peut penser que les sujets sont tirés au hasard dans la population de référence.
+Dans le cadre d’un modèle combinatoire, on peut dire que le groupe de sujets observé est atypique du côté des valeurs élevées à un seuil de .005. Dans le cadre d’un modèle fréquentiste, on peut dire que la probabilité d’observer un tel échantillon dans la population est inférieure à .005. On peut donc rejeter l’hypothèse nulle. Dans les deux cas, on peut généraliser l’observation que les sujets surestiment la longueur du segment de gauche.<br></p>
+
+</div>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="principes-et-methodologie-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="inference-sur-un-protocole-univarie-structure-par-un-croisement-1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": false,
+"google": false,
+"linkedin": true,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": ["InfrenceStatistique.pdf", "InfrenceStatistique.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
