@@ -58,3 +58,4 @@ data/.~lock.fr_esr_ressources-pedagogiquesToOmeka.csv#
 data/.~lock.testExportToOmeka.csv#
 
 data/testExportToOmeka.csv
+bdd/omk_ontostats.sql
